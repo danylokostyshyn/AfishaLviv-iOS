@@ -7,183 +7,190 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7F072725153C832500029585 /* PlacesMenuTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F072724153C832500029585 /* PlacesMenuTVC.m */; };
-		7F072740153C8AD600029585 /* 70-tv.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F072730153C8AD600029585 /* 70-tv.png */; };
-		7F072741153C8AD600029585 /* 83-calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F072731153C8AD600029585 /* 83-calendar.png */; };
-		7F072742153C8AD600029585 /* 103-map.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F072732153C8AD600029585 /* 103-map.png */; };
-		7F072743153C8AD600029585 /* 191-collection.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F072733153C8AD600029585 /* 191-collection.png */; };
-		7F072744153C8AD600029585 /* 114-balloon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F072735153C8AD600029585 /* 114-balloon.png */; };
-		7F072746153C8AD600029585 /* 24-gift.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F072737153C8AD600029585 /* 24-gift.png */; };
-		7F072747153C8AD600029585 /* 41-picture-frame.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F072738153C8AD600029585 /* 41-picture-frame.png */; };
-		7F072749153C8AD600029585 /* 45-movie-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F07273A153C8AD600029585 /* 45-movie-1.png */; };
-		7F07274A153C8AD600029585 /* 66-microphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F07273B153C8AD600029585 /* 66-microphone.png */; };
-		7F07274B153C8AD600029585 /* 85-trophy.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F07273C153C8AD600029585 /* 85-trophy.png */; };
-		7F07274C153C8AD600029585 /* 86-camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F07273D153C8AD600029585 /* 86-camera.png */; };
-		7F07274D153C8AD600029585 /* 88-beer-mug.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F07273E153C8AD600029585 /* 88-beer-mug.png */; };
-		7F07274E153C8AD600029585 /* 98-palette.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F07273F153C8AD600029585 /* 98-palette.png */; };
-		7F072750153C8B6500029585 /* 28-star.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F07274F153C8B6500029585 /* 28-star.png */; };
-		7F072755153C8E0600029585 /* 20-gear2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F072754153C8E0600029585 /* 20-gear2.png */; };
-		7F072757153C909200029585 /* 124-bullhorn.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F072756153C909200029585 /* 124-bullhorn.png */; };
-		7F072759153C90D700029585 /* 153-guitar.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F072758153C90D700029585 /* 153-guitar.png */; };
-		7F072790153CBBBE00029585 /* 137-presentation.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F07278F153CBBBE00029585 /* 137-presentation.png */; };
-		7F072797153CC19A00029585 /* 121-landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F072792153CC19A00029585 /* 121-landscape.png */; };
-		7F072799153CC19A00029585 /* 144-martini.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F072794153CC19A00029585 /* 144-martini.png */; };
-		7F07279A153CC19A00029585 /* 190-bank.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F072795153CC19A00029585 /* 190-bank.png */; };
-		7F07279B153CC19A00029585 /* 43-film-roll.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F072796153CC19A00029585 /* 43-film-roll.png */; };
-		7F07279D153CC24B00029585 /* 34-coffee.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F07279C153CC24B00029585 /* 34-coffee.png */; };
-		7F0727A8153E041300029585 /* calendar-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F0727A7153E041300029585 /* calendar-icon.png */; };
-		7F0727AB153E081C00029585 /* PlaceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F0727AA153E081C00029585 /* PlaceCell.m */; };
-		7F0727AE153E083B00029585 /* PlacesTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F0727AD153E083B00029585 /* PlacesTVC.m */; };
-		7F1E60E3151E108A00354A2F /* question-mark-big.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F1E60E1151E108A00354A2F /* question-mark-big.png */; };
-		7F1E60E4151E108A00354A2F /* question-mark-small.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F1E60E2151E108A00354A2F /* question-mark-small.png */; };
-		7F1E60EB151E39DC00354A2F /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F1E60EA151E39DC00354A2F /* Event.m */; };
-		7F39534715189EA400D0323E /* SettingsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F39534615189EA400D0323E /* SettingsVC.m */; };
-		7F4CA178152208F800BCBD36 /* EventInfoTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4CA177152208F800BCBD36 /* EventInfoTVC.m */; };
-		7F5251D31519D20600E05A76 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5251D21519D20600E05A76 /* MBProgressHUD.m */; };
-		7FA62F78151E831C00A007A6 /* EventInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FA62F77151E831C00A007A6 /* EventInfo.m */; };
-		7FAAA698151AA45E0024CA96 /* DatePickerRollerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FAAA697151AA45E0024CA96 /* DatePickerRollerVC.m */; };
-		7FAABBF01524DD3E00C9987A /* Place+AfishaLviv.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FAABBEF1524DD3E00C9987A /* Place+AfishaLviv.m */; };
-		7FAABBF31524DD5400C9987A /* PlaceInfo+AfishaLviv.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FAABBF21524DD5400C9987A /* PlaceInfo+AfishaLviv.m */; };
-		7FAABBF61524DDBF00C9987A /* Place.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FAABBF51524DDBE00C9987A /* Place.m */; };
-		7FAABBFC1524E4B600C9987A /* PlaceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FAABBFB1524E4B600C9987A /* PlaceInfo.m */; };
-		7FAABC021524E63800C9987A /* PlaceInfoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FAABC011524E63800C9987A /* PlaceInfoVC.m */; };
+		7F3666FD1722B6AB00E7BCF4 /* calendar-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F3666DD1722B6AB00E7BCF4 /* calendar-icon.png */; };
+		7F3666FE1722B6AB00E7BCF4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F3666DF1722B6AB00E7BCF4 /* Default.png */; };
+		7F3666FF1722B6AB00E7BCF4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F3666E01722B6AB00E7BCF4 /* Default@2x.png */; };
+		7F3667001722B6AB00E7BCF4 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F3666E11722B6AB00E7BCF4 /* Icon.png */; };
+		7F3667011722B6AB00E7BCF4 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F3666E21722B6AB00E7BCF4 /* Icon@2x.png */; };
+		7F3667021722B6AB00E7BCF4 /* 103-map.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F3666E41722B6AB00E7BCF4 /* 103-map.png */; };
+		7F3667031722B6AB00E7BCF4 /* 114-balloon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F3666E51722B6AB00E7BCF4 /* 114-balloon.png */; };
+		7F3667041722B6AB00E7BCF4 /* 121-landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F3666E61722B6AB00E7BCF4 /* 121-landscape.png */; };
+		7F3667051722B6AB00E7BCF4 /* 124-bullhorn.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F3666E71722B6AB00E7BCF4 /* 124-bullhorn.png */; };
+		7F3667061722B6AB00E7BCF4 /* 137-presentation.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F3666E81722B6AB00E7BCF4 /* 137-presentation.png */; };
+		7F3667071722B6AB00E7BCF4 /* 144-martini.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F3666E91722B6AB00E7BCF4 /* 144-martini.png */; };
+		7F3667081722B6AB00E7BCF4 /* 153-guitar.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F3666EA1722B6AB00E7BCF4 /* 153-guitar.png */; };
+		7F3667091722B6AB00E7BCF4 /* 190-bank.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F3666EB1722B6AB00E7BCF4 /* 190-bank.png */; };
+		7F36670A1722B6AB00E7BCF4 /* 191-collection.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F3666EC1722B6AB00E7BCF4 /* 191-collection.png */; };
+		7F36670B1722B6AB00E7BCF4 /* 20-gear2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F3666ED1722B6AB00E7BCF4 /* 20-gear2.png */; };
+		7F36670C1722B6AB00E7BCF4 /* 24-gift.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F3666EE1722B6AB00E7BCF4 /* 24-gift.png */; };
+		7F36670D1722B6AB00E7BCF4 /* 28-star.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F3666EF1722B6AB00E7BCF4 /* 28-star.png */; };
+		7F36670E1722B6AB00E7BCF4 /* 34-coffee.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F3666F01722B6AB00E7BCF4 /* 34-coffee.png */; };
+		7F36670F1722B6AB00E7BCF4 /* 41-picture-frame.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F3666F11722B6AB00E7BCF4 /* 41-picture-frame.png */; };
+		7F3667101722B6AB00E7BCF4 /* 43-film-roll.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F3666F21722B6AB00E7BCF4 /* 43-film-roll.png */; };
+		7F3667111722B6AB00E7BCF4 /* 45-movie-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F3666F31722B6AB00E7BCF4 /* 45-movie-1.png */; };
+		7F3667121722B6AB00E7BCF4 /* 66-microphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F3666F41722B6AB00E7BCF4 /* 66-microphone.png */; };
+		7F3667131722B6AB00E7BCF4 /* 70-tv.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F3666F51722B6AB00E7BCF4 /* 70-tv.png */; };
+		7F3667141722B6AB00E7BCF4 /* 83-calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F3666F61722B6AB00E7BCF4 /* 83-calendar.png */; };
+		7F3667151722B6AB00E7BCF4 /* 85-trophy.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F3666F71722B6AB00E7BCF4 /* 85-trophy.png */; };
+		7F3667161722B6AB00E7BCF4 /* 86-camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F3666F81722B6AB00E7BCF4 /* 86-camera.png */; };
+		7F3667171722B6AB00E7BCF4 /* 88-beer-mug.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F3666F91722B6AB00E7BCF4 /* 88-beer-mug.png */; };
+		7F3667181722B6AB00E7BCF4 /* 98-palette.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F3666FA1722B6AB00E7BCF4 /* 98-palette.png */; };
+		7F3667191722B6AB00E7BCF4 /* question-mark-big.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F3666FB1722B6AB00E7BCF4 /* question-mark-big.png */; };
+		7F36671A1722B6AB00E7BCF4 /* question-mark-small.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F3666FC1722B6AB00E7BCF4 /* question-mark-small.png */; };
+		7F36671D1722B6C200E7BCF4 /* EventCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F36671C1722B6C200E7BCF4 /* EventCell.xib */; };
+		7F3667201722B6F100E7BCF4 /* EventsMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F36671E1722B6F100E7BCF4 /* EventsMenuViewController.xib */; };
+		7F3667211722B6F100E7BCF4 /* EventsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F36671F1722B6F100E7BCF4 /* EventsViewController.xib */; };
+		7F3667361722B80700E7BCF4 /* DatePickerRollerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F3667231722B80600E7BCF4 /* DatePickerRollerVC.m */; };
+		7F3667371722B80700E7BCF4 /* DatePickerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F3667251722B80600E7BCF4 /* DatePickerVC.m */; };
+		7F3667381722B80700E7BCF4 /* EventInfoTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F3667271722B80600E7BCF4 /* EventInfoTVC.m */; };
+		7F3667391722B80700E7BCF4 /* EventsMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F3667291722B80600E7BCF4 /* EventsMenuViewController.m */; };
+		7F36673A1722B80700E7BCF4 /* EventsTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F36672B1722B80600E7BCF4 /* EventsTVC.m */; };
+		7F36673B1722B80700E7BCF4 /* EventsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F36672D1722B80600E7BCF4 /* EventsViewController.m */; };
+		7F36673C1722B80700E7BCF4 /* PlaceInfoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F36672F1722B80600E7BCF4 /* PlaceInfoVC.m */; };
+		7F36673D1722B80700E7BCF4 /* PlacesMenuTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F3667311722B80600E7BCF4 /* PlacesMenuTVC.m */; };
+		7F36673E1722B80700E7BCF4 /* PlacesTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F3667331722B80600E7BCF4 /* PlacesTVC.m */; };
+		7F36673F1722B80700E7BCF4 /* SettingsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F3667351722B80600E7BCF4 /* SettingsVC.m */; };
+		7F3667471722B82F00E7BCF4 /* AfishaLvivFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F3667411722B82F00E7BCF4 /* AfishaLvivFetcher.m */; };
+		7F3667491722B82F00E7BCF4 /* PlaceAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F3667461722B82F00E7BCF4 /* PlaceAnnotation.m */; };
+		7F36675A1722B84500E7BCF4 /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F36674B1722B84500E7BCF4 /* Event.m */; };
+		7F36675B1722B84500E7BCF4 /* Event+AfishaLviv.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F36674D1722B84500E7BCF4 /* Event+AfishaLviv.m */; };
+		7F36675C1722B84500E7BCF4 /* EventInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F36674F1722B84500E7BCF4 /* EventInfo.m */; };
+		7F36675D1722B84500E7BCF4 /* EventInfo+AfishaLviv.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F3667511722B84500E7BCF4 /* EventInfo+AfishaLviv.m */; };
+		7F36675E1722B84500E7BCF4 /* Place.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F3667531722B84500E7BCF4 /* Place.m */; };
+		7F36675F1722B84500E7BCF4 /* Place+AfishaLviv.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F3667551722B84500E7BCF4 /* Place+AfishaLviv.m */; };
+		7F3667601722B84500E7BCF4 /* PlaceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F3667571722B84500E7BCF4 /* PlaceInfo.m */; };
+		7F3667611722B84500E7BCF4 /* PlaceInfo+AfishaLviv.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F3667591722B84500E7BCF4 /* PlaceInfo+AfishaLviv.m */; };
+		7F36677C1722B85700E7BCF4 /* DKImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F3667651722B85700E7BCF4 /* DKImageView.m */; };
+		7F36677D1722B85700E7BCF4 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F3667681722B85700E7BCF4 /* MBProgressHUD.m */; };
+		7F36677E1722B85700E7BCF4 /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F36676B1722B85700E7BCF4 /* SDImageCache.m */; };
+		7F36677F1722B85700E7BCF4 /* SDWebImageDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F36676F1722B85700E7BCF4 /* SDWebImageDecoder.m */; };
+		7F3667801722B85700E7BCF4 /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F3667711722B85700E7BCF4 /* SDWebImageDownloader.m */; };
+		7F3667811722B85700E7BCF4 /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F3667741722B85700E7BCF4 /* SDWebImageManager.m */; };
+		7F3667821722B85700E7BCF4 /* SDWebImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F3667771722B85700E7BCF4 /* SDWebImagePrefetcher.m */; };
+		7F3667831722B85700E7BCF4 /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F3667791722B85700E7BCF4 /* UIButton+WebCache.m */; };
+		7F3667841722B85700E7BCF4 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F36677B1722B85700E7BCF4 /* UIImageView+WebCache.m */; };
+		7F36678C1722B89400E7BCF4 /* PlaceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F36678B1722B89400E7BCF4 /* PlaceCell.m */; };
+		7F36678F1722B8CD00E7BCF4 /* AfishaLviv.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7F36678D1722B8CD00E7BCF4 /* AfishaLviv.xcdatamodeld */; };
+		7F3667911722B9BD00E7BCF4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F3667901722B9BD00E7BCF4 /* Default-568h@2x.png */; };
 		7FAABC0415251C1C00C9987A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FAABC0315251C1C00C9987A /* MapKit.framework */; };
-		7FC0E5CD152F58600077253F /* PlaceAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC0E5CC152F58600077253F /* PlaceAnnotation.m */; };
 		7FC0E5D3152F66270077253F /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FC0E5D2152F66270077253F /* Twitter.framework */; };
 		7FC0E5D6152F6AB00077253F /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FC0E5D5152F6AB00077253F /* EventKit.framework */; };
 		7FC0E5E0152F6D1F0077253F /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FC0E5DF152F6D1F0077253F /* EventKitUI.framework */; };
-		7FC7D1281517F4E3005F3053 /* DatePickerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC7D1271517F4E3005F3053 /* DatePickerVC.m */; };
-		7FC7D13C15185136005F3053 /* Event+AfishaLviv.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC7D13B15185136005F3053 /* Event+AfishaLviv.m */; };
-		7FC7D13F15185194005F3053 /* AfishaLvivFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC7D13E15185194005F3053 /* AfishaLvivFetcher.m */; };
-		7FD4FE67158E1055009C85BB /* EventsMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD4FE65158E1054009C85BB /* EventsMenuViewController.m */; };
-		7FD4FE68158E1055009C85BB /* EventsMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7FD4FE66158E1054009C85BB /* EventsMenuViewController.xib */; };
-		7FD4FE6D158E12E5009C85BB /* EventsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD4FE6B158E12E4009C85BB /* EventsViewController.m */; };
-		7FD4FE6E158E12E5009C85BB /* EventsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7FD4FE6C158E12E4009C85BB /* EventsViewController.xib */; };
-		7FD4FE70158E1374009C85BB /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FD4FE6F158E1373009C85BB /* Icon@2x.png */; };
-		7FD4FE72158E1375009C85BB /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FD4FE71158E1375009C85BB /* Icon.png */; };
-		7FD4FE74158E1377009C85BB /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FD4FE73158E1377009C85BB /* Default@2x.png */; };
-		7FD4FE76158E1379009C85BB /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FD4FE75158E1379009C85BB /* Default.png */; };
-		7FD4FE79158E13D3009C85BB /* EventCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7FD4FE78158E13D3009C85BB /* EventCell.xib */; };
-		7FD4FE8D158E1580009C85BB /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD4FE7C158E1580009C85BB /* SDImageCache.m */; };
-		7FD4FE8E158E1580009C85BB /* SDWebImageDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD4FE80158E1580009C85BB /* SDWebImageDecoder.m */; };
-		7FD4FE8F158E1580009C85BB /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD4FE82158E1580009C85BB /* SDWebImageDownloader.m */; };
-		7FD4FE90158E1580009C85BB /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD4FE85158E1580009C85BB /* SDWebImageManager.m */; };
-		7FD4FE91158E1580009C85BB /* SDWebImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD4FE88158E1580009C85BB /* SDWebImagePrefetcher.m */; };
-		7FD4FE92158E1580009C85BB /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD4FE8A158E1580009C85BB /* UIButton+WebCache.m */; };
-		7FD4FE93158E1580009C85BB /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD4FE8C158E1580009C85BB /* UIImageView+WebCache.m */; };
 		7FD4FE95158E17F9009C85BB /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FD4FE94158E17F9009C85BB /* ImageIO.framework */; };
-		7FD5B8A4151B67C30034C35A /* EventInfo+AfishaLviv.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD5B8A3151B67C30034C35A /* EventInfo+AfishaLviv.m */; };
 		7FD5DD691517EE5200E919FA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FD5DD681517EE5200E919FA /* UIKit.framework */; };
 		7FD5DD6B1517EE5200E919FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FD5DD6A1517EE5200E919FA /* Foundation.framework */; };
 		7FD5DD6D1517EE5200E919FA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FD5DD6C1517EE5200E919FA /* CoreGraphics.framework */; };
 		7FD5DD6F1517EE5200E919FA /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FD5DD6E1517EE5200E919FA /* CoreData.framework */; };
 		7FD5DD771517EE5200E919FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD5DD761517EE5200E919FA /* main.m */; };
 		7FD5DD7B1517EE5200E919FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD5DD7A1517EE5200E919FA /* AppDelegate.m */; };
-		7FD5DD941517EF0E00E919FA /* AfishaLviv.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7FD5DD921517EF0E00E919FA /* AfishaLviv.xcdatamodeld */; };
-		7FD5DD9A1517F00700E919FA /* EventsTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD5DD991517F00700E919FA /* EventsTVC.m */; };
-		7FF61DB8151CC0EC00FA8322 /* DKImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FF61DB7151CC0EC00FA8322 /* DKImageView.m */; };
 		7FF85BD7153E3BE5001EA4D5 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7FF85BD5153E3BE5001EA4D5 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7F072723153C832500029585 /* PlacesMenuTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlacesMenuTVC.h; path = Controllers/PlacesMenuTVC/PlacesMenuTVC.h; sourceTree = "<group>"; };
-		7F072724153C832500029585 /* PlacesMenuTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlacesMenuTVC.m; path = Controllers/PlacesMenuTVC/PlacesMenuTVC.m; sourceTree = "<group>"; };
-		7F072730153C8AD600029585 /* 70-tv.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "70-tv.png"; path = "AfishaLviv/Resources/70-tv.png"; sourceTree = "<group>"; };
-		7F072731153C8AD600029585 /* 83-calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "83-calendar.png"; path = "AfishaLviv/Resources/83-calendar.png"; sourceTree = "<group>"; };
-		7F072732153C8AD600029585 /* 103-map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "103-map.png"; path = "AfishaLviv/Resources/103-map.png"; sourceTree = "<group>"; };
-		7F072733153C8AD600029585 /* 191-collection.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "191-collection.png"; path = "AfishaLviv/Resources/191-collection.png"; sourceTree = "<group>"; };
-		7F072735153C8AD600029585 /* 114-balloon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "114-balloon.png"; sourceTree = "<group>"; };
-		7F072737153C8AD600029585 /* 24-gift.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "24-gift.png"; sourceTree = "<group>"; };
-		7F072738153C8AD600029585 /* 41-picture-frame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "41-picture-frame.png"; sourceTree = "<group>"; };
-		7F07273A153C8AD600029585 /* 45-movie-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "45-movie-1.png"; sourceTree = "<group>"; };
-		7F07273B153C8AD600029585 /* 66-microphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "66-microphone.png"; sourceTree = "<group>"; };
-		7F07273C153C8AD600029585 /* 85-trophy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "85-trophy.png"; sourceTree = "<group>"; };
-		7F07273D153C8AD600029585 /* 86-camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "86-camera.png"; sourceTree = "<group>"; };
-		7F07273E153C8AD600029585 /* 88-beer-mug.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "88-beer-mug.png"; sourceTree = "<group>"; };
-		7F07273F153C8AD600029585 /* 98-palette.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "98-palette.png"; sourceTree = "<group>"; };
-		7F07274F153C8B6500029585 /* 28-star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "28-star.png"; path = "AfishaLviv/Resources/28-star.png"; sourceTree = "<group>"; };
-		7F072754153C8E0600029585 /* 20-gear2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "20-gear2.png"; path = "AfishaLviv/Resources/20-gear2.png"; sourceTree = "<group>"; };
-		7F072756153C909200029585 /* 124-bullhorn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "124-bullhorn.png"; path = "AfishaLviv/Resources/event_categories_icons/124-bullhorn.png"; sourceTree = "<group>"; };
-		7F072758153C90D700029585 /* 153-guitar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "153-guitar.png"; sourceTree = "<group>"; };
-		7F07278F153CBBBE00029585 /* 137-presentation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "137-presentation.png"; path = "AfishaLviv/Resources/137-presentation.png"; sourceTree = "<group>"; };
-		7F072792153CC19A00029585 /* 121-landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "121-landscape.png"; path = "AfishaLviv/Resources/place_categories_icons/121-landscape.png"; sourceTree = "<group>"; };
-		7F072794153CC19A00029585 /* 144-martini.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "144-martini.png"; sourceTree = "<group>"; };
-		7F072795153CC19A00029585 /* 190-bank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "190-bank.png"; sourceTree = "<group>"; };
-		7F072796153CC19A00029585 /* 43-film-roll.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "43-film-roll.png"; sourceTree = "<group>"; };
-		7F07279C153CC24B00029585 /* 34-coffee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "34-coffee.png"; sourceTree = "<group>"; };
-		7F0727A7153E041300029585 /* calendar-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "calendar-icon.png"; path = "AfishaLviv/Resources/calendar-icon.png"; sourceTree = "<group>"; };
-		7F0727A9153E081B00029585 /* PlaceCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlaceCell.h; path = CustomViews/PlaceCell/PlaceCell.h; sourceTree = "<group>"; };
-		7F0727AA153E081C00029585 /* PlaceCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlaceCell.m; path = CustomViews/PlaceCell/PlaceCell.m; sourceTree = "<group>"; };
-		7F0727AC153E083B00029585 /* PlacesTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlacesTVC.h; path = Controllers/PlacesTVC/PlacesTVC.h; sourceTree = "<group>"; };
-		7F0727AD153E083B00029585 /* PlacesTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlacesTVC.m; path = Controllers/PlacesTVC/PlacesTVC.m; sourceTree = "<group>"; };
-		7F1E60E1151E108A00354A2F /* question-mark-big.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "question-mark-big.png"; path = "AfishaLviv/Resources/question-mark-big.png"; sourceTree = "<group>"; };
-		7F1E60E2151E108A00354A2F /* question-mark-small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "question-mark-small.png"; path = "AfishaLviv/Resources/question-mark-small.png"; sourceTree = "<group>"; };
-		7F1E60E9151E39DC00354A2F /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Event.h; path = CoreDateModel/Event.h; sourceTree = "<group>"; };
-		7F1E60EA151E39DC00354A2F /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Event.m; path = CoreDateModel/Event.m; sourceTree = "<group>"; };
-		7F39534515189EA400D0323E /* SettingsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SettingsVC.h; path = Controllers/SettingsTVC/SettingsVC.h; sourceTree = "<group>"; };
-		7F39534615189EA400D0323E /* SettingsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SettingsVC.m; path = Controllers/SettingsTVC/SettingsVC.m; sourceTree = "<group>"; };
-		7F4CA176152208F800BCBD36 /* EventInfoTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EventInfoTVC.h; path = Controllers/EventInfoTVC/EventInfoTVC.h; sourceTree = "<group>"; };
-		7F4CA177152208F800BCBD36 /* EventInfoTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EventInfoTVC.m; path = Controllers/EventInfoTVC/EventInfoTVC.m; sourceTree = "<group>"; };
-		7F5251D11519D20600E05A76 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBProgressHUD.h; path = CustomViews/MBProgressHUD/MBProgressHUD.h; sourceTree = "<group>"; };
-		7F5251D21519D20600E05A76 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBProgressHUD.m; path = CustomViews/MBProgressHUD/MBProgressHUD.m; sourceTree = "<group>"; };
-		7FA62F76151E831C00A007A6 /* EventInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EventInfo.h; path = CoreDateModel/EventInfo.h; sourceTree = "<group>"; };
-		7FA62F77151E831C00A007A6 /* EventInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EventInfo.m; path = CoreDateModel/EventInfo.m; sourceTree = "<group>"; };
-		7FAAA696151AA45E0024CA96 /* DatePickerRollerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DatePickerRollerVC.h; path = Controllers/DatePickerRollerVC/DatePickerRollerVC.h; sourceTree = "<group>"; };
-		7FAAA697151AA45E0024CA96 /* DatePickerRollerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DatePickerRollerVC.m; path = Controllers/DatePickerRollerVC/DatePickerRollerVC.m; sourceTree = "<group>"; };
-		7FAABBEE1524DD3E00C9987A /* Place+AfishaLviv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Place+AfishaLviv.h"; path = "CoreDateModel/Place+AfishaLviv.h"; sourceTree = "<group>"; };
-		7FAABBEF1524DD3E00C9987A /* Place+AfishaLviv.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Place+AfishaLviv.m"; path = "CoreDateModel/Place+AfishaLviv.m"; sourceTree = "<group>"; };
-		7FAABBF11524DD5400C9987A /* PlaceInfo+AfishaLviv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "PlaceInfo+AfishaLviv.h"; path = "CoreDateModel/PlaceInfo+AfishaLviv.h"; sourceTree = "<group>"; };
-		7FAABBF21524DD5400C9987A /* PlaceInfo+AfishaLviv.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "PlaceInfo+AfishaLviv.m"; path = "CoreDateModel/PlaceInfo+AfishaLviv.m"; sourceTree = "<group>"; };
-		7FAABBF41524DDBE00C9987A /* Place.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Place.h; path = CoreDateModel/Place.h; sourceTree = "<group>"; };
-		7FAABBF51524DDBE00C9987A /* Place.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Place.m; path = CoreDateModel/Place.m; sourceTree = "<group>"; };
-		7FAABBFA1524E4B600C9987A /* PlaceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlaceInfo.h; path = CoreDateModel/PlaceInfo.h; sourceTree = "<group>"; };
-		7FAABBFB1524E4B600C9987A /* PlaceInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlaceInfo.m; path = CoreDateModel/PlaceInfo.m; sourceTree = "<group>"; };
-		7FAABC001524E63800C9987A /* PlaceInfoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlaceInfoVC.h; path = AfishaLviv/Controllers/PlaceInfoVC/PlaceInfoVC.h; sourceTree = "<group>"; };
-		7FAABC011524E63800C9987A /* PlaceInfoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlaceInfoVC.m; path = AfishaLviv/Controllers/PlaceInfoVC/PlaceInfoVC.m; sourceTree = "<group>"; };
+		7F3666DD1722B6AB00E7BCF4 /* calendar-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "calendar-icon.png"; sourceTree = "<group>"; };
+		7F3666DF1722B6AB00E7BCF4 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		7F3666E01722B6AB00E7BCF4 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		7F3666E11722B6AB00E7BCF4 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		7F3666E21722B6AB00E7BCF4 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		7F3666E41722B6AB00E7BCF4 /* 103-map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "103-map.png"; sourceTree = "<group>"; };
+		7F3666E51722B6AB00E7BCF4 /* 114-balloon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "114-balloon.png"; sourceTree = "<group>"; };
+		7F3666E61722B6AB00E7BCF4 /* 121-landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "121-landscape.png"; sourceTree = "<group>"; };
+		7F3666E71722B6AB00E7BCF4 /* 124-bullhorn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "124-bullhorn.png"; sourceTree = "<group>"; };
+		7F3666E81722B6AB00E7BCF4 /* 137-presentation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "137-presentation.png"; sourceTree = "<group>"; };
+		7F3666E91722B6AB00E7BCF4 /* 144-martini.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "144-martini.png"; sourceTree = "<group>"; };
+		7F3666EA1722B6AB00E7BCF4 /* 153-guitar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "153-guitar.png"; sourceTree = "<group>"; };
+		7F3666EB1722B6AB00E7BCF4 /* 190-bank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "190-bank.png"; sourceTree = "<group>"; };
+		7F3666EC1722B6AB00E7BCF4 /* 191-collection.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "191-collection.png"; sourceTree = "<group>"; };
+		7F3666ED1722B6AB00E7BCF4 /* 20-gear2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "20-gear2.png"; sourceTree = "<group>"; };
+		7F3666EE1722B6AB00E7BCF4 /* 24-gift.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "24-gift.png"; sourceTree = "<group>"; };
+		7F3666EF1722B6AB00E7BCF4 /* 28-star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "28-star.png"; sourceTree = "<group>"; };
+		7F3666F01722B6AB00E7BCF4 /* 34-coffee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "34-coffee.png"; sourceTree = "<group>"; };
+		7F3666F11722B6AB00E7BCF4 /* 41-picture-frame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "41-picture-frame.png"; sourceTree = "<group>"; };
+		7F3666F21722B6AB00E7BCF4 /* 43-film-roll.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "43-film-roll.png"; sourceTree = "<group>"; };
+		7F3666F31722B6AB00E7BCF4 /* 45-movie-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "45-movie-1.png"; sourceTree = "<group>"; };
+		7F3666F41722B6AB00E7BCF4 /* 66-microphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "66-microphone.png"; sourceTree = "<group>"; };
+		7F3666F51722B6AB00E7BCF4 /* 70-tv.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "70-tv.png"; sourceTree = "<group>"; };
+		7F3666F61722B6AB00E7BCF4 /* 83-calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "83-calendar.png"; sourceTree = "<group>"; };
+		7F3666F71722B6AB00E7BCF4 /* 85-trophy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "85-trophy.png"; sourceTree = "<group>"; };
+		7F3666F81722B6AB00E7BCF4 /* 86-camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "86-camera.png"; sourceTree = "<group>"; };
+		7F3666F91722B6AB00E7BCF4 /* 88-beer-mug.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "88-beer-mug.png"; sourceTree = "<group>"; };
+		7F3666FA1722B6AB00E7BCF4 /* 98-palette.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "98-palette.png"; sourceTree = "<group>"; };
+		7F3666FB1722B6AB00E7BCF4 /* question-mark-big.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "question-mark-big.png"; sourceTree = "<group>"; };
+		7F3666FC1722B6AB00E7BCF4 /* question-mark-small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "question-mark-small.png"; sourceTree = "<group>"; };
+		7F36671C1722B6C200E7BCF4 /* EventCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EventCell.xib; sourceTree = "<group>"; };
+		7F36671E1722B6F100E7BCF4 /* EventsMenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EventsMenuViewController.xib; sourceTree = "<group>"; };
+		7F36671F1722B6F100E7BCF4 /* EventsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EventsViewController.xib; sourceTree = "<group>"; };
+		7F3667221722B80600E7BCF4 /* DatePickerRollerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DatePickerRollerVC.h; path = Controllers/DatePickerRollerVC.h; sourceTree = "<group>"; };
+		7F3667231722B80600E7BCF4 /* DatePickerRollerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DatePickerRollerVC.m; path = Controllers/DatePickerRollerVC.m; sourceTree = "<group>"; };
+		7F3667241722B80600E7BCF4 /* DatePickerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DatePickerVC.h; path = Controllers/DatePickerVC.h; sourceTree = "<group>"; };
+		7F3667251722B80600E7BCF4 /* DatePickerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DatePickerVC.m; path = Controllers/DatePickerVC.m; sourceTree = "<group>"; };
+		7F3667261722B80600E7BCF4 /* EventInfoTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EventInfoTVC.h; path = Controllers/EventInfoTVC.h; sourceTree = "<group>"; };
+		7F3667271722B80600E7BCF4 /* EventInfoTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EventInfoTVC.m; path = Controllers/EventInfoTVC.m; sourceTree = "<group>"; };
+		7F3667281722B80600E7BCF4 /* EventsMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EventsMenuViewController.h; path = Controllers/EventsMenuViewController.h; sourceTree = "<group>"; };
+		7F3667291722B80600E7BCF4 /* EventsMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EventsMenuViewController.m; path = Controllers/EventsMenuViewController.m; sourceTree = "<group>"; };
+		7F36672A1722B80600E7BCF4 /* EventsTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EventsTVC.h; path = Controllers/EventsTVC.h; sourceTree = "<group>"; };
+		7F36672B1722B80600E7BCF4 /* EventsTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EventsTVC.m; path = Controllers/EventsTVC.m; sourceTree = "<group>"; };
+		7F36672C1722B80600E7BCF4 /* EventsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EventsViewController.h; path = Controllers/EventsViewController.h; sourceTree = "<group>"; };
+		7F36672D1722B80600E7BCF4 /* EventsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EventsViewController.m; path = Controllers/EventsViewController.m; sourceTree = "<group>"; };
+		7F36672E1722B80600E7BCF4 /* PlaceInfoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlaceInfoVC.h; path = Controllers/PlaceInfoVC.h; sourceTree = "<group>"; };
+		7F36672F1722B80600E7BCF4 /* PlaceInfoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlaceInfoVC.m; path = Controllers/PlaceInfoVC.m; sourceTree = "<group>"; };
+		7F3667301722B80600E7BCF4 /* PlacesMenuTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlacesMenuTVC.h; path = Controllers/PlacesMenuTVC.h; sourceTree = "<group>"; };
+		7F3667311722B80600E7BCF4 /* PlacesMenuTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlacesMenuTVC.m; path = Controllers/PlacesMenuTVC.m; sourceTree = "<group>"; };
+		7F3667321722B80600E7BCF4 /* PlacesTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlacesTVC.h; path = Controllers/PlacesTVC.h; sourceTree = "<group>"; };
+		7F3667331722B80600E7BCF4 /* PlacesTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlacesTVC.m; path = Controllers/PlacesTVC.m; sourceTree = "<group>"; };
+		7F3667341722B80600E7BCF4 /* SettingsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SettingsVC.h; path = Controllers/SettingsVC.h; sourceTree = "<group>"; };
+		7F3667351722B80600E7BCF4 /* SettingsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SettingsVC.m; path = Controllers/SettingsVC.m; sourceTree = "<group>"; };
+		7F3667401722B82F00E7BCF4 /* AfishaLvivFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AfishaLvivFetcher.h; path = Models/AfishaLvivFetcher.h; sourceTree = "<group>"; };
+		7F3667411722B82F00E7BCF4 /* AfishaLvivFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AfishaLvivFetcher.m; path = Models/AfishaLvivFetcher.m; sourceTree = "<group>"; };
+		7F3667451722B82F00E7BCF4 /* PlaceAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaceAnnotation.h; sourceTree = "<group>"; };
+		7F3667461722B82F00E7BCF4 /* PlaceAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceAnnotation.m; sourceTree = "<group>"; };
+		7F36674A1722B84500E7BCF4 /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Event.h; path = CoreDate/Event.h; sourceTree = "<group>"; };
+		7F36674B1722B84500E7BCF4 /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Event.m; path = CoreDate/Event.m; sourceTree = "<group>"; };
+		7F36674C1722B84500E7BCF4 /* Event+AfishaLviv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Event+AfishaLviv.h"; path = "CoreDate/Event+AfishaLviv.h"; sourceTree = "<group>"; };
+		7F36674D1722B84500E7BCF4 /* Event+AfishaLviv.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Event+AfishaLviv.m"; path = "CoreDate/Event+AfishaLviv.m"; sourceTree = "<group>"; };
+		7F36674E1722B84500E7BCF4 /* EventInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EventInfo.h; path = CoreDate/EventInfo.h; sourceTree = "<group>"; };
+		7F36674F1722B84500E7BCF4 /* EventInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EventInfo.m; path = CoreDate/EventInfo.m; sourceTree = "<group>"; };
+		7F3667501722B84500E7BCF4 /* EventInfo+AfishaLviv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "EventInfo+AfishaLviv.h"; path = "CoreDate/EventInfo+AfishaLviv.h"; sourceTree = "<group>"; };
+		7F3667511722B84500E7BCF4 /* EventInfo+AfishaLviv.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "EventInfo+AfishaLviv.m"; path = "CoreDate/EventInfo+AfishaLviv.m"; sourceTree = "<group>"; };
+		7F3667521722B84500E7BCF4 /* Place.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Place.h; path = CoreDate/Place.h; sourceTree = "<group>"; };
+		7F3667531722B84500E7BCF4 /* Place.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Place.m; path = CoreDate/Place.m; sourceTree = "<group>"; };
+		7F3667541722B84500E7BCF4 /* Place+AfishaLviv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Place+AfishaLviv.h"; path = "CoreDate/Place+AfishaLviv.h"; sourceTree = "<group>"; };
+		7F3667551722B84500E7BCF4 /* Place+AfishaLviv.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Place+AfishaLviv.m"; path = "CoreDate/Place+AfishaLviv.m"; sourceTree = "<group>"; };
+		7F3667561722B84500E7BCF4 /* PlaceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlaceInfo.h; path = CoreDate/PlaceInfo.h; sourceTree = "<group>"; };
+		7F3667571722B84500E7BCF4 /* PlaceInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlaceInfo.m; path = CoreDate/PlaceInfo.m; sourceTree = "<group>"; };
+		7F3667581722B84500E7BCF4 /* PlaceInfo+AfishaLviv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "PlaceInfo+AfishaLviv.h"; path = "CoreDate/PlaceInfo+AfishaLviv.h"; sourceTree = "<group>"; };
+		7F3667591722B84500E7BCF4 /* PlaceInfo+AfishaLviv.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "PlaceInfo+AfishaLviv.m"; path = "CoreDate/PlaceInfo+AfishaLviv.m"; sourceTree = "<group>"; };
+		7F3667641722B85600E7BCF4 /* DKImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKImageView.h; sourceTree = "<group>"; };
+		7F3667651722B85700E7BCF4 /* DKImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKImageView.m; sourceTree = "<group>"; };
+		7F3667671722B85700E7BCF4 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		7F3667681722B85700E7BCF4 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		7F36676A1722B85700E7BCF4 /* SDImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDImageCache.h; sourceTree = "<group>"; };
+		7F36676B1722B85700E7BCF4 /* SDImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDImageCache.m; sourceTree = "<group>"; };
+		7F36676C1722B85700E7BCF4 /* SDImageCacheDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDImageCacheDelegate.h; sourceTree = "<group>"; };
+		7F36676D1722B85700E7BCF4 /* SDWebImageCompat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageCompat.h; sourceTree = "<group>"; };
+		7F36676E1722B85700E7BCF4 /* SDWebImageDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDecoder.h; sourceTree = "<group>"; };
+		7F36676F1722B85700E7BCF4 /* SDWebImageDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDecoder.m; sourceTree = "<group>"; };
+		7F3667701722B85700E7BCF4 /* SDWebImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloader.h; sourceTree = "<group>"; };
+		7F3667711722B85700E7BCF4 /* SDWebImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDownloader.m; sourceTree = "<group>"; };
+		7F3667721722B85700E7BCF4 /* SDWebImageDownloaderDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloaderDelegate.h; sourceTree = "<group>"; };
+		7F3667731722B85700E7BCF4 /* SDWebImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageManager.h; sourceTree = "<group>"; };
+		7F3667741722B85700E7BCF4 /* SDWebImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageManager.m; sourceTree = "<group>"; };
+		7F3667751722B85700E7BCF4 /* SDWebImageManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageManagerDelegate.h; sourceTree = "<group>"; };
+		7F3667761722B85700E7BCF4 /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImagePrefetcher.h; sourceTree = "<group>"; };
+		7F3667771722B85700E7BCF4 /* SDWebImagePrefetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImagePrefetcher.m; sourceTree = "<group>"; };
+		7F3667781722B85700E7BCF4 /* UIButton+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+WebCache.h"; sourceTree = "<group>"; };
+		7F3667791722B85700E7BCF4 /* UIButton+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WebCache.m"; sourceTree = "<group>"; };
+		7F36677A1722B85700E7BCF4 /* UIImageView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+WebCache.h"; sourceTree = "<group>"; };
+		7F36677B1722B85700E7BCF4 /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
+		7F36678A1722B89400E7BCF4 /* PlaceCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlaceCell.h; path = Views/PlaceCell.h; sourceTree = "<group>"; };
+		7F36678B1722B89400E7BCF4 /* PlaceCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlaceCell.m; path = Views/PlaceCell.m; sourceTree = "<group>"; };
+		7F36678E1722B8CD00E7BCF4 /* AfishaLviv.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AfishaLviv.xcdatamodel; sourceTree = "<group>"; };
+		7F3667901722B9BD00E7BCF4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		7FAABC0315251C1C00C9987A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		7FC0E5CB152F58600077253F /* PlaceAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlaceAnnotation.h; path = AfishaLviv/Controllers/PlaceInfoVC/PlaceAnnotation/PlaceAnnotation.h; sourceTree = "<group>"; };
-		7FC0E5CC152F58600077253F /* PlaceAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlaceAnnotation.m; path = AfishaLviv/Controllers/PlaceInfoVC/PlaceAnnotation/PlaceAnnotation.m; sourceTree = "<group>"; };
 		7FC0E5D2152F66270077253F /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
 		7FC0E5D5152F6AB00077253F /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
 		7FC0E5DF152F6D1F0077253F /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
-		7FC7D1261517F4E3005F3053 /* DatePickerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DatePickerVC.h; path = Controllers/DatePickerVC/DatePickerVC.h; sourceTree = "<group>"; };
-		7FC7D1271517F4E3005F3053 /* DatePickerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DatePickerVC.m; path = Controllers/DatePickerVC/DatePickerVC.m; sourceTree = "<group>"; };
-		7FC7D13A15185136005F3053 /* Event+AfishaLviv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Event+AfishaLviv.h"; path = "CoreDateModel/Event+AfishaLviv.h"; sourceTree = "<group>"; };
-		7FC7D13B15185136005F3053 /* Event+AfishaLviv.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Event+AfishaLviv.m"; path = "CoreDateModel/Event+AfishaLviv.m"; sourceTree = "<group>"; };
-		7FC7D13D15185194005F3053 /* AfishaLvivFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AfishaLvivFetcher.h; path = AfishaLvivFetcher/AfishaLvivFetcher.h; sourceTree = "<group>"; };
-		7FC7D13E15185194005F3053 /* AfishaLvivFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AfishaLvivFetcher.m; path = AfishaLvivFetcher/AfishaLvivFetcher.m; sourceTree = "<group>"; };
-		7FD4FE64158E1054009C85BB /* EventsMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EventsMenuViewController.h; path = Controllers/EventsMenuViewController.h; sourceTree = "<group>"; };
-		7FD4FE65158E1054009C85BB /* EventsMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EventsMenuViewController.m; path = Controllers/EventsMenuViewController.m; sourceTree = "<group>"; };
-		7FD4FE66158E1054009C85BB /* EventsMenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = EventsMenuViewController.xib; path = Controllers/EventsMenuViewController.xib; sourceTree = "<group>"; };
-		7FD4FE6A158E12E4009C85BB /* EventsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EventsViewController.h; path = Controllers/EventsViewController.h; sourceTree = "<group>"; };
-		7FD4FE6B158E12E4009C85BB /* EventsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EventsViewController.m; path = Controllers/EventsViewController.m; sourceTree = "<group>"; };
-		7FD4FE6C158E12E4009C85BB /* EventsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = EventsViewController.xib; path = Controllers/EventsViewController.xib; sourceTree = "<group>"; };
-		7FD4FE6F158E1373009C85BB /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
-		7FD4FE71158E1375009C85BB /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
-		7FD4FE73158E1377009C85BB /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		7FD4FE75158E1379009C85BB /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		7FD4FE78158E13D3009C85BB /* EventCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = EventCell.xib; path = Resources/EventCell.xib; sourceTree = "<group>"; };
-		7FD4FE7B158E1580009C85BB /* SDImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDImageCache.h; sourceTree = "<group>"; };
-		7FD4FE7C158E1580009C85BB /* SDImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDImageCache.m; sourceTree = "<group>"; };
-		7FD4FE7D158E1580009C85BB /* SDImageCacheDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDImageCacheDelegate.h; sourceTree = "<group>"; };
-		7FD4FE7E158E1580009C85BB /* SDWebImageCompat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageCompat.h; sourceTree = "<group>"; };
-		7FD4FE7F158E1580009C85BB /* SDWebImageDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDecoder.h; sourceTree = "<group>"; };
-		7FD4FE80158E1580009C85BB /* SDWebImageDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDecoder.m; sourceTree = "<group>"; };
-		7FD4FE81158E1580009C85BB /* SDWebImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloader.h; sourceTree = "<group>"; };
-		7FD4FE82158E1580009C85BB /* SDWebImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDownloader.m; sourceTree = "<group>"; };
-		7FD4FE83158E1580009C85BB /* SDWebImageDownloaderDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloaderDelegate.h; sourceTree = "<group>"; };
-		7FD4FE84158E1580009C85BB /* SDWebImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageManager.h; sourceTree = "<group>"; };
-		7FD4FE85158E1580009C85BB /* SDWebImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageManager.m; sourceTree = "<group>"; };
-		7FD4FE86158E1580009C85BB /* SDWebImageManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageManagerDelegate.h; sourceTree = "<group>"; };
-		7FD4FE87158E1580009C85BB /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImagePrefetcher.h; sourceTree = "<group>"; };
-		7FD4FE88158E1580009C85BB /* SDWebImagePrefetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImagePrefetcher.m; sourceTree = "<group>"; };
-		7FD4FE89158E1580009C85BB /* UIButton+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+WebCache.h"; sourceTree = "<group>"; };
-		7FD4FE8A158E1580009C85BB /* UIButton+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WebCache.m"; sourceTree = "<group>"; };
-		7FD4FE8B158E1580009C85BB /* UIImageView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+WebCache.h"; sourceTree = "<group>"; };
-		7FD4FE8C158E1580009C85BB /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
 		7FD4FE94158E17F9009C85BB /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
-		7FD5B8A2151B67C30034C35A /* EventInfo+AfishaLviv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "EventInfo+AfishaLviv.h"; path = "CoreDateModel/EventInfo+AfishaLviv.h"; sourceTree = "<group>"; };
-		7FD5B8A3151B67C30034C35A /* EventInfo+AfishaLviv.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "EventInfo+AfishaLviv.m"; path = "CoreDateModel/EventInfo+AfishaLviv.m"; sourceTree = "<group>"; };
 		7FD5DD641517EE5100E919FA /* AfishaLviv.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AfishaLviv.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FD5DD681517EE5200E919FA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7FD5DD6A1517EE5200E919FA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -194,11 +201,6 @@
 		7FD5DD781517EE5200E919FA /* AfishaLviv-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AfishaLviv-Prefix.pch"; sourceTree = "<group>"; };
 		7FD5DD791517EE5200E919FA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7FD5DD7A1517EE5200E919FA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7FD5DD931517EF0E00E919FA /* AfishaLviv.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AfishaLviv.xcdatamodel; sourceTree = "<group>"; };
-		7FD5DD981517F00700E919FA /* EventsTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EventsTVC.h; path = Controllers/EventsTVC/EventsTVC.h; sourceTree = "<group>"; };
-		7FD5DD991517F00700E919FA /* EventsTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EventsTVC.m; path = Controllers/EventsTVC/EventsTVC.m; sourceTree = "<group>"; };
-		7FF61DB6151CC0EC00FA8322 /* DKImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DKImageView.h; path = CustomViews/DKImageView/DKImageView.h; sourceTree = "<group>"; };
-		7FF61DB7151CC0EC00FA8322 /* DKImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DKImageView.m; path = CustomViews/DKImageView/DKImageView.m; sourceTree = "<group>"; };
 		7FF85BD6153E3BE5001EA4D5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		7FF85BD8153E3BE9001EA4D5 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
 		7FF85BD9153E3BE9001EA4D5 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -224,234 +226,177 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7F072734153C8AD600029585 /* event_categories_icons */ = {
+		7F1E60EE151E3BE600354A2F /* Controlles */ = {
 			isa = PBXGroup;
 			children = (
-				7F072758153C90D700029585 /* 153-guitar.png */,
-				7F072735153C8AD600029585 /* 114-balloon.png */,
-				7F072737153C8AD600029585 /* 24-gift.png */,
-				7F072738153C8AD600029585 /* 41-picture-frame.png */,
-				7F07273A153C8AD600029585 /* 45-movie-1.png */,
-				7F07273B153C8AD600029585 /* 66-microphone.png */,
-				7F07273C153C8AD600029585 /* 85-trophy.png */,
-				7F07273D153C8AD600029585 /* 86-camera.png */,
-				7F07273E153C8AD600029585 /* 88-beer-mug.png */,
-				7F07273F153C8AD600029585 /* 98-palette.png */,
+				7F3667221722B80600E7BCF4 /* DatePickerRollerVC.h */,
+				7F3667231722B80600E7BCF4 /* DatePickerRollerVC.m */,
+				7F3667241722B80600E7BCF4 /* DatePickerVC.h */,
+				7F3667251722B80600E7BCF4 /* DatePickerVC.m */,
+				7F3667261722B80600E7BCF4 /* EventInfoTVC.h */,
+				7F3667271722B80600E7BCF4 /* EventInfoTVC.m */,
+				7F3667281722B80600E7BCF4 /* EventsMenuViewController.h */,
+				7F3667291722B80600E7BCF4 /* EventsMenuViewController.m */,
+				7F36672A1722B80600E7BCF4 /* EventsTVC.h */,
+				7F36672B1722B80600E7BCF4 /* EventsTVC.m */,
+				7F36672C1722B80600E7BCF4 /* EventsViewController.h */,
+				7F36672D1722B80600E7BCF4 /* EventsViewController.m */,
+				7F36672E1722B80600E7BCF4 /* PlaceInfoVC.h */,
+				7F36672F1722B80600E7BCF4 /* PlaceInfoVC.m */,
+				7F3667301722B80600E7BCF4 /* PlacesMenuTVC.h */,
+				7F3667311722B80600E7BCF4 /* PlacesMenuTVC.m */,
+				7F3667321722B80600E7BCF4 /* PlacesTVC.h */,
+				7F3667331722B80600E7BCF4 /* PlacesTVC.m */,
+				7F3667341722B80600E7BCF4 /* SettingsVC.h */,
+				7F3667351722B80600E7BCF4 /* SettingsVC.m */,
 			);
-			name = event_categories_icons;
-			path = AfishaLviv/Resources/event_categories_icons;
+			name = Controlles;
 			sourceTree = "<group>";
 		};
-		7F072791153CC19A00029585 /* place_categories_icons */ = {
+		7F3666DC1722B6AB00E7BCF4 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				7F07279C153CC24B00029585 /* 34-coffee.png */,
-				7F072794153CC19A00029585 /* 144-martini.png */,
-				7F072795153CC19A00029585 /* 190-bank.png */,
-				7F072796153CC19A00029585 /* 43-film-roll.png */,
+				7F3666DD1722B6AB00E7BCF4 /* calendar-icon.png */,
+				7F3666DE1722B6AB00E7BCF4 /* Defaults */,
+				7F3666E31722B6AB00E7BCF4 /* Icons */,
+				7F3666FB1722B6AB00E7BCF4 /* question-mark-big.png */,
+				7F3666FC1722B6AB00E7BCF4 /* question-mark-small.png */,
 			);
-			name = place_categories_icons;
-			path = AfishaLviv/Resources/place_categories_icons;
+			name = Images;
+			path = AfishaLviv/Resources/Images;
+			sourceTree = "<group>";
+		};
+		7F3666DE1722B6AB00E7BCF4 /* Defaults */ = {
+			isa = PBXGroup;
+			children = (
+				7F3666DF1722B6AB00E7BCF4 /* Default.png */,
+				7F3666E01722B6AB00E7BCF4 /* Default@2x.png */,
+				7F3667901722B9BD00E7BCF4 /* Default-568h@2x.png */,
+				7F3666E11722B6AB00E7BCF4 /* Icon.png */,
+				7F3666E21722B6AB00E7BCF4 /* Icon@2x.png */,
+			);
+			path = Defaults;
+			sourceTree = "<group>";
+		};
+		7F3666E31722B6AB00E7BCF4 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				7F3666E41722B6AB00E7BCF4 /* 103-map.png */,
+				7F3666E51722B6AB00E7BCF4 /* 114-balloon.png */,
+				7F3666E61722B6AB00E7BCF4 /* 121-landscape.png */,
+				7F3666E71722B6AB00E7BCF4 /* 124-bullhorn.png */,
+				7F3666E81722B6AB00E7BCF4 /* 137-presentation.png */,
+				7F3666E91722B6AB00E7BCF4 /* 144-martini.png */,
+				7F3666EA1722B6AB00E7BCF4 /* 153-guitar.png */,
+				7F3666EB1722B6AB00E7BCF4 /* 190-bank.png */,
+				7F3666EC1722B6AB00E7BCF4 /* 191-collection.png */,
+				7F3666ED1722B6AB00E7BCF4 /* 20-gear2.png */,
+				7F3666EE1722B6AB00E7BCF4 /* 24-gift.png */,
+				7F3666EF1722B6AB00E7BCF4 /* 28-star.png */,
+				7F3666F01722B6AB00E7BCF4 /* 34-coffee.png */,
+				7F3666F11722B6AB00E7BCF4 /* 41-picture-frame.png */,
+				7F3666F21722B6AB00E7BCF4 /* 43-film-roll.png */,
+				7F3666F31722B6AB00E7BCF4 /* 45-movie-1.png */,
+				7F3666F41722B6AB00E7BCF4 /* 66-microphone.png */,
+				7F3666F51722B6AB00E7BCF4 /* 70-tv.png */,
+				7F3666F61722B6AB00E7BCF4 /* 83-calendar.png */,
+				7F3666F71722B6AB00E7BCF4 /* 85-trophy.png */,
+				7F3666F81722B6AB00E7BCF4 /* 86-camera.png */,
+				7F3666F91722B6AB00E7BCF4 /* 88-beer-mug.png */,
+				7F3666FA1722B6AB00E7BCF4 /* 98-palette.png */,
+			);
+			path = Icons;
+			sourceTree = "<group>";
+		};
+		7F36671B1722B6C200E7BCF4 /* NIBs */ = {
+			isa = PBXGroup;
+			children = (
+				7F36671C1722B6C200E7BCF4 /* EventCell.xib */,
+				7F36671E1722B6F100E7BCF4 /* EventsMenuViewController.xib */,
+				7F36671F1722B6F100E7BCF4 /* EventsViewController.xib */,
+			);
+			name = NIBs;
+			path = AfishaLviv/Resources/NIBs;
+			sourceTree = "<group>";
+		};
+		7F3667441722B82F00E7BCF4 /* PlaceAnnotation */ = {
+			isa = PBXGroup;
+			children = (
+				7F3667451722B82F00E7BCF4 /* PlaceAnnotation.h */,
+				7F3667461722B82F00E7BCF4 /* PlaceAnnotation.m */,
+			);
+			name = PlaceAnnotation;
+			path = Models/PlaceAnnotation;
+			sourceTree = "<group>";
+		};
+		7F3667621722B85600E7BCF4 /* Submodules */ = {
+			isa = PBXGroup;
+			children = (
+				7F3667631722B85600E7BCF4 /* DKImageView */,
+				7F3667661722B85700E7BCF4 /* MBProgressHUD */,
+				7F3667691722B85700E7BCF4 /* SDWebImage */,
+			);
+			path = Submodules;
 			sourceTree = SOURCE_ROOT;
 		};
-		7F1E60EC151E3BD200354A2F /* DatePicker */ = {
+		7F3667631722B85600E7BCF4 /* DKImageView */ = {
 			isa = PBXGroup;
 			children = (
-				7FC7D1261517F4E3005F3053 /* DatePickerVC.h */,
-				7FC7D1271517F4E3005F3053 /* DatePickerVC.m */,
-				7FAAA696151AA45E0024CA96 /* DatePickerRollerVC.h */,
-				7FAAA697151AA45E0024CA96 /* DatePickerRollerVC.m */,
+				7F3667641722B85600E7BCF4 /* DKImageView.h */,
+				7F3667651722B85700E7BCF4 /* DKImageView.m */,
 			);
-			name = DatePicker;
+			path = DKImageView;
 			sourceTree = "<group>";
 		};
-		7F1E60ED151E3BDB00354A2F /* Settings */ = {
+		7F3667661722B85700E7BCF4 /* MBProgressHUD */ = {
 			isa = PBXGroup;
 			children = (
-				7F39534515189EA400D0323E /* SettingsVC.h */,
-				7F39534615189EA400D0323E /* SettingsVC.m */,
+				7F3667671722B85700E7BCF4 /* MBProgressHUD.h */,
+				7F3667681722B85700E7BCF4 /* MBProgressHUD.m */,
 			);
-			name = Settings;
+			path = MBProgressHUD;
 			sourceTree = "<group>";
 		};
-		7F1E60EE151E3BE600354A2F /* EventsTable */ = {
+		7F3667691722B85700E7BCF4 /* SDWebImage */ = {
 			isa = PBXGroup;
 			children = (
-				7FD4FE64158E1054009C85BB /* EventsMenuViewController.h */,
-				7FD4FE65158E1054009C85BB /* EventsMenuViewController.m */,
-				7FD4FE66158E1054009C85BB /* EventsMenuViewController.xib */,
-				7FD4FE6A158E12E4009C85BB /* EventsViewController.h */,
-				7FD4FE6B158E12E4009C85BB /* EventsViewController.m */,
-				7FD4FE6C158E12E4009C85BB /* EventsViewController.xib */,
-				7FD4FE78158E13D3009C85BB /* EventCell.xib */,
-				7FD5DD981517F00700E919FA /* EventsTVC.h */,
-				7FD5DD991517F00700E919FA /* EventsTVC.m */,
+				7F36676A1722B85700E7BCF4 /* SDImageCache.h */,
+				7F36676B1722B85700E7BCF4 /* SDImageCache.m */,
+				7F36676C1722B85700E7BCF4 /* SDImageCacheDelegate.h */,
+				7F36676D1722B85700E7BCF4 /* SDWebImageCompat.h */,
+				7F36676E1722B85700E7BCF4 /* SDWebImageDecoder.h */,
+				7F36676F1722B85700E7BCF4 /* SDWebImageDecoder.m */,
+				7F3667701722B85700E7BCF4 /* SDWebImageDownloader.h */,
+				7F3667711722B85700E7BCF4 /* SDWebImageDownloader.m */,
+				7F3667721722B85700E7BCF4 /* SDWebImageDownloaderDelegate.h */,
+				7F3667731722B85700E7BCF4 /* SDWebImageManager.h */,
+				7F3667741722B85700E7BCF4 /* SDWebImageManager.m */,
+				7F3667751722B85700E7BCF4 /* SDWebImageManagerDelegate.h */,
+				7F3667761722B85700E7BCF4 /* SDWebImagePrefetcher.h */,
+				7F3667771722B85700E7BCF4 /* SDWebImagePrefetcher.m */,
+				7F3667781722B85700E7BCF4 /* UIButton+WebCache.h */,
+				7F3667791722B85700E7BCF4 /* UIButton+WebCache.m */,
+				7F36677A1722B85700E7BCF4 /* UIImageView+WebCache.h */,
+				7F36677B1722B85700E7BCF4 /* UIImageView+WebCache.m */,
 			);
-			name = EventsTable;
+			path = SDWebImage;
 			sourceTree = "<group>";
 		};
-		7F5251D51519D20E00E05A76 /* MBProgressHUD */ = {
+		7F3667851722B87A00E7BCF4 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				7F5251D11519D20600E05A76 /* MBProgressHUD.h */,
-				7F5251D21519D20600E05A76 /* MBProgressHUD.m */,
 			);
-			name = MBProgressHUD;
-			sourceTree = "<group>";
-		};
-		7FA62F75151E4E2F00A007A6 /* EventInfo */ = {
-			isa = PBXGroup;
-			children = (
-				7F4CA176152208F800BCBD36 /* EventInfoTVC.h */,
-				7F4CA177152208F800BCBD36 /* EventInfoTVC.m */,
-			);
-			name = EventInfo;
-			sourceTree = "<group>";
-		};
-		7FA62F79151E876700A007A6 /* DKImageView */ = {
-			isa = PBXGroup;
-			children = (
-				7FF61DB6151CC0EC00FA8322 /* DKImageView.h */,
-				7FF61DB7151CC0EC00FA8322 /* DKImageView.m */,
-			);
-			name = DKImageView;
-			sourceTree = "<group>";
-		};
-		7FAABBFE1524E5ED00C9987A /* PlacesTable */ = {
-			isa = PBXGroup;
-			children = (
-				7F072723153C832500029585 /* PlacesMenuTVC.h */,
-				7F072724153C832500029585 /* PlacesMenuTVC.m */,
-				7F0727A9153E081B00029585 /* PlaceCell.h */,
-				7F0727AA153E081C00029585 /* PlaceCell.m */,
-				7F0727AC153E083B00029585 /* PlacesTVC.h */,
-				7F0727AD153E083B00029585 /* PlacesTVC.m */,
-			);
-			name = PlacesTable;
-			sourceTree = "<group>";
-		};
-		7FAABBFF1524E60300C9987A /* PlaceInfo */ = {
-			isa = PBXGroup;
-			children = (
-				7FAABC001524E63800C9987A /* PlaceInfoVC.h */,
-				7FAABC011524E63800C9987A /* PlaceInfoVC.m */,
-				7FC0E5CB152F58600077253F /* PlaceAnnotation.h */,
-				7FC0E5CC152F58600077253F /* PlaceAnnotation.m */,
-			);
-			name = PlaceInfo;
-			path = ..;
+			path = Views;
 			sourceTree = "<group>";
 		};
 		7FBC6523151B8057002A87CE /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				7FD4FE77158E1383009C85BB /* Icons */,
-				7FD4FE69158E12C0009C85BB /* Images */,
+				7F36671B1722B6C200E7BCF4 /* NIBs */,
+				7F3666DC1722B6AB00E7BCF4 /* Images */,
 			);
 			name = Resources;
 			path = ..;
-			sourceTree = "<group>";
-		};
-		7FC5099B1530E6BE005ADD8F /* Place */ = {
-			isa = PBXGroup;
-			children = (
-				7FAABBF41524DDBE00C9987A /* Place.h */,
-				7FAABBF51524DDBE00C9987A /* Place.m */,
-				7FAABBEE1524DD3E00C9987A /* Place+AfishaLviv.h */,
-				7FAABBEF1524DD3E00C9987A /* Place+AfishaLviv.m */,
-			);
-			name = Place;
-			sourceTree = "<group>";
-		};
-		7FC5099D1530E6C6005ADD8F /* PlaceInfo */ = {
-			isa = PBXGroup;
-			children = (
-				7FAABBFA1524E4B600C9987A /* PlaceInfo.h */,
-				7FAABBFB1524E4B600C9987A /* PlaceInfo.m */,
-				7FAABBF11524DD5400C9987A /* PlaceInfo+AfishaLviv.h */,
-				7FAABBF21524DD5400C9987A /* PlaceInfo+AfishaLviv.m */,
-			);
-			name = PlaceInfo;
-			sourceTree = "<group>";
-		};
-		7FC5099E1530E6CC005ADD8F /* Event */ = {
-			isa = PBXGroup;
-			children = (
-				7F1E60E9151E39DC00354A2F /* Event.h */,
-				7F1E60EA151E39DC00354A2F /* Event.m */,
-				7FC7D13A15185136005F3053 /* Event+AfishaLviv.h */,
-				7FC7D13B15185136005F3053 /* Event+AfishaLviv.m */,
-			);
-			name = Event;
-			sourceTree = "<group>";
-		};
-		7FC5099F1530E6D3005ADD8F /* EventInfo */ = {
-			isa = PBXGroup;
-			children = (
-				7FA62F76151E831C00A007A6 /* EventInfo.h */,
-				7FA62F77151E831C00A007A6 /* EventInfo.m */,
-				7FD5B8A2151B67C30034C35A /* EventInfo+AfishaLviv.h */,
-				7FD5B8A3151B67C30034C35A /* EventInfo+AfishaLviv.m */,
-			);
-			name = EventInfo;
-			sourceTree = "<group>";
-		};
-		7FD4FE69158E12C0009C85BB /* Images */ = {
-			isa = PBXGroup;
-			children = (
-				7F0727A7153E041300029585 /* calendar-icon.png */,
-				7F072754153C8E0600029585 /* 20-gear2.png */,
-				7F07274F153C8B6500029585 /* 28-star.png */,
-				7F072730153C8AD600029585 /* 70-tv.png */,
-				7F072731153C8AD600029585 /* 83-calendar.png */,
-				7F072732153C8AD600029585 /* 103-map.png */,
-				7F07278F153CBBBE00029585 /* 137-presentation.png */,
-				7F072733153C8AD600029585 /* 191-collection.png */,
-				7F072756153C909200029585 /* 124-bullhorn.png */,
-				7F072792153CC19A00029585 /* 121-landscape.png */,
-				7F072734153C8AD600029585 /* event_categories_icons */,
-				7F072791153CC19A00029585 /* place_categories_icons */,
-				7F1E60E1151E108A00354A2F /* question-mark-big.png */,
-				7F1E60E2151E108A00354A2F /* question-mark-small.png */,
-			);
-			name = Images;
-			sourceTree = "<group>";
-		};
-		7FD4FE77158E1383009C85BB /* Icons */ = {
-			isa = PBXGroup;
-			children = (
-				7FD4FE75158E1379009C85BB /* Default.png */,
-				7FD4FE73158E1377009C85BB /* Default@2x.png */,
-				7FD4FE71158E1375009C85BB /* Icon.png */,
-				7FD4FE6F158E1373009C85BB /* Icon@2x.png */,
-			);
-			name = Icons;
-			sourceTree = "<group>";
-		};
-		7FD4FE7A158E1580009C85BB /* SDWebImage */ = {
-			isa = PBXGroup;
-			children = (
-				7FD4FE7B158E1580009C85BB /* SDImageCache.h */,
-				7FD4FE7C158E1580009C85BB /* SDImageCache.m */,
-				7FD4FE7D158E1580009C85BB /* SDImageCacheDelegate.h */,
-				7FD4FE7E158E1580009C85BB /* SDWebImageCompat.h */,
-				7FD4FE7F158E1580009C85BB /* SDWebImageDecoder.h */,
-				7FD4FE80158E1580009C85BB /* SDWebImageDecoder.m */,
-				7FD4FE81158E1580009C85BB /* SDWebImageDownloader.h */,
-				7FD4FE82158E1580009C85BB /* SDWebImageDownloader.m */,
-				7FD4FE83158E1580009C85BB /* SDWebImageDownloaderDelegate.h */,
-				7FD4FE84158E1580009C85BB /* SDWebImageManager.h */,
-				7FD4FE85158E1580009C85BB /* SDWebImageManager.m */,
-				7FD4FE86158E1580009C85BB /* SDWebImageManagerDelegate.h */,
-				7FD4FE87158E1580009C85BB /* SDWebImagePrefetcher.h */,
-				7FD4FE88158E1580009C85BB /* SDWebImagePrefetcher.m */,
-				7FD4FE89158E1580009C85BB /* UIButton+WebCache.h */,
-				7FD4FE8A158E1580009C85BB /* UIButton+WebCache.m */,
-				7FD4FE8B158E1580009C85BB /* UIImageView+WebCache.h */,
-				7FD4FE8C158E1580009C85BB /* UIImageView+WebCache.m */,
-			);
-			name = SDWebImage;
-			path = CustomViews/SDWebImage;
 			sourceTree = "<group>";
 		};
 		7FD5DD591517EE5100E919FA = {
@@ -490,19 +435,15 @@
 		7FD5DD701517EE5200E919FA /* AfishaLviv */ = {
 			isa = PBXGroup;
 			children = (
+				7F3667621722B85600E7BCF4 /* Submodules */,
 				7FD5DD791517EE5200E919FA /* AppDelegate.h */,
 				7FD5DD7A1517EE5200E919FA /* AppDelegate.m */,
-				7F1E60EE151E3BE600354A2F /* EventsTable */,
-				7FA62F75151E4E2F00A007A6 /* EventInfo */,
-				7F1E60EC151E3BD200354A2F /* DatePicker */,
-				7FAABBFE1524E5ED00C9987A /* PlacesTable */,
-				7FAABBFF1524E60300C9987A /* PlaceInfo */,
-				7F1E60ED151E3BDB00354A2F /* Settings */,
-				7FD5DD911517EEC400E919FA /* AfishaLviv */,
+				7FD5DD911517EEC400E919FA /* Models */,
+				7F3667851722B87A00E7BCF4 /* Views */,
+				7F36678A1722B89400E7BCF4 /* PlaceCell.h */,
+				7F36678B1722B89400E7BCF4 /* PlaceCell.m */,
+				7F1E60EE151E3BE600354A2F /* Controlles */,
 				7FD5DD8C1517EE9000E919FA /* CoreDate */,
-				7FA62F79151E876700A007A6 /* DKImageView */,
-				7FD4FE7A158E1580009C85BB /* SDWebImage */,
-				7F5251D51519D20E00E05A76 /* MBProgressHUD */,
 				7FBC6523151B8057002A87CE /* Resources */,
 				7FD5DD711517EE5200E919FA /* Supporting Files */,
 			);
@@ -523,22 +464,35 @@
 		7FD5DD8C1517EE9000E919FA /* CoreDate */ = {
 			isa = PBXGroup;
 			children = (
-				7FD5DD921517EF0E00E919FA /* AfishaLviv.xcdatamodeld */,
-				7FC5099E1530E6CC005ADD8F /* Event */,
-				7FC5099F1530E6D3005ADD8F /* EventInfo */,
-				7FC5099B1530E6BE005ADD8F /* Place */,
-				7FC5099D1530E6C6005ADD8F /* PlaceInfo */,
+				7F36678D1722B8CD00E7BCF4 /* AfishaLviv.xcdatamodeld */,
+				7F36674A1722B84500E7BCF4 /* Event.h */,
+				7F36674B1722B84500E7BCF4 /* Event.m */,
+				7F36674C1722B84500E7BCF4 /* Event+AfishaLviv.h */,
+				7F36674D1722B84500E7BCF4 /* Event+AfishaLviv.m */,
+				7F36674E1722B84500E7BCF4 /* EventInfo.h */,
+				7F36674F1722B84500E7BCF4 /* EventInfo.m */,
+				7F3667501722B84500E7BCF4 /* EventInfo+AfishaLviv.h */,
+				7F3667511722B84500E7BCF4 /* EventInfo+AfishaLviv.m */,
+				7F3667521722B84500E7BCF4 /* Place.h */,
+				7F3667531722B84500E7BCF4 /* Place.m */,
+				7F3667541722B84500E7BCF4 /* Place+AfishaLviv.h */,
+				7F3667551722B84500E7BCF4 /* Place+AfishaLviv.m */,
+				7F3667561722B84500E7BCF4 /* PlaceInfo.h */,
+				7F3667571722B84500E7BCF4 /* PlaceInfo.m */,
+				7F3667581722B84500E7BCF4 /* PlaceInfo+AfishaLviv.h */,
+				7F3667591722B84500E7BCF4 /* PlaceInfo+AfishaLviv.m */,
 			);
 			name = CoreDate;
 			sourceTree = "<group>";
 		};
-		7FD5DD911517EEC400E919FA /* AfishaLviv */ = {
+		7FD5DD911517EEC400E919FA /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				7FC7D13D15185194005F3053 /* AfishaLvivFetcher.h */,
-				7FC7D13E15185194005F3053 /* AfishaLvivFetcher.m */,
+				7F3667401722B82F00E7BCF4 /* AfishaLvivFetcher.h */,
+				7F3667411722B82F00E7BCF4 /* AfishaLvivFetcher.m */,
+				7F3667441722B82F00E7BCF4 /* PlaceAnnotation */,
 			);
-			name = AfishaLviv;
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -593,40 +547,41 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F1E60E3151E108A00354A2F /* question-mark-big.png in Resources */,
-				7F1E60E4151E108A00354A2F /* question-mark-small.png in Resources */,
-				7F072740153C8AD600029585 /* 70-tv.png in Resources */,
-				7F072741153C8AD600029585 /* 83-calendar.png in Resources */,
-				7F072742153C8AD600029585 /* 103-map.png in Resources */,
-				7F072743153C8AD600029585 /* 191-collection.png in Resources */,
-				7F072744153C8AD600029585 /* 114-balloon.png in Resources */,
-				7F072746153C8AD600029585 /* 24-gift.png in Resources */,
-				7F072747153C8AD600029585 /* 41-picture-frame.png in Resources */,
-				7F072749153C8AD600029585 /* 45-movie-1.png in Resources */,
-				7F07274A153C8AD600029585 /* 66-microphone.png in Resources */,
-				7F07274B153C8AD600029585 /* 85-trophy.png in Resources */,
-				7F07274C153C8AD600029585 /* 86-camera.png in Resources */,
-				7F07274D153C8AD600029585 /* 88-beer-mug.png in Resources */,
-				7F07274E153C8AD600029585 /* 98-palette.png in Resources */,
-				7F072750153C8B6500029585 /* 28-star.png in Resources */,
-				7F072755153C8E0600029585 /* 20-gear2.png in Resources */,
-				7F072757153C909200029585 /* 124-bullhorn.png in Resources */,
-				7F072759153C90D700029585 /* 153-guitar.png in Resources */,
-				7F072790153CBBBE00029585 /* 137-presentation.png in Resources */,
-				7F072797153CC19A00029585 /* 121-landscape.png in Resources */,
-				7F072799153CC19A00029585 /* 144-martini.png in Resources */,
-				7F07279A153CC19A00029585 /* 190-bank.png in Resources */,
-				7F07279B153CC19A00029585 /* 43-film-roll.png in Resources */,
-				7F07279D153CC24B00029585 /* 34-coffee.png in Resources */,
-				7F0727A8153E041300029585 /* calendar-icon.png in Resources */,
 				7FF85BD7153E3BE5001EA4D5 /* Localizable.strings in Resources */,
-				7FD4FE68158E1055009C85BB /* EventsMenuViewController.xib in Resources */,
-				7FD4FE6E158E12E5009C85BB /* EventsViewController.xib in Resources */,
-				7FD4FE70158E1374009C85BB /* Icon@2x.png in Resources */,
-				7FD4FE72158E1375009C85BB /* Icon.png in Resources */,
-				7FD4FE74158E1377009C85BB /* Default@2x.png in Resources */,
-				7FD4FE76158E1379009C85BB /* Default.png in Resources */,
-				7FD4FE79158E13D3009C85BB /* EventCell.xib in Resources */,
+				7F3666FD1722B6AB00E7BCF4 /* calendar-icon.png in Resources */,
+				7F3666FE1722B6AB00E7BCF4 /* Default.png in Resources */,
+				7F3666FF1722B6AB00E7BCF4 /* Default@2x.png in Resources */,
+				7F3667001722B6AB00E7BCF4 /* Icon.png in Resources */,
+				7F3667011722B6AB00E7BCF4 /* Icon@2x.png in Resources */,
+				7F3667021722B6AB00E7BCF4 /* 103-map.png in Resources */,
+				7F3667031722B6AB00E7BCF4 /* 114-balloon.png in Resources */,
+				7F3667041722B6AB00E7BCF4 /* 121-landscape.png in Resources */,
+				7F3667051722B6AB00E7BCF4 /* 124-bullhorn.png in Resources */,
+				7F3667061722B6AB00E7BCF4 /* 137-presentation.png in Resources */,
+				7F3667071722B6AB00E7BCF4 /* 144-martini.png in Resources */,
+				7F3667081722B6AB00E7BCF4 /* 153-guitar.png in Resources */,
+				7F3667091722B6AB00E7BCF4 /* 190-bank.png in Resources */,
+				7F36670A1722B6AB00E7BCF4 /* 191-collection.png in Resources */,
+				7F36670B1722B6AB00E7BCF4 /* 20-gear2.png in Resources */,
+				7F36670C1722B6AB00E7BCF4 /* 24-gift.png in Resources */,
+				7F36670D1722B6AB00E7BCF4 /* 28-star.png in Resources */,
+				7F36670E1722B6AB00E7BCF4 /* 34-coffee.png in Resources */,
+				7F36670F1722B6AB00E7BCF4 /* 41-picture-frame.png in Resources */,
+				7F3667101722B6AB00E7BCF4 /* 43-film-roll.png in Resources */,
+				7F3667111722B6AB00E7BCF4 /* 45-movie-1.png in Resources */,
+				7F3667121722B6AB00E7BCF4 /* 66-microphone.png in Resources */,
+				7F3667131722B6AB00E7BCF4 /* 70-tv.png in Resources */,
+				7F3667141722B6AB00E7BCF4 /* 83-calendar.png in Resources */,
+				7F3667151722B6AB00E7BCF4 /* 85-trophy.png in Resources */,
+				7F3667161722B6AB00E7BCF4 /* 86-camera.png in Resources */,
+				7F3667171722B6AB00E7BCF4 /* 88-beer-mug.png in Resources */,
+				7F3667181722B6AB00E7BCF4 /* 98-palette.png in Resources */,
+				7F3667191722B6AB00E7BCF4 /* question-mark-big.png in Resources */,
+				7F36671A1722B6AB00E7BCF4 /* question-mark-small.png in Resources */,
+				7F36671D1722B6C200E7BCF4 /* EventCell.xib in Resources */,
+				7F3667201722B6F100E7BCF4 /* EventsMenuViewController.xib in Resources */,
+				7F3667211722B6F100E7BCF4 /* EventsViewController.xib in Resources */,
+				7F3667911722B9BD00E7BCF4 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -639,37 +594,37 @@
 			files = (
 				7FD5DD771517EE5200E919FA /* main.m in Sources */,
 				7FD5DD7B1517EE5200E919FA /* AppDelegate.m in Sources */,
-				7FD5DD941517EF0E00E919FA /* AfishaLviv.xcdatamodeld in Sources */,
-				7FD5DD9A1517F00700E919FA /* EventsTVC.m in Sources */,
-				7FC7D1281517F4E3005F3053 /* DatePickerVC.m in Sources */,
-				7FC7D13C15185136005F3053 /* Event+AfishaLviv.m in Sources */,
-				7FC7D13F15185194005F3053 /* AfishaLvivFetcher.m in Sources */,
-				7F39534715189EA400D0323E /* SettingsVC.m in Sources */,
-				7F5251D31519D20600E05A76 /* MBProgressHUD.m in Sources */,
-				7FAAA698151AA45E0024CA96 /* DatePickerRollerVC.m in Sources */,
-				7FD5B8A4151B67C30034C35A /* EventInfo+AfishaLviv.m in Sources */,
-				7FF61DB8151CC0EC00FA8322 /* DKImageView.m in Sources */,
-				7F1E60EB151E39DC00354A2F /* Event.m in Sources */,
-				7FA62F78151E831C00A007A6 /* EventInfo.m in Sources */,
-				7F4CA178152208F800BCBD36 /* EventInfoTVC.m in Sources */,
-				7FAABBF01524DD3E00C9987A /* Place+AfishaLviv.m in Sources */,
-				7FAABBF31524DD5400C9987A /* PlaceInfo+AfishaLviv.m in Sources */,
-				7FAABBF61524DDBF00C9987A /* Place.m in Sources */,
-				7FAABBFC1524E4B600C9987A /* PlaceInfo.m in Sources */,
-				7FAABC021524E63800C9987A /* PlaceInfoVC.m in Sources */,
-				7FC0E5CD152F58600077253F /* PlaceAnnotation.m in Sources */,
-				7F072725153C832500029585 /* PlacesMenuTVC.m in Sources */,
-				7F0727AB153E081C00029585 /* PlaceCell.m in Sources */,
-				7F0727AE153E083B00029585 /* PlacesTVC.m in Sources */,
-				7FD4FE67158E1055009C85BB /* EventsMenuViewController.m in Sources */,
-				7FD4FE6D158E12E5009C85BB /* EventsViewController.m in Sources */,
-				7FD4FE8D158E1580009C85BB /* SDImageCache.m in Sources */,
-				7FD4FE8E158E1580009C85BB /* SDWebImageDecoder.m in Sources */,
-				7FD4FE8F158E1580009C85BB /* SDWebImageDownloader.m in Sources */,
-				7FD4FE90158E1580009C85BB /* SDWebImageManager.m in Sources */,
-				7FD4FE91158E1580009C85BB /* SDWebImagePrefetcher.m in Sources */,
-				7FD4FE92158E1580009C85BB /* UIButton+WebCache.m in Sources */,
-				7FD4FE93158E1580009C85BB /* UIImageView+WebCache.m in Sources */,
+				7F3667361722B80700E7BCF4 /* DatePickerRollerVC.m in Sources */,
+				7F3667371722B80700E7BCF4 /* DatePickerVC.m in Sources */,
+				7F3667381722B80700E7BCF4 /* EventInfoTVC.m in Sources */,
+				7F3667391722B80700E7BCF4 /* EventsMenuViewController.m in Sources */,
+				7F36673A1722B80700E7BCF4 /* EventsTVC.m in Sources */,
+				7F36673B1722B80700E7BCF4 /* EventsViewController.m in Sources */,
+				7F36673C1722B80700E7BCF4 /* PlaceInfoVC.m in Sources */,
+				7F36673D1722B80700E7BCF4 /* PlacesMenuTVC.m in Sources */,
+				7F36673E1722B80700E7BCF4 /* PlacesTVC.m in Sources */,
+				7F36673F1722B80700E7BCF4 /* SettingsVC.m in Sources */,
+				7F3667471722B82F00E7BCF4 /* AfishaLvivFetcher.m in Sources */,
+				7F3667491722B82F00E7BCF4 /* PlaceAnnotation.m in Sources */,
+				7F36675A1722B84500E7BCF4 /* Event.m in Sources */,
+				7F36675B1722B84500E7BCF4 /* Event+AfishaLviv.m in Sources */,
+				7F36675C1722B84500E7BCF4 /* EventInfo.m in Sources */,
+				7F36675D1722B84500E7BCF4 /* EventInfo+AfishaLviv.m in Sources */,
+				7F36675E1722B84500E7BCF4 /* Place.m in Sources */,
+				7F36675F1722B84500E7BCF4 /* Place+AfishaLviv.m in Sources */,
+				7F3667601722B84500E7BCF4 /* PlaceInfo.m in Sources */,
+				7F3667611722B84500E7BCF4 /* PlaceInfo+AfishaLviv.m in Sources */,
+				7F36677C1722B85700E7BCF4 /* DKImageView.m in Sources */,
+				7F36677D1722B85700E7BCF4 /* MBProgressHUD.m in Sources */,
+				7F36677E1722B85700E7BCF4 /* SDImageCache.m in Sources */,
+				7F36677F1722B85700E7BCF4 /* SDWebImageDecoder.m in Sources */,
+				7F3667801722B85700E7BCF4 /* SDWebImageDownloader.m in Sources */,
+				7F3667811722B85700E7BCF4 /* SDWebImageManager.m in Sources */,
+				7F3667821722B85700E7BCF4 /* SDWebImagePrefetcher.m in Sources */,
+				7F3667831722B85700E7BCF4 /* UIButton+WebCache.m in Sources */,
+				7F3667841722B85700E7BCF4 /* UIImageView+WebCache.m in Sources */,
+				7F36678C1722B89400E7BCF4 /* PlaceCell.m in Sources */,
+				7F36678F1722B8CD00E7BCF4 /* AfishaLviv.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -822,13 +777,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		7FD5DD921517EF0E00E919FA /* AfishaLviv.xcdatamodeld */ = {
+		7F36678D1722B8CD00E7BCF4 /* AfishaLviv.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				7FD5DD931517EF0E00E919FA /* AfishaLviv.xcdatamodel */,
+				7F36678E1722B8CD00E7BCF4 /* AfishaLviv.xcdatamodel */,
 			);
-			currentVersion = 7FD5DD931517EF0E00E919FA /* AfishaLviv.xcdatamodel */;
-			path = AfishaLviv.xcdatamodeld;
+			currentVersion = 7F36678E1722B8CD00E7BCF4 /* AfishaLviv.xcdatamodel */;
+			name = AfishaLviv.xcdatamodeld;
+			path = CoreDate/AfishaLviv.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
