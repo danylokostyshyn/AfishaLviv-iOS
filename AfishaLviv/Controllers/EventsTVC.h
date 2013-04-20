@@ -2,13 +2,11 @@
 //  EventsTVC.h
 //  AfishaLviv
 //
-//  Created by Mac on 20.03.12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
-//
+//  Created by Danylo Kostyshyn on 20.03.12.
 
 #import <UIKit/UIKit.h>
 
-#import "Event+AfishaLviv.h"
+#import "DataManager.h"
 
 #import "DatePickerVC.h"
 #import "SettingsVC.h"

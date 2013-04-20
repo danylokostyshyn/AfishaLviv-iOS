@@ -2,9 +2,7 @@
 //  PlaceInfo.h
 //  AfishaLviv
 //
-//  Created by Mac on 29.03.12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
-//
+//  Created by Danylo Kostyshyn on 29.03.12.
 
 #import <Foundation/Foundation.h>
 #import <CoreData/CoreData.h>
@@ -23,5 +21,8 @@
 @property (nonatomic, retain) NSString * url;
 @property (nonatomic, retain) NSString * website;
 @property (nonatomic, retain) NSString * email;
+
++ (PlaceInfo *)placeInfoWithAfishaLvivInfo:(NSDictionary *)afishaLvivInfo
+                    inManagedObjectContext:(NSManagedObjectContext *)context;
 
 @end

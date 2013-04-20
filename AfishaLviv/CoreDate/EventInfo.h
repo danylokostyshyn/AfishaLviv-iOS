@@ -2,13 +2,10 @@
 //  EventInfo.h
 //  AfishaLviv
 //
-//  Created by Mac on 25.03.12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
-//
+//  Created by Danylo Kostyshyn on 25.03.12.
 
 #import <Foundation/Foundation.h>
 #import <CoreData/CoreData.h>
-
 
 @interface EventInfo : NSManagedObject
 
@@ -22,5 +19,8 @@
 @property (nonatomic, retain) NSString * worktime;
 @property (nonatomic, retain) NSString * place_title;
 @property (nonatomic, retain) NSString * place_address;
+
++ (EventInfo *)eventInfoWithAfishaLvivInfo:(NSDictionary *)afishaLvivInfo
+                    inManagedObjectContext:(NSManagedObjectContext *)context;
 
 @end

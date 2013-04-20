@@ -2,23 +2,23 @@
 //  PlaceInfoVC.m
 //  AfishaLviv
 //
-//  Created by Mac on 29.03.12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
-//
+//  Created by Danylo Kostyshyn on 29.03.12.
 
 #import "PlaceInfoVC.h"
 
-#import "Place+AfishaLviv.h"
-#import "PlaceInfo+AfishaLviv.h"
+#import <QuartzCore/QuartzCore.h>
 
 #import "AppDelegate.h"
 
-
-#import <QuartzCore/QuartzCore.h>
 #import "DKImageView.h"
 #import "MBProgressHUD.h"
 
 #import "PlaceAnnotation.h"
+
+//models
+#import "DataManager.h"
+#import "Place.h"
+#import "PlaceInfo.h"
 
 @interface PlaceInfoVC ()
 
@@ -154,12 +154,12 @@
     
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_LOW, 0), ^{
         
-        [PlaceInfo fetchPlaceInfoForUrl:url inManagedObjectContext:managedObjectContext];
+        [DataManager fetchPlacesInfosForUrl:url inToManagedObjectContext:managedObjectContext];
         [delegate saveContext];
         
         dispatch_async(dispatch_get_main_queue(), ^{
             
-            self.placeInfo = [[PlaceInfo placeInfoForUniqueUrl:url inManagedObjectContext:managedObjectContext] lastObject];
+            self.placeInfo = [DataManager placeInfoForUniqueUrl:url inManagedObjectContext:managedObjectContext];
             
             [self.tableView reloadData];
             
@@ -180,7 +180,7 @@
     AppDelegate *delegate = ((AppDelegate *)[[UIApplication sharedApplication] delegate]);
     NSManagedObjectContext *managedObjectContext = [delegate managedObjectContext];
     
-    self.placeInfo = [[PlaceInfo placeInfoForUniqueUrl:self.placeUrl inManagedObjectContext:managedObjectContext] lastObject];
+    self.placeInfo = [DataManager placeInfoForUniqueUrl:self.placeUrl inManagedObjectContext:managedObjectContext];
     
     if (self.placeInfo == nil) {
         [self downloadInfoFromUrl:self.placeUrl];

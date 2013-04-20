@@ -2,12 +2,9 @@
 //  Event.m
 //  AfishaLviv
 //
-//  Created by Mac on 24.03.12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
-//
+//  Created by Danylo Kostyshyn on 24.03.12.
 
 #import "Event.h"
-//#import "EventInfo.h"
 
 #import "AfishaLvivFetcher.h"
 

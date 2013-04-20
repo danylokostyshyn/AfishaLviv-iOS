@@ -3,8 +3,6 @@
 //  AfishaLviv
 //
 //  Created by Danylo Kostyshyn on 17.06.12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
-//
 
 #import "EventsViewController.h"
 
@@ -12,8 +10,6 @@
 
 #import "AfishaLvivFetcher.h"
 #import "Event.h"
-//#import "Event+AfishaLviv.h"
-//#import "EventInfo+AfishaLviv.h"
 
 #import "UIImageView+WebCache.h"
 

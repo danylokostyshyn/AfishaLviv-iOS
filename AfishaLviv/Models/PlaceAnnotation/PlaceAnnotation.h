@@ -1,3 +1,9 @@
+//
+//  PlaceAnnotation.h
+//  AfishaLviv
+//
+//  Created by Danylo Kostyshyn on 29.03.12.
+
 #import <MapKit/MapKit.h>
 
 @interface PlaceAnnotation : NSObject <MKAnnotation>

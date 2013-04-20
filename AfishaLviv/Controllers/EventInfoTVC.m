@@ -2,15 +2,14 @@
 //  EventInfoTVC.m
 //  AfishaLviv
 //
-//  Created by Mac on 27.03.12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
-//
+//  Created by Danylo Kostyshyn on 27.03.12.
 
 #import <QuartzCore/QuartzCore.h>
+#import <Twitter/Twitter.h>
+#import <EventKit/EventKit.h>
 
 #import "EventInfoTVC.h"
 
-#import "EventInfo+AfishaLviv.h"
 #import "AfishaLvivFetcher.h"
 
 #import "AppDelegate.h"
@@ -20,9 +19,10 @@
 #import "DKImageView.h"
 #import "MBProgressHUD.h"
 
-#import <Twitter/Twitter.h>
 
-#import <EventKit/EventKit.h>
+//models
+#import "Event.h"
+#import "EventInfo.h"
 
 @interface EventInfoTVC ()
 
@@ -127,13 +127,13 @@
     
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_LOW, 0), ^{
 
-        [EventInfo fetchEventInfoForUrl:url inManagedObjectContext:managedObjectContext];
+        [DataManager fetchEventsInfosForUrl:url inToManagedObjectContext:managedObjectContext];
         [delegate saveContext];
         
         dispatch_async(dispatch_get_main_queue(), ^{
         
-            self.eventInfo = [[EventInfo eventInfoForUniqueUrl:url inManagedObjectContext:managedObjectContext] lastObject];
-            
+            self.eventInfo = [DataManager eventInfoForUniqueUrl:url inManagedObjectContext:managedObjectContext];
+
             [self.tableView reloadData];
             
             [MBProgressHUD hideHUDForView:self.navigationController.view animated:YES];
@@ -249,7 +249,7 @@ enum {
     AppDelegate *delegate = ((AppDelegate *)[[UIApplication sharedApplication] delegate]);
     NSManagedObjectContext *managedObjectContext = [delegate managedObjectContext];
     
-    self.eventInfo = [[EventInfo eventInfoForUniqueUrl:[NSURL URLWithString:self.event.url] inManagedObjectContext:managedObjectContext] lastObject];
+    self.eventInfo = [DataManager eventInfoForUniqueUrl:[NSURL URLWithString:self.event.url] inManagedObjectContext:managedObjectContext];
     
     if (self.eventInfo == nil) {
         [self downloadEventInfoFromUrl:[NSURL URLWithString:self.event.url]];

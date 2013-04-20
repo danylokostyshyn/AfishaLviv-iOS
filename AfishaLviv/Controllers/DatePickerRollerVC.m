@@ -2,9 +2,7 @@
 //  DatePickerRollerVC.m
 //  AfishaLviv
 //
-//  Created by Mac on 22.03.12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
-//
+//  Created by Danylo Kostyshyn on 22.03.12.
 
 #import "DatePickerRollerVC.h"
 

@@ -2,9 +2,7 @@
 //  AppDelegate.m
 //  AfishaLviv
 //
-//  Created by Mac on 20.03.12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
-//
+//  Created by Danylo Kostyshyn on 20.03.12.
 
 #import "AppDelegate.h"
 
@@ -40,12 +38,12 @@
         eventsMenuViewController.managedObjectContext = self.managedObjectContext;
         
         PlacesMenuTVC *placesMenu = [[PlacesMenuTVC alloc] init];
-//        SettingsVC *settingsVC = [[SettingsVC alloc] init];
+        SettingsVC *settingsVC = [[SettingsVC alloc] init];
         
         NSArray *viewControllers = [NSArray arrayWithObjects:
                                     [[UINavigationController alloc] initWithRootViewController:eventsMenuViewController], 
                                     [[UINavigationController alloc] initWithRootViewController:placesMenu], 
-//                                    [[UINavigationController alloc] initWithRootViewController:settingsVC], 
+                                    [[UINavigationController alloc] initWithRootViewController:settingsVC], 
                                     nil];
         
         for (UINavigationController *navigationController in viewControllers) {

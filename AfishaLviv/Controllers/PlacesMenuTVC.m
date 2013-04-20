@@ -2,16 +2,16 @@
 //  PlacesMenuTVC.m
 //  AfishaLviv
 //
-//  Created by Mac on 16.04.12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
-//
+//  Created by Danylo Kostyshyn on 16.04.12.
 
 #import "PlacesMenuTVC.h"
 
-#import "Place+AfishaLviv.h"
 #import "AfishaLvivFetcher.h"
 
 #import "PlacesTVC.h"
+
+//models
+#import "DataManager.h"
 
 @interface PlacesMenuTVC ()
 

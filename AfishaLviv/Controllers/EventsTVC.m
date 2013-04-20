@@ -2,9 +2,7 @@
 //  EventsTVC.m
 //  AfishaLviv
 //
-//  Created by Mac on 20.03.12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
-//
+//  Created by Danylo Kostyshyn on 20.03.12.
 
 #import <QuartzCore/QuartzCore.h>
 
@@ -13,14 +11,15 @@
 #import "AppDelegate.h"
 
 #import "AfishaLvivFetcher.h"
-#import "Event+AfishaLviv.h"
-#import "EventInfo+AfishaLviv.h"
 
 #import "UIImageView+WebCache.h"
 
 #import "MBProgressHUD.h"
 
 #import "EventInfoTVC.h"
+
+//models
+#import "DataManager.h"
 
 @interface EventsTVC ()
 
@@ -103,17 +102,17 @@
     
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_LOW, 0), ^{
         [delegate saveContext];
-        [Event deleteEventsForDate:date inManagedContext:managedObjectContext];
-        [Event fetchEventsForDate:date inManagedObjectContext:managedObjectContext];
+        [DataManager deleteEventsForDate:date inManagedContext:managedObjectContext];
+        [DataManager fetchEventsForDate:date inToManagedObjectContext:managedObjectContext];
         
         dispatch_async(dispatch_get_main_queue(), ^{
-            if ([[Event eventsForDate:date inManagedObjectContext:managedObjectContext] count] != 0) { 
+            if ([[DataManager eventsForDate:date inManagedObjectContext:managedObjectContext] count] != 0) {
                 [delegate saveContext];
             } else {
                 [delegate.managedObjectContext rollback];
             }
             
-            self.items = [NSArray arrayWithArray:[Event eventsForDate:date type:self.type inManagedObjectContext:managedObjectContext]];
+            self.items = [NSArray arrayWithArray:[DataManager eventsForDate:date type:self.type inManagedObjectContext:managedObjectContext]];
             
             [MBProgressHUD hideHUDForView:self.navigationController.view animated:YES];
         });
@@ -125,7 +124,7 @@
     AppDelegate *delegate = ((AppDelegate *)[[UIApplication sharedApplication] delegate]);
     NSManagedObjectContext *managedObjectContext = [delegate managedObjectContext];
     
-    self.items = [NSArray arrayWithArray:[Event eventsForDate:date type:type inManagedObjectContext:managedObjectContext]];
+    self.items = [NSArray arrayWithArray:[DataManager eventsForDate:date type:type inManagedObjectContext:managedObjectContext]];
 
     if ([self.items count] == 0) {
         [self downloadEventsForDate:date];

@@ -2,13 +2,12 @@
 //  PlacesTVC.h
 //  AfishaLviv
 //
-//  Created by Mac on 17.04.12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
-//
+//  Created by Danylo Kostyshyn on 17.04.12.
 
 #import <UIKit/UIKit.h>
 
-#import "Place+AfishaLviv.h"
+//models
+#import "DataManager.h"
 
 @interface PlacesTVC : UITableViewController
 

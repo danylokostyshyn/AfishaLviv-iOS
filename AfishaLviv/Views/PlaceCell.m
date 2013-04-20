@@ -2,9 +2,7 @@
 //  PlaceCell.m
 //  AfishaLviv
 //
-//  Created by Mac on 17.04.12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
-//
+//  Created by Danylo Kostyshyn on 17.04.12.
 
 #import "PlaceCell.h"
 

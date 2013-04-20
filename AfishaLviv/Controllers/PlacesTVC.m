@@ -2,13 +2,10 @@
 //  PlacesTVC.m
 //  AfishaLviv
 //
-//  Created by Mac on 17.04.12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
-//
+//  Created by Danylo Kostyshyn on 17.04.12.
 
 #import "PlacesTVC.h"
 
-#import "Place+AfishaLviv.h"
 #import "AfishaLvivFetcher.h"
 
 #import "AppDelegate.h"
@@ -17,6 +14,10 @@
 #import "PlaceInfoVC.h"
 
 #import "MBProgressHUD.h"
+
+//models
+#import "Place.h"
+#import "DataManager.h"
 
 @interface PlacesTVC ()
 
@@ -80,17 +81,17 @@
     
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_LOW, 0), ^{
         [delegate saveContext];
-        [Place deleteAllPlacesInManagedObjectContext:managedObjectContext];
-        [Place fetchPlacesForType:self.placeType inManagedObjectContext:managedObjectContext];
+        [DataManager deleteAllPlacesInManagedObjectContext:managedObjectContext];
+        [DataManager fetchPlacesForType:self.placeType inToManagedObjectContext:managedObjectContext];
         
         dispatch_async(dispatch_get_main_queue(), ^{
-            if ([[Place placesForType:type inManagedObjectContext:managedObjectContext] count] != 0) { 
+            if ([[DataManager placesForType:type inManagedObjectContext:managedObjectContext] count] != 0) { 
                 [delegate saveContext];
             } else {
                 [delegate.managedObjectContext rollback];
             }
             
-            self.items = [NSArray arrayWithArray:[Place placesForType:self.placeType inManagedObjectContext:managedObjectContext]];
+            self.items = [NSArray arrayWithArray:[DataManager placesForType:self.placeType inManagedObjectContext:managedObjectContext]];
             
             [MBProgressHUD hideHUDForView:self.navigationController.view animated:YES];
         });
@@ -102,7 +103,7 @@
     AppDelegate *delegate = ((AppDelegate *)[[UIApplication sharedApplication] delegate]);
     NSManagedObjectContext *managedObjectContext = [delegate managedObjectContext];
     
-    self.items = [NSArray arrayWithArray:[Place placesForType:type inManagedObjectContext:managedObjectContext]];
+    self.items = [NSArray arrayWithArray:[DataManager placesForType:type inManagedObjectContext:managedObjectContext]];
     
     if ([self.items count] == 0) {
         [self downloadPlacesForType:type];

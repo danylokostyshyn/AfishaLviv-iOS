@@ -3,16 +3,13 @@
 //  AfishaLviv
 //
 //  Created by Danylo Kostyshyn on 20.03.12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
-//
 
 #import "SettingsVC.h"
 
 #import "AppDelegate.h"
 
-#import "Event+AfishaLviv.h"
-#import "EventInfo+AfishaLviv.h"
-#import "PlaceInfo+AfishaLviv.h"
+//models
+#import "DataManager.h"
 
 @interface SettingsVC ()
 
@@ -130,9 +127,9 @@
     
     if (indexPath.row == 0)
     {
-        [Event deleteAllEventsInManagedObjectContext:managedObjectContext];
-        [EventInfo deleteAllEventInfosInManagedObjectContext:managedObjectContext];
-        [PlaceInfo deleteAllPlaceInfosInManagedObjectContext:managedObjectContext];
+        [DataManager deleteAllEventsInManagedObjectContext:managedObjectContext];
+        [DataManager deleteAllEventsInfosInManagedObjectContext:managedObjectContext];
+        [DataManager deleteAllPlacesInfosInManagedObjectContext:managedObjectContext];
         [self.delegate performSelector:@selector(settingsViewControllerDidEraseDadabase:) withObject:self];
     }
     

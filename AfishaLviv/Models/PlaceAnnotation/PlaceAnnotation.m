@@ -1,3 +1,9 @@
+//
+//  PlaceAnnotation.m
+//  AfishaLviv
+//
+//  Created by Danylo Kostyshyn on 29.03.12.
+
 #import "PlaceAnnotation.h"
 
 @implementation PlaceAnnotation 

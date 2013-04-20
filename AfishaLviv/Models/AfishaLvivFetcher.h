@@ -2,13 +2,11 @@
 //  AfishaLvivFetcher.h
 //  AfishaLviv
 //
-//  Created by Mac on 20.03.12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
-//
+//  Created by Danylo Kostyshyn on 20.03.12.
 
 #import <Foundation/Foundation.h>
 
-#import "Place+AfishaLviv.h"
+#import "DataManager.h"
 
 #define AFISHALVIV_EVENT_DATE @"date"
 #define AFISHALVIV_EVENT_DESCRIPTION @"desc"

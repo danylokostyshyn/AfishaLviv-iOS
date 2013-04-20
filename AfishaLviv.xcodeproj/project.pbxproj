@@ -53,13 +53,9 @@
 		7F3667471722B82F00E7BCF4 /* AfishaLvivFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F3667411722B82F00E7BCF4 /* AfishaLvivFetcher.m */; };
 		7F3667491722B82F00E7BCF4 /* PlaceAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F3667461722B82F00E7BCF4 /* PlaceAnnotation.m */; };
 		7F36675A1722B84500E7BCF4 /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F36674B1722B84500E7BCF4 /* Event.m */; };
-		7F36675B1722B84500E7BCF4 /* Event+AfishaLviv.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F36674D1722B84500E7BCF4 /* Event+AfishaLviv.m */; };
 		7F36675C1722B84500E7BCF4 /* EventInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F36674F1722B84500E7BCF4 /* EventInfo.m */; };
-		7F36675D1722B84500E7BCF4 /* EventInfo+AfishaLviv.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F3667511722B84500E7BCF4 /* EventInfo+AfishaLviv.m */; };
 		7F36675E1722B84500E7BCF4 /* Place.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F3667531722B84500E7BCF4 /* Place.m */; };
-		7F36675F1722B84500E7BCF4 /* Place+AfishaLviv.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F3667551722B84500E7BCF4 /* Place+AfishaLviv.m */; };
 		7F3667601722B84500E7BCF4 /* PlaceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F3667571722B84500E7BCF4 /* PlaceInfo.m */; };
-		7F3667611722B84500E7BCF4 /* PlaceInfo+AfishaLviv.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F3667591722B84500E7BCF4 /* PlaceInfo+AfishaLviv.m */; };
 		7F36677C1722B85700E7BCF4 /* DKImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F3667651722B85700E7BCF4 /* DKImageView.m */; };
 		7F36677D1722B85700E7BCF4 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F3667681722B85700E7BCF4 /* MBProgressHUD.m */; };
 		7F36677E1722B85700E7BCF4 /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F36676B1722B85700E7BCF4 /* SDImageCache.m */; };
@@ -72,6 +68,7 @@
 		7F36678C1722B89400E7BCF4 /* PlaceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F36678B1722B89400E7BCF4 /* PlaceCell.m */; };
 		7F36678F1722B8CD00E7BCF4 /* AfishaLviv.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7F36678D1722B8CD00E7BCF4 /* AfishaLviv.xcdatamodeld */; };
 		7F3667911722B9BD00E7BCF4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F3667901722B9BD00E7BCF4 /* Default-568h@2x.png */; };
+		7F8D9BC11722BD9C00EE5D7C /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8D9BC01722BD9C00EE5D7C /* DataManager.m */; };
 		7FAABC0415251C1C00C9987A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FAABC0315251C1C00C9987A /* MapKit.framework */; };
 		7FC0E5D3152F66270077253F /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FC0E5D2152F66270077253F /* Twitter.framework */; };
 		7FC0E5D6152F6AB00077253F /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FC0E5D5152F6AB00077253F /* EventKit.framework */; };
@@ -146,20 +143,12 @@
 		7F3667461722B82F00E7BCF4 /* PlaceAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceAnnotation.m; sourceTree = "<group>"; };
 		7F36674A1722B84500E7BCF4 /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Event.h; path = CoreDate/Event.h; sourceTree = "<group>"; };
 		7F36674B1722B84500E7BCF4 /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Event.m; path = CoreDate/Event.m; sourceTree = "<group>"; };
-		7F36674C1722B84500E7BCF4 /* Event+AfishaLviv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Event+AfishaLviv.h"; path = "CoreDate/Event+AfishaLviv.h"; sourceTree = "<group>"; };
-		7F36674D1722B84500E7BCF4 /* Event+AfishaLviv.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Event+AfishaLviv.m"; path = "CoreDate/Event+AfishaLviv.m"; sourceTree = "<group>"; };
 		7F36674E1722B84500E7BCF4 /* EventInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EventInfo.h; path = CoreDate/EventInfo.h; sourceTree = "<group>"; };
 		7F36674F1722B84500E7BCF4 /* EventInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EventInfo.m; path = CoreDate/EventInfo.m; sourceTree = "<group>"; };
-		7F3667501722B84500E7BCF4 /* EventInfo+AfishaLviv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "EventInfo+AfishaLviv.h"; path = "CoreDate/EventInfo+AfishaLviv.h"; sourceTree = "<group>"; };
-		7F3667511722B84500E7BCF4 /* EventInfo+AfishaLviv.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "EventInfo+AfishaLviv.m"; path = "CoreDate/EventInfo+AfishaLviv.m"; sourceTree = "<group>"; };
 		7F3667521722B84500E7BCF4 /* Place.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Place.h; path = CoreDate/Place.h; sourceTree = "<group>"; };
 		7F3667531722B84500E7BCF4 /* Place.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Place.m; path = CoreDate/Place.m; sourceTree = "<group>"; };
-		7F3667541722B84500E7BCF4 /* Place+AfishaLviv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Place+AfishaLviv.h"; path = "CoreDate/Place+AfishaLviv.h"; sourceTree = "<group>"; };
-		7F3667551722B84500E7BCF4 /* Place+AfishaLviv.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Place+AfishaLviv.m"; path = "CoreDate/Place+AfishaLviv.m"; sourceTree = "<group>"; };
 		7F3667561722B84500E7BCF4 /* PlaceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlaceInfo.h; path = CoreDate/PlaceInfo.h; sourceTree = "<group>"; };
 		7F3667571722B84500E7BCF4 /* PlaceInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlaceInfo.m; path = CoreDate/PlaceInfo.m; sourceTree = "<group>"; };
-		7F3667581722B84500E7BCF4 /* PlaceInfo+AfishaLviv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "PlaceInfo+AfishaLviv.h"; path = "CoreDate/PlaceInfo+AfishaLviv.h"; sourceTree = "<group>"; };
-		7F3667591722B84500E7BCF4 /* PlaceInfo+AfishaLviv.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "PlaceInfo+AfishaLviv.m"; path = "CoreDate/PlaceInfo+AfishaLviv.m"; sourceTree = "<group>"; };
 		7F3667641722B85600E7BCF4 /* DKImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKImageView.h; sourceTree = "<group>"; };
 		7F3667651722B85700E7BCF4 /* DKImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKImageView.m; sourceTree = "<group>"; };
 		7F3667671722B85700E7BCF4 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
@@ -186,6 +175,8 @@
 		7F36678B1722B89400E7BCF4 /* PlaceCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceCell.m; sourceTree = "<group>"; };
 		7F36678E1722B8CD00E7BCF4 /* AfishaLviv.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AfishaLviv.xcdatamodel; sourceTree = "<group>"; };
 		7F3667901722B9BD00E7BCF4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		7F8D9BBF1722BD9C00EE5D7C /* DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DataManager.h; path = Models/DataManager.h; sourceTree = "<group>"; };
+		7F8D9BC01722BD9C00EE5D7C /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DataManager.m; path = Models/DataManager.m; sourceTree = "<group>"; };
 		7FAABC0315251C1C00C9987A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		7FC0E5D2152F66270077253F /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
 		7FC0E5D5152F6AB00077253F /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
@@ -443,7 +434,6 @@
 				7FD5DD911517EEC400E919FA /* Models */,
 				7F3667851722B87A00E7BCF4 /* Views */,
 				7F1E60EE151E3BE600354A2F /* Controlles */,
-				7FD5DD8C1517EE9000E919FA /* CoreDate */,
 				7FBC6523151B8057002A87CE /* Resources */,
 				7FD5DD711517EE5200E919FA /* Supporting Files */,
 			);
@@ -464,23 +454,17 @@
 		7FD5DD8C1517EE9000E919FA /* CoreDate */ = {
 			isa = PBXGroup;
 			children = (
+				7F8D9BBF1722BD9C00EE5D7C /* DataManager.h */,
+				7F8D9BC01722BD9C00EE5D7C /* DataManager.m */,
 				7F36678D1722B8CD00E7BCF4 /* AfishaLviv.xcdatamodeld */,
 				7F36674A1722B84500E7BCF4 /* Event.h */,
 				7F36674B1722B84500E7BCF4 /* Event.m */,
-				7F36674C1722B84500E7BCF4 /* Event+AfishaLviv.h */,
-				7F36674D1722B84500E7BCF4 /* Event+AfishaLviv.m */,
 				7F36674E1722B84500E7BCF4 /* EventInfo.h */,
 				7F36674F1722B84500E7BCF4 /* EventInfo.m */,
-				7F3667501722B84500E7BCF4 /* EventInfo+AfishaLviv.h */,
-				7F3667511722B84500E7BCF4 /* EventInfo+AfishaLviv.m */,
 				7F3667521722B84500E7BCF4 /* Place.h */,
 				7F3667531722B84500E7BCF4 /* Place.m */,
-				7F3667541722B84500E7BCF4 /* Place+AfishaLviv.h */,
-				7F3667551722B84500E7BCF4 /* Place+AfishaLviv.m */,
 				7F3667561722B84500E7BCF4 /* PlaceInfo.h */,
 				7F3667571722B84500E7BCF4 /* PlaceInfo.m */,
-				7F3667581722B84500E7BCF4 /* PlaceInfo+AfishaLviv.h */,
-				7F3667591722B84500E7BCF4 /* PlaceInfo+AfishaLviv.m */,
 			);
 			name = CoreDate;
 			sourceTree = "<group>";
@@ -490,6 +474,7 @@
 			children = (
 				7F3667401722B82F00E7BCF4 /* AfishaLvivFetcher.h */,
 				7F3667411722B82F00E7BCF4 /* AfishaLvivFetcher.m */,
+				7FD5DD8C1517EE9000E919FA /* CoreDate */,
 				7F3667441722B82F00E7BCF4 /* PlaceAnnotation */,
 			);
 			name = Models;
@@ -607,13 +592,9 @@
 				7F3667471722B82F00E7BCF4 /* AfishaLvivFetcher.m in Sources */,
 				7F3667491722B82F00E7BCF4 /* PlaceAnnotation.m in Sources */,
 				7F36675A1722B84500E7BCF4 /* Event.m in Sources */,
-				7F36675B1722B84500E7BCF4 /* Event+AfishaLviv.m in Sources */,
 				7F36675C1722B84500E7BCF4 /* EventInfo.m in Sources */,
-				7F36675D1722B84500E7BCF4 /* EventInfo+AfishaLviv.m in Sources */,
 				7F36675E1722B84500E7BCF4 /* Place.m in Sources */,
-				7F36675F1722B84500E7BCF4 /* Place+AfishaLviv.m in Sources */,
 				7F3667601722B84500E7BCF4 /* PlaceInfo.m in Sources */,
-				7F3667611722B84500E7BCF4 /* PlaceInfo+AfishaLviv.m in Sources */,
 				7F36677C1722B85700E7BCF4 /* DKImageView.m in Sources */,
 				7F36677D1722B85700E7BCF4 /* MBProgressHUD.m in Sources */,
 				7F36677E1722B85700E7BCF4 /* SDImageCache.m in Sources */,
@@ -625,6 +606,7 @@
 				7F3667841722B85700E7BCF4 /* UIImageView+WebCache.m in Sources */,
 				7F36678C1722B89400E7BCF4 /* PlaceCell.m in Sources */,
 				7F36678F1722B8CD00E7BCF4 /* AfishaLviv.xcdatamodeld in Sources */,
+				7F8D9BC11722BD9C00EE5D7C /* DataManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
