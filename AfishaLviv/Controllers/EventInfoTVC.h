@@ -11,7 +11,8 @@
 //models
 #import "Event.h"
 
-@interface EventInfoTVC : UIViewController <UITableViewDelegate, UITableViewDataSource, UIWebViewDelegate, UIActionSheetDelegate, EKEventEditViewDelegate>
+@interface EventInfoTVC : UIViewController <UITableViewDelegate, UITableViewDataSource,
+    UIWebViewDelegate, UIActionSheetDelegate, EKEventEditViewDelegate>
 
 - (id)initWithEvent:(Event *)event;
 

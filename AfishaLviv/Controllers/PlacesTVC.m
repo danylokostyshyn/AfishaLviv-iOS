@@ -6,18 +6,18 @@
 
 #import "PlacesTVC.h"
 
+//models
 #import "AfishaLvivFetcher.h"
-
+#import "DataManager.h"
+#import "Place.h"
 #import "AppDelegate.h"
 
+//views
 #import "PlaceCell.h"
-#import "PlaceInfoVC.h"
-
 #import "MBProgressHUD.h"
 
-//models
-#import "Place.h"
-#import "DataManager.h"
+//controllers
+#import "PlaceInfoVC.h"
 
 @interface PlacesTVC ()
 

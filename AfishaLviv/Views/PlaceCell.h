@@ -6,6 +6,7 @@
 
 #import <UIKit/UIKit.h>
 
+//views
 #import "DKImageView.h"
 
 @interface PlaceCell : UITableViewCell

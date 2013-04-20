@@ -8,13 +8,15 @@
 
 #import <QuartzCore/QuartzCore.h>
 
+//models
 #import "AfishaLvivFetcher.h"
 #import "Event.h"
 
+//views
 #import "UIImageView+WebCache.h"
-
 #import "MBProgressHUD.h"
 
+//controllers
 #import "EventInfoTVC.h"
 
 @interface EventsViewController ()

@@ -8,21 +8,19 @@
 #import <Twitter/Twitter.h>
 #import <EventKit/EventKit.h>
 
-#import "EventInfoTVC.h"
-
+//models
 #import "AfishaLvivFetcher.h"
-
+#import "Event.h"
+#import "EventInfo.h"
 #import "AppDelegate.h"
 
-#import "PlaceInfoVC.h"
-
+//views
 #import "DKImageView.h"
 #import "MBProgressHUD.h"
 
-
-//models
-#import "Event.h"
-#import "EventInfo.h"
+//controllers
+#import "EventInfoTVC.h"
+#import "PlaceInfoVC.h"
 
 @interface EventInfoTVC ()
 

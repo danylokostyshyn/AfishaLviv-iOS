@@ -6,11 +6,10 @@
 
 #import "AppDelegate.h"
 
+//controllers
 #import "EventsMenuViewController.h"
-
 #import "PlacesMenuTVC.h"
 #import "SettingsVC.h"
-
 #import "EventsTVC.h"
 
 @interface AppDelegate()

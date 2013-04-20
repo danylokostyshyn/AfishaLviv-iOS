@@ -6,10 +6,9 @@
 
 #import "SettingsVC.h"
 
-#import "AppDelegate.h"
-
 //models
 #import "DataManager.h"
+#import "AppDelegate.h"
 
 @interface SettingsVC ()
 

@@ -8,17 +8,16 @@
 
 #import <QuartzCore/QuartzCore.h>
 
-#import "AppDelegate.h"
-
-#import "DKImageView.h"
-#import "MBProgressHUD.h"
-
-#import "PlaceAnnotation.h"
-
 //models
 #import "DataManager.h"
 #import "Place.h"
 #import "PlaceInfo.h"
+#import "PlaceAnnotation.h"
+#import "AppDelegate.h"
+
+//views
+#import "DKImageView.h"
+#import "MBProgressHUD.h"
 
 @interface PlaceInfoVC ()
 

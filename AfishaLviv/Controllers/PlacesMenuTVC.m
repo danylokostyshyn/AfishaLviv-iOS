@@ -6,12 +6,12 @@
 
 #import "PlacesMenuTVC.h"
 
-#import "AfishaLvivFetcher.h"
-
-#import "PlacesTVC.h"
-
 //models
+#import "AfishaLvivFetcher.h"
 #import "DataManager.h"
+
+//controllers
+#import "PlacesTVC.h"
 
 @interface PlacesMenuTVC ()
 

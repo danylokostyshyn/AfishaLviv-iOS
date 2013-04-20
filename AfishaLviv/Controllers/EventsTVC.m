@@ -6,20 +6,18 @@
 
 #import <QuartzCore/QuartzCore.h>
 
-#import "EventsTVC.h"
-
+//models
+#import "AfishaLvivFetcher.h"
+#import "DataManager.h"
 #import "AppDelegate.h"
 
-#import "AfishaLvivFetcher.h"
-
+//views
 #import "UIImageView+WebCache.h"
-
 #import "MBProgressHUD.h"
 
+//controllers
+#import "EventsTVC.h"
 #import "EventInfoTVC.h"
-
-//models
-#import "DataManager.h"
 
 @interface EventsTVC ()
 

@@ -6,6 +6,7 @@
 
 #import <Foundation/Foundation.h>
 
+//models
 #import "DataManager.h"
 
 #define AFISHALVIV_EVENT_DATE @"date"
