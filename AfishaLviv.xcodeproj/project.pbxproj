@@ -182,8 +182,8 @@
 		7F3667791722B85700E7BCF4 /* UIButton+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WebCache.m"; sourceTree = "<group>"; };
 		7F36677A1722B85700E7BCF4 /* UIImageView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+WebCache.h"; sourceTree = "<group>"; };
 		7F36677B1722B85700E7BCF4 /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
-		7F36678A1722B89400E7BCF4 /* PlaceCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlaceCell.h; path = Views/PlaceCell.h; sourceTree = "<group>"; };
-		7F36678B1722B89400E7BCF4 /* PlaceCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlaceCell.m; path = Views/PlaceCell.m; sourceTree = "<group>"; };
+		7F36678A1722B89400E7BCF4 /* PlaceCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaceCell.h; sourceTree = "<group>"; };
+		7F36678B1722B89400E7BCF4 /* PlaceCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceCell.m; sourceTree = "<group>"; };
 		7F36678E1722B8CD00E7BCF4 /* AfishaLviv.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AfishaLviv.xcdatamodel; sourceTree = "<group>"; };
 		7F3667901722B9BD00E7BCF4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		7FAABC0315251C1C00C9987A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
@@ -385,6 +385,8 @@
 		7F3667851722B87A00E7BCF4 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				7F36678A1722B89400E7BCF4 /* PlaceCell.h */,
+				7F36678B1722B89400E7BCF4 /* PlaceCell.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -440,8 +442,6 @@
 				7FD5DD7A1517EE5200E919FA /* AppDelegate.m */,
 				7FD5DD911517EEC400E919FA /* Models */,
 				7F3667851722B87A00E7BCF4 /* Views */,
-				7F36678A1722B89400E7BCF4 /* PlaceCell.h */,
-				7F36678B1722B89400E7BCF4 /* PlaceCell.m */,
 				7F1E60EE151E3BE600354A2F /* Controlles */,
 				7FD5DD8C1517EE9000E919FA /* CoreDate */,
 				7FBC6523151B8057002A87CE /* Resources */,
