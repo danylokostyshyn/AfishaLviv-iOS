@@ -1,770 +1,2429 @@
-// !$*UTF8*$!
-{
-	archiveVersion = 1;
-	classes = {
-	};
-	objectVersion = 46;
-	objects = {
-
-/* Begin PBXBuildFile section */
-		7F3666FD1722B6AB00E7BCF4 /* calendar-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F3666DD1722B6AB00E7BCF4 /* calendar-icon.png */; };
-		7F3666FE1722B6AB00E7BCF4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F3666DF1722B6AB00E7BCF4 /* Default.png */; };
-		7F3666FF1722B6AB00E7BCF4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F3666E01722B6AB00E7BCF4 /* Default@2x.png */; };
-		7F3667001722B6AB00E7BCF4 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F3666E11722B6AB00E7BCF4 /* Icon.png */; };
-		7F3667011722B6AB00E7BCF4 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F3666E21722B6AB00E7BCF4 /* Icon@2x.png */; };
-		7F3667021722B6AB00E7BCF4 /* 103-map.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F3666E41722B6AB00E7BCF4 /* 103-map.png */; };
-		7F3667031722B6AB00E7BCF4 /* 114-balloon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F3666E51722B6AB00E7BCF4 /* 114-balloon.png */; };
-		7F3667041722B6AB00E7BCF4 /* 121-landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F3666E61722B6AB00E7BCF4 /* 121-landscape.png */; };
-		7F3667051722B6AB00E7BCF4 /* 124-bullhorn.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F3666E71722B6AB00E7BCF4 /* 124-bullhorn.png */; };
-		7F3667061722B6AB00E7BCF4 /* 137-presentation.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F3666E81722B6AB00E7BCF4 /* 137-presentation.png */; };
-		7F3667071722B6AB00E7BCF4 /* 144-martini.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F3666E91722B6AB00E7BCF4 /* 144-martini.png */; };
-		7F3667081722B6AB00E7BCF4 /* 153-guitar.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F3666EA1722B6AB00E7BCF4 /* 153-guitar.png */; };
-		7F3667091722B6AB00E7BCF4 /* 190-bank.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F3666EB1722B6AB00E7BCF4 /* 190-bank.png */; };
-		7F36670A1722B6AB00E7BCF4 /* 191-collection.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F3666EC1722B6AB00E7BCF4 /* 191-collection.png */; };
-		7F36670B1722B6AB00E7BCF4 /* 20-gear2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F3666ED1722B6AB00E7BCF4 /* 20-gear2.png */; };
-		7F36670C1722B6AB00E7BCF4 /* 24-gift.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F3666EE1722B6AB00E7BCF4 /* 24-gift.png */; };
-		7F36670D1722B6AB00E7BCF4 /* 28-star.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F3666EF1722B6AB00E7BCF4 /* 28-star.png */; };
-		7F36670E1722B6AB00E7BCF4 /* 34-coffee.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F3666F01722B6AB00E7BCF4 /* 34-coffee.png */; };
-		7F36670F1722B6AB00E7BCF4 /* 41-picture-frame.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F3666F11722B6AB00E7BCF4 /* 41-picture-frame.png */; };
-		7F3667101722B6AB00E7BCF4 /* 43-film-roll.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F3666F21722B6AB00E7BCF4 /* 43-film-roll.png */; };
-		7F3667111722B6AB00E7BCF4 /* 45-movie-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F3666F31722B6AB00E7BCF4 /* 45-movie-1.png */; };
-		7F3667121722B6AB00E7BCF4 /* 66-microphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F3666F41722B6AB00E7BCF4 /* 66-microphone.png */; };
-		7F3667131722B6AB00E7BCF4 /* 70-tv.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F3666F51722B6AB00E7BCF4 /* 70-tv.png */; };
-		7F3667141722B6AB00E7BCF4 /* 83-calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F3666F61722B6AB00E7BCF4 /* 83-calendar.png */; };
-		7F3667151722B6AB00E7BCF4 /* 85-trophy.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F3666F71722B6AB00E7BCF4 /* 85-trophy.png */; };
-		7F3667161722B6AB00E7BCF4 /* 86-camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F3666F81722B6AB00E7BCF4 /* 86-camera.png */; };
-		7F3667171722B6AB00E7BCF4 /* 88-beer-mug.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F3666F91722B6AB00E7BCF4 /* 88-beer-mug.png */; };
-		7F3667181722B6AB00E7BCF4 /* 98-palette.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F3666FA1722B6AB00E7BCF4 /* 98-palette.png */; };
-		7F3667191722B6AB00E7BCF4 /* question-mark-big.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F3666FB1722B6AB00E7BCF4 /* question-mark-big.png */; };
-		7F36671A1722B6AB00E7BCF4 /* question-mark-small.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F3666FC1722B6AB00E7BCF4 /* question-mark-small.png */; };
-		7F36671D1722B6C200E7BCF4 /* EventCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F36671C1722B6C200E7BCF4 /* EventCell.xib */; };
-		7F3667201722B6F100E7BCF4 /* EventsMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F36671E1722B6F100E7BCF4 /* EventsMenuViewController.xib */; };
-		7F3667211722B6F100E7BCF4 /* EventsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F36671F1722B6F100E7BCF4 /* EventsViewController.xib */; };
-		7F3667361722B80700E7BCF4 /* DatePickerRollerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F3667231722B80600E7BCF4 /* DatePickerRollerVC.m */; };
-		7F3667371722B80700E7BCF4 /* DatePickerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F3667251722B80600E7BCF4 /* DatePickerVC.m */; };
-		7F3667381722B80700E7BCF4 /* EventInfoTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F3667271722B80600E7BCF4 /* EventInfoTVC.m */; };
-		7F3667391722B80700E7BCF4 /* EventsMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F3667291722B80600E7BCF4 /* EventsMenuViewController.m */; };
-		7F36673A1722B80700E7BCF4 /* EventsTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F36672B1722B80600E7BCF4 /* EventsTVC.m */; };
-		7F36673B1722B80700E7BCF4 /* EventsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F36672D1722B80600E7BCF4 /* EventsViewController.m */; };
-		7F36673C1722B80700E7BCF4 /* PlaceInfoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F36672F1722B80600E7BCF4 /* PlaceInfoVC.m */; };
-		7F36673D1722B80700E7BCF4 /* PlacesMenuTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F3667311722B80600E7BCF4 /* PlacesMenuTVC.m */; };
-		7F36673E1722B80700E7BCF4 /* PlacesTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F3667331722B80600E7BCF4 /* PlacesTVC.m */; };
-		7F36673F1722B80700E7BCF4 /* SettingsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F3667351722B80600E7BCF4 /* SettingsVC.m */; };
-		7F3667471722B82F00E7BCF4 /* AfishaLvivFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F3667411722B82F00E7BCF4 /* AfishaLvivFetcher.m */; };
-		7F3667491722B82F00E7BCF4 /* PlaceAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F3667461722B82F00E7BCF4 /* PlaceAnnotation.m */; };
-		7F36675A1722B84500E7BCF4 /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F36674B1722B84500E7BCF4 /* Event.m */; };
-		7F36675C1722B84500E7BCF4 /* EventInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F36674F1722B84500E7BCF4 /* EventInfo.m */; };
-		7F36675E1722B84500E7BCF4 /* Place.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F3667531722B84500E7BCF4 /* Place.m */; };
-		7F3667601722B84500E7BCF4 /* PlaceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F3667571722B84500E7BCF4 /* PlaceInfo.m */; };
-		7F36677C1722B85700E7BCF4 /* DKImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F3667651722B85700E7BCF4 /* DKImageView.m */; };
-		7F36677D1722B85700E7BCF4 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F3667681722B85700E7BCF4 /* MBProgressHUD.m */; };
-		7F36677E1722B85700E7BCF4 /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F36676B1722B85700E7BCF4 /* SDImageCache.m */; };
-		7F36677F1722B85700E7BCF4 /* SDWebImageDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F36676F1722B85700E7BCF4 /* SDWebImageDecoder.m */; };
-		7F3667801722B85700E7BCF4 /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F3667711722B85700E7BCF4 /* SDWebImageDownloader.m */; };
-		7F3667811722B85700E7BCF4 /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F3667741722B85700E7BCF4 /* SDWebImageManager.m */; };
-		7F3667821722B85700E7BCF4 /* SDWebImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F3667771722B85700E7BCF4 /* SDWebImagePrefetcher.m */; };
-		7F3667831722B85700E7BCF4 /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F3667791722B85700E7BCF4 /* UIButton+WebCache.m */; };
-		7F3667841722B85700E7BCF4 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F36677B1722B85700E7BCF4 /* UIImageView+WebCache.m */; };
-		7F36678C1722B89400E7BCF4 /* PlaceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F36678B1722B89400E7BCF4 /* PlaceCell.m */; };
-		7F36678F1722B8CD00E7BCF4 /* AfishaLviv.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7F36678D1722B8CD00E7BCF4 /* AfishaLviv.xcdatamodeld */; };
-		7F3667911722B9BD00E7BCF4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F3667901722B9BD00E7BCF4 /* Default-568h@2x.png */; };
-		7F8D9BC11722BD9C00EE5D7C /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8D9BC01722BD9C00EE5D7C /* DataManager.m */; };
-		7FAABC0415251C1C00C9987A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FAABC0315251C1C00C9987A /* MapKit.framework */; };
-		7FC0E5D3152F66270077253F /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FC0E5D2152F66270077253F /* Twitter.framework */; };
-		7FC0E5D6152F6AB00077253F /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FC0E5D5152F6AB00077253F /* EventKit.framework */; };
-		7FC0E5E0152F6D1F0077253F /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FC0E5DF152F6D1F0077253F /* EventKitUI.framework */; };
-		7FD4FE95158E17F9009C85BB /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FD4FE94158E17F9009C85BB /* ImageIO.framework */; };
-		7FD5DD691517EE5200E919FA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FD5DD681517EE5200E919FA /* UIKit.framework */; };
-		7FD5DD6B1517EE5200E919FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FD5DD6A1517EE5200E919FA /* Foundation.framework */; };
-		7FD5DD6D1517EE5200E919FA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FD5DD6C1517EE5200E919FA /* CoreGraphics.framework */; };
-		7FD5DD6F1517EE5200E919FA /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FD5DD6E1517EE5200E919FA /* CoreData.framework */; };
-		7FD5DD771517EE5200E919FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD5DD761517EE5200E919FA /* main.m */; };
-		7FD5DD7B1517EE5200E919FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD5DD7A1517EE5200E919FA /* AppDelegate.m */; };
-		7FF85BD7153E3BE5001EA4D5 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7FF85BD5153E3BE5001EA4D5 /* Localizable.strings */; };
-/* End PBXBuildFile section */
-
-/* Begin PBXFileReference section */
-		7F3666DD1722B6AB00E7BCF4 /* calendar-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "calendar-icon.png"; sourceTree = "<group>"; };
-		7F3666DF1722B6AB00E7BCF4 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		7F3666E01722B6AB00E7BCF4 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		7F3666E11722B6AB00E7BCF4 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
-		7F3666E21722B6AB00E7BCF4 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
-		7F3666E41722B6AB00E7BCF4 /* 103-map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "103-map.png"; sourceTree = "<group>"; };
-		7F3666E51722B6AB00E7BCF4 /* 114-balloon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "114-balloon.png"; sourceTree = "<group>"; };
-		7F3666E61722B6AB00E7BCF4 /* 121-landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "121-landscape.png"; sourceTree = "<group>"; };
-		7F3666E71722B6AB00E7BCF4 /* 124-bullhorn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "124-bullhorn.png"; sourceTree = "<group>"; };
-		7F3666E81722B6AB00E7BCF4 /* 137-presentation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "137-presentation.png"; sourceTree = "<group>"; };
-		7F3666E91722B6AB00E7BCF4 /* 144-martini.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "144-martini.png"; sourceTree = "<group>"; };
-		7F3666EA1722B6AB00E7BCF4 /* 153-guitar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "153-guitar.png"; sourceTree = "<group>"; };
-		7F3666EB1722B6AB00E7BCF4 /* 190-bank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "190-bank.png"; sourceTree = "<group>"; };
-		7F3666EC1722B6AB00E7BCF4 /* 191-collection.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "191-collection.png"; sourceTree = "<group>"; };
-		7F3666ED1722B6AB00E7BCF4 /* 20-gear2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "20-gear2.png"; sourceTree = "<group>"; };
-		7F3666EE1722B6AB00E7BCF4 /* 24-gift.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "24-gift.png"; sourceTree = "<group>"; };
-		7F3666EF1722B6AB00E7BCF4 /* 28-star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "28-star.png"; sourceTree = "<group>"; };
-		7F3666F01722B6AB00E7BCF4 /* 34-coffee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "34-coffee.png"; sourceTree = "<group>"; };
-		7F3666F11722B6AB00E7BCF4 /* 41-picture-frame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "41-picture-frame.png"; sourceTree = "<group>"; };
-		7F3666F21722B6AB00E7BCF4 /* 43-film-roll.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "43-film-roll.png"; sourceTree = "<group>"; };
-		7F3666F31722B6AB00E7BCF4 /* 45-movie-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "45-movie-1.png"; sourceTree = "<group>"; };
-		7F3666F41722B6AB00E7BCF4 /* 66-microphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "66-microphone.png"; sourceTree = "<group>"; };
-		7F3666F51722B6AB00E7BCF4 /* 70-tv.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "70-tv.png"; sourceTree = "<group>"; };
-		7F3666F61722B6AB00E7BCF4 /* 83-calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "83-calendar.png"; sourceTree = "<group>"; };
-		7F3666F71722B6AB00E7BCF4 /* 85-trophy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "85-trophy.png"; sourceTree = "<group>"; };
-		7F3666F81722B6AB00E7BCF4 /* 86-camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "86-camera.png"; sourceTree = "<group>"; };
-		7F3666F91722B6AB00E7BCF4 /* 88-beer-mug.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "88-beer-mug.png"; sourceTree = "<group>"; };
-		7F3666FA1722B6AB00E7BCF4 /* 98-palette.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "98-palette.png"; sourceTree = "<group>"; };
-		7F3666FB1722B6AB00E7BCF4 /* question-mark-big.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "question-mark-big.png"; sourceTree = "<group>"; };
-		7F3666FC1722B6AB00E7BCF4 /* question-mark-small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "question-mark-small.png"; sourceTree = "<group>"; };
-		7F36671C1722B6C200E7BCF4 /* EventCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EventCell.xib; sourceTree = "<group>"; };
-		7F36671E1722B6F100E7BCF4 /* EventsMenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EventsMenuViewController.xib; sourceTree = "<group>"; };
-		7F36671F1722B6F100E7BCF4 /* EventsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EventsViewController.xib; sourceTree = "<group>"; };
-		7F3667221722B80600E7BCF4 /* DatePickerRollerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DatePickerRollerVC.h; path = Controllers/DatePickerRollerVC.h; sourceTree = "<group>"; };
-		7F3667231722B80600E7BCF4 /* DatePickerRollerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DatePickerRollerVC.m; path = Controllers/DatePickerRollerVC.m; sourceTree = "<group>"; };
-		7F3667241722B80600E7BCF4 /* DatePickerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DatePickerVC.h; path = Controllers/DatePickerVC.h; sourceTree = "<group>"; };
-		7F3667251722B80600E7BCF4 /* DatePickerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DatePickerVC.m; path = Controllers/DatePickerVC.m; sourceTree = "<group>"; };
-		7F3667261722B80600E7BCF4 /* EventInfoTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EventInfoTVC.h; path = Controllers/EventInfoTVC.h; sourceTree = "<group>"; };
-		7F3667271722B80600E7BCF4 /* EventInfoTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EventInfoTVC.m; path = Controllers/EventInfoTVC.m; sourceTree = "<group>"; };
-		7F3667281722B80600E7BCF4 /* EventsMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EventsMenuViewController.h; path = Controllers/EventsMenuViewController.h; sourceTree = "<group>"; };
-		7F3667291722B80600E7BCF4 /* EventsMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EventsMenuViewController.m; path = Controllers/EventsMenuViewController.m; sourceTree = "<group>"; };
-		7F36672A1722B80600E7BCF4 /* EventsTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EventsTVC.h; path = Controllers/EventsTVC.h; sourceTree = "<group>"; };
-		7F36672B1722B80600E7BCF4 /* EventsTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EventsTVC.m; path = Controllers/EventsTVC.m; sourceTree = "<group>"; };
-		7F36672C1722B80600E7BCF4 /* EventsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EventsViewController.h; path = Controllers/EventsViewController.h; sourceTree = "<group>"; };
-		7F36672D1722B80600E7BCF4 /* EventsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EventsViewController.m; path = Controllers/EventsViewController.m; sourceTree = "<group>"; };
-		7F36672E1722B80600E7BCF4 /* PlaceInfoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlaceInfoVC.h; path = Controllers/PlaceInfoVC.h; sourceTree = "<group>"; };
-		7F36672F1722B80600E7BCF4 /* PlaceInfoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlaceInfoVC.m; path = Controllers/PlaceInfoVC.m; sourceTree = "<group>"; };
-		7F3667301722B80600E7BCF4 /* PlacesMenuTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlacesMenuTVC.h; path = Controllers/PlacesMenuTVC.h; sourceTree = "<group>"; };
-		7F3667311722B80600E7BCF4 /* PlacesMenuTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlacesMenuTVC.m; path = Controllers/PlacesMenuTVC.m; sourceTree = "<group>"; };
-		7F3667321722B80600E7BCF4 /* PlacesTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlacesTVC.h; path = Controllers/PlacesTVC.h; sourceTree = "<group>"; };
-		7F3667331722B80600E7BCF4 /* PlacesTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlacesTVC.m; path = Controllers/PlacesTVC.m; sourceTree = "<group>"; };
-		7F3667341722B80600E7BCF4 /* SettingsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SettingsVC.h; path = Controllers/SettingsVC.h; sourceTree = "<group>"; };
-		7F3667351722B80600E7BCF4 /* SettingsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SettingsVC.m; path = Controllers/SettingsVC.m; sourceTree = "<group>"; };
-		7F3667401722B82F00E7BCF4 /* AfishaLvivFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AfishaLvivFetcher.h; path = Models/AfishaLvivFetcher.h; sourceTree = "<group>"; };
-		7F3667411722B82F00E7BCF4 /* AfishaLvivFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AfishaLvivFetcher.m; path = Models/AfishaLvivFetcher.m; sourceTree = "<group>"; };
-		7F3667451722B82F00E7BCF4 /* PlaceAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaceAnnotation.h; sourceTree = "<group>"; };
-		7F3667461722B82F00E7BCF4 /* PlaceAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceAnnotation.m; sourceTree = "<group>"; };
-		7F36674A1722B84500E7BCF4 /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Event.h; path = CoreDate/Event.h; sourceTree = "<group>"; };
-		7F36674B1722B84500E7BCF4 /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Event.m; path = CoreDate/Event.m; sourceTree = "<group>"; };
-		7F36674E1722B84500E7BCF4 /* EventInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EventInfo.h; path = CoreDate/EventInfo.h; sourceTree = "<group>"; };
-		7F36674F1722B84500E7BCF4 /* EventInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EventInfo.m; path = CoreDate/EventInfo.m; sourceTree = "<group>"; };
-		7F3667521722B84500E7BCF4 /* Place.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Place.h; path = CoreDate/Place.h; sourceTree = "<group>"; };
-		7F3667531722B84500E7BCF4 /* Place.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Place.m; path = CoreDate/Place.m; sourceTree = "<group>"; };
-		7F3667561722B84500E7BCF4 /* PlaceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlaceInfo.h; path = CoreDate/PlaceInfo.h; sourceTree = "<group>"; };
-		7F3667571722B84500E7BCF4 /* PlaceInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlaceInfo.m; path = CoreDate/PlaceInfo.m; sourceTree = "<group>"; };
-		7F3667641722B85600E7BCF4 /* DKImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKImageView.h; sourceTree = "<group>"; };
-		7F3667651722B85700E7BCF4 /* DKImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKImageView.m; sourceTree = "<group>"; };
-		7F3667671722B85700E7BCF4 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
-		7F3667681722B85700E7BCF4 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
-		7F36676A1722B85700E7BCF4 /* SDImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDImageCache.h; sourceTree = "<group>"; };
-		7F36676B1722B85700E7BCF4 /* SDImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDImageCache.m; sourceTree = "<group>"; };
-		7F36676C1722B85700E7BCF4 /* SDImageCacheDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDImageCacheDelegate.h; sourceTree = "<group>"; };
-		7F36676D1722B85700E7BCF4 /* SDWebImageCompat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageCompat.h; sourceTree = "<group>"; };
-		7F36676E1722B85700E7BCF4 /* SDWebImageDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDecoder.h; sourceTree = "<group>"; };
-		7F36676F1722B85700E7BCF4 /* SDWebImageDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDecoder.m; sourceTree = "<group>"; };
-		7F3667701722B85700E7BCF4 /* SDWebImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloader.h; sourceTree = "<group>"; };
-		7F3667711722B85700E7BCF4 /* SDWebImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDownloader.m; sourceTree = "<group>"; };
-		7F3667721722B85700E7BCF4 /* SDWebImageDownloaderDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloaderDelegate.h; sourceTree = "<group>"; };
-		7F3667731722B85700E7BCF4 /* SDWebImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageManager.h; sourceTree = "<group>"; };
-		7F3667741722B85700E7BCF4 /* SDWebImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageManager.m; sourceTree = "<group>"; };
-		7F3667751722B85700E7BCF4 /* SDWebImageManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageManagerDelegate.h; sourceTree = "<group>"; };
-		7F3667761722B85700E7BCF4 /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImagePrefetcher.h; sourceTree = "<group>"; };
-		7F3667771722B85700E7BCF4 /* SDWebImagePrefetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImagePrefetcher.m; sourceTree = "<group>"; };
-		7F3667781722B85700E7BCF4 /* UIButton+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+WebCache.h"; sourceTree = "<group>"; };
-		7F3667791722B85700E7BCF4 /* UIButton+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WebCache.m"; sourceTree = "<group>"; };
-		7F36677A1722B85700E7BCF4 /* UIImageView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+WebCache.h"; sourceTree = "<group>"; };
-		7F36677B1722B85700E7BCF4 /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
-		7F36678A1722B89400E7BCF4 /* PlaceCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaceCell.h; sourceTree = "<group>"; };
-		7F36678B1722B89400E7BCF4 /* PlaceCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceCell.m; sourceTree = "<group>"; };
-		7F36678E1722B8CD00E7BCF4 /* AfishaLviv.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AfishaLviv.xcdatamodel; sourceTree = "<group>"; };
-		7F3667901722B9BD00E7BCF4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		7F8D9BBF1722BD9C00EE5D7C /* DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DataManager.h; path = Models/DataManager.h; sourceTree = "<group>"; };
-		7F8D9BC01722BD9C00EE5D7C /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DataManager.m; path = Models/DataManager.m; sourceTree = "<group>"; };
-		7FAABC0315251C1C00C9987A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		7FC0E5D2152F66270077253F /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
-		7FC0E5D5152F6AB00077253F /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
-		7FC0E5DF152F6D1F0077253F /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
-		7FD4FE94158E17F9009C85BB /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
-		7FD5DD641517EE5100E919FA /* AfishaLviv.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AfishaLviv.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7FD5DD681517EE5200E919FA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		7FD5DD6A1517EE5200E919FA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		7FD5DD6C1517EE5200E919FA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		7FD5DD6E1517EE5200E919FA /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		7FD5DD721517EE5200E919FA /* AfishaLviv-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AfishaLviv-Info.plist"; sourceTree = "<group>"; };
-		7FD5DD761517EE5200E919FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		7FD5DD781517EE5200E919FA /* AfishaLviv-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AfishaLviv-Prefix.pch"; sourceTree = "<group>"; };
-		7FD5DD791517EE5200E919FA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		7FD5DD7A1517EE5200E919FA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7FF85BD6153E3BE5001EA4D5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		7FF85BD8153E3BE9001EA4D5 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
-		7FF85BD9153E3BE9001EA4D5 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/Localizable.strings; sourceTree = "<group>"; };
-/* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		7FD5DD611517EE5100E919FA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7FD4FE95158E17F9009C85BB /* ImageIO.framework in Frameworks */,
-				7FC0E5E0152F6D1F0077253F /* EventKitUI.framework in Frameworks */,
-				7FC0E5D6152F6AB00077253F /* EventKit.framework in Frameworks */,
-				7FC0E5D3152F66270077253F /* Twitter.framework in Frameworks */,
-				7FAABC0415251C1C00C9987A /* MapKit.framework in Frameworks */,
-				7FD5DD691517EE5200E919FA /* UIKit.framework in Frameworks */,
-				7FD5DD6B1517EE5200E919FA /* Foundation.framework in Frameworks */,
-				7FD5DD6D1517EE5200E919FA /* CoreGraphics.framework in Frameworks */,
-				7FD5DD6F1517EE5200E919FA /* CoreData.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
-
-/* Begin PBXGroup section */
-		7F1E60EE151E3BE600354A2F /* Controlles */ = {
-			isa = PBXGroup;
-			children = (
-				7F3667221722B80600E7BCF4 /* DatePickerRollerVC.h */,
-				7F3667231722B80600E7BCF4 /* DatePickerRollerVC.m */,
-				7F3667241722B80600E7BCF4 /* DatePickerVC.h */,
-				7F3667251722B80600E7BCF4 /* DatePickerVC.m */,
-				7F3667261722B80600E7BCF4 /* EventInfoTVC.h */,
-				7F3667271722B80600E7BCF4 /* EventInfoTVC.m */,
-				7F3667281722B80600E7BCF4 /* EventsMenuViewController.h */,
-				7F3667291722B80600E7BCF4 /* EventsMenuViewController.m */,
-				7F36672A1722B80600E7BCF4 /* EventsTVC.h */,
-				7F36672B1722B80600E7BCF4 /* EventsTVC.m */,
-				7F36672C1722B80600E7BCF4 /* EventsViewController.h */,
-				7F36672D1722B80600E7BCF4 /* EventsViewController.m */,
-				7F36672E1722B80600E7BCF4 /* PlaceInfoVC.h */,
-				7F36672F1722B80600E7BCF4 /* PlaceInfoVC.m */,
-				7F3667301722B80600E7BCF4 /* PlacesMenuTVC.h */,
-				7F3667311722B80600E7BCF4 /* PlacesMenuTVC.m */,
-				7F3667321722B80600E7BCF4 /* PlacesTVC.h */,
-				7F3667331722B80600E7BCF4 /* PlacesTVC.m */,
-				7F3667341722B80600E7BCF4 /* SettingsVC.h */,
-				7F3667351722B80600E7BCF4 /* SettingsVC.m */,
-			);
-			name = Controlles;
-			sourceTree = "<group>";
-		};
-		7F3666DC1722B6AB00E7BCF4 /* Images */ = {
-			isa = PBXGroup;
-			children = (
-				7F3666DD1722B6AB00E7BCF4 /* calendar-icon.png */,
-				7F3666DE1722B6AB00E7BCF4 /* Defaults */,
-				7F3666E31722B6AB00E7BCF4 /* Icons */,
-				7F3666FB1722B6AB00E7BCF4 /* question-mark-big.png */,
-				7F3666FC1722B6AB00E7BCF4 /* question-mark-small.png */,
-			);
-			name = Images;
-			path = AfishaLviv/Resources/Images;
-			sourceTree = "<group>";
-		};
-		7F3666DE1722B6AB00E7BCF4 /* Defaults */ = {
-			isa = PBXGroup;
-			children = (
-				7F3666DF1722B6AB00E7BCF4 /* Default.png */,
-				7F3666E01722B6AB00E7BCF4 /* Default@2x.png */,
-				7F3667901722B9BD00E7BCF4 /* Default-568h@2x.png */,
-				7F3666E11722B6AB00E7BCF4 /* Icon.png */,
-				7F3666E21722B6AB00E7BCF4 /* Icon@2x.png */,
-			);
-			path = Defaults;
-			sourceTree = "<group>";
-		};
-		7F3666E31722B6AB00E7BCF4 /* Icons */ = {
-			isa = PBXGroup;
-			children = (
-				7F3666E41722B6AB00E7BCF4 /* 103-map.png */,
-				7F3666E51722B6AB00E7BCF4 /* 114-balloon.png */,
-				7F3666E61722B6AB00E7BCF4 /* 121-landscape.png */,
-				7F3666E71722B6AB00E7BCF4 /* 124-bullhorn.png */,
-				7F3666E81722B6AB00E7BCF4 /* 137-presentation.png */,
-				7F3666E91722B6AB00E7BCF4 /* 144-martini.png */,
-				7F3666EA1722B6AB00E7BCF4 /* 153-guitar.png */,
-				7F3666EB1722B6AB00E7BCF4 /* 190-bank.png */,
-				7F3666EC1722B6AB00E7BCF4 /* 191-collection.png */,
-				7F3666ED1722B6AB00E7BCF4 /* 20-gear2.png */,
-				7F3666EE1722B6AB00E7BCF4 /* 24-gift.png */,
-				7F3666EF1722B6AB00E7BCF4 /* 28-star.png */,
-				7F3666F01722B6AB00E7BCF4 /* 34-coffee.png */,
-				7F3666F11722B6AB00E7BCF4 /* 41-picture-frame.png */,
-				7F3666F21722B6AB00E7BCF4 /* 43-film-roll.png */,
-				7F3666F31722B6AB00E7BCF4 /* 45-movie-1.png */,
-				7F3666F41722B6AB00E7BCF4 /* 66-microphone.png */,
-				7F3666F51722B6AB00E7BCF4 /* 70-tv.png */,
-				7F3666F61722B6AB00E7BCF4 /* 83-calendar.png */,
-				7F3666F71722B6AB00E7BCF4 /* 85-trophy.png */,
-				7F3666F81722B6AB00E7BCF4 /* 86-camera.png */,
-				7F3666F91722B6AB00E7BCF4 /* 88-beer-mug.png */,
-				7F3666FA1722B6AB00E7BCF4 /* 98-palette.png */,
-			);
-			path = Icons;
-			sourceTree = "<group>";
-		};
-		7F36671B1722B6C200E7BCF4 /* NIBs */ = {
-			isa = PBXGroup;
-			children = (
-				7F36671C1722B6C200E7BCF4 /* EventCell.xib */,
-				7F36671E1722B6F100E7BCF4 /* EventsMenuViewController.xib */,
-				7F36671F1722B6F100E7BCF4 /* EventsViewController.xib */,
-			);
-			name = NIBs;
-			path = AfishaLviv/Resources/NIBs;
-			sourceTree = "<group>";
-		};
-		7F3667441722B82F00E7BCF4 /* PlaceAnnotation */ = {
-			isa = PBXGroup;
-			children = (
-				7F3667451722B82F00E7BCF4 /* PlaceAnnotation.h */,
-				7F3667461722B82F00E7BCF4 /* PlaceAnnotation.m */,
-			);
-			name = PlaceAnnotation;
-			path = Models/PlaceAnnotation;
-			sourceTree = "<group>";
-		};
-		7F3667621722B85600E7BCF4 /* Submodules */ = {
-			isa = PBXGroup;
-			children = (
-				7F3667631722B85600E7BCF4 /* DKImageView */,
-				7F3667661722B85700E7BCF4 /* MBProgressHUD */,
-				7F3667691722B85700E7BCF4 /* SDWebImage */,
-			);
-			path = Submodules;
-			sourceTree = SOURCE_ROOT;
-		};
-		7F3667631722B85600E7BCF4 /* DKImageView */ = {
-			isa = PBXGroup;
-			children = (
-				7F3667641722B85600E7BCF4 /* DKImageView.h */,
-				7F3667651722B85700E7BCF4 /* DKImageView.m */,
-			);
-			path = DKImageView;
-			sourceTree = "<group>";
-		};
-		7F3667661722B85700E7BCF4 /* MBProgressHUD */ = {
-			isa = PBXGroup;
-			children = (
-				7F3667671722B85700E7BCF4 /* MBProgressHUD.h */,
-				7F3667681722B85700E7BCF4 /* MBProgressHUD.m */,
-			);
-			path = MBProgressHUD;
-			sourceTree = "<group>";
-		};
-		7F3667691722B85700E7BCF4 /* SDWebImage */ = {
-			isa = PBXGroup;
-			children = (
-				7F36676A1722B85700E7BCF4 /* SDImageCache.h */,
-				7F36676B1722B85700E7BCF4 /* SDImageCache.m */,
-				7F36676C1722B85700E7BCF4 /* SDImageCacheDelegate.h */,
-				7F36676D1722B85700E7BCF4 /* SDWebImageCompat.h */,
-				7F36676E1722B85700E7BCF4 /* SDWebImageDecoder.h */,
-				7F36676F1722B85700E7BCF4 /* SDWebImageDecoder.m */,
-				7F3667701722B85700E7BCF4 /* SDWebImageDownloader.h */,
-				7F3667711722B85700E7BCF4 /* SDWebImageDownloader.m */,
-				7F3667721722B85700E7BCF4 /* SDWebImageDownloaderDelegate.h */,
-				7F3667731722B85700E7BCF4 /* SDWebImageManager.h */,
-				7F3667741722B85700E7BCF4 /* SDWebImageManager.m */,
-				7F3667751722B85700E7BCF4 /* SDWebImageManagerDelegate.h */,
-				7F3667761722B85700E7BCF4 /* SDWebImagePrefetcher.h */,
-				7F3667771722B85700E7BCF4 /* SDWebImagePrefetcher.m */,
-				7F3667781722B85700E7BCF4 /* UIButton+WebCache.h */,
-				7F3667791722B85700E7BCF4 /* UIButton+WebCache.m */,
-				7F36677A1722B85700E7BCF4 /* UIImageView+WebCache.h */,
-				7F36677B1722B85700E7BCF4 /* UIImageView+WebCache.m */,
-			);
-			path = SDWebImage;
-			sourceTree = "<group>";
-		};
-		7F3667851722B87A00E7BCF4 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				7F36678A1722B89400E7BCF4 /* PlaceCell.h */,
-				7F36678B1722B89400E7BCF4 /* PlaceCell.m */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		7FBC6523151B8057002A87CE /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				7F36671B1722B6C200E7BCF4 /* NIBs */,
-				7F3666DC1722B6AB00E7BCF4 /* Images */,
-			);
-			name = Resources;
-			path = ..;
-			sourceTree = "<group>";
-		};
-		7FD5DD591517EE5100E919FA = {
-			isa = PBXGroup;
-			children = (
-				7FD5DD701517EE5200E919FA /* AfishaLviv */,
-				7FD5DD671517EE5200E919FA /* Frameworks */,
-				7FD5DD651517EE5100E919FA /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		7FD5DD651517EE5100E919FA /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				7FD5DD641517EE5100E919FA /* AfishaLviv.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		7FD5DD671517EE5200E919FA /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				7FD4FE94158E17F9009C85BB /* ImageIO.framework */,
-				7FC0E5DF152F6D1F0077253F /* EventKitUI.framework */,
-				7FC0E5D5152F6AB00077253F /* EventKit.framework */,
-				7FC0E5D2152F66270077253F /* Twitter.framework */,
-				7FAABC0315251C1C00C9987A /* MapKit.framework */,
-				7FD5DD681517EE5200E919FA /* UIKit.framework */,
-				7FD5DD6A1517EE5200E919FA /* Foundation.framework */,
-				7FD5DD6C1517EE5200E919FA /* CoreGraphics.framework */,
-				7FD5DD6E1517EE5200E919FA /* CoreData.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		7FD5DD701517EE5200E919FA /* AfishaLviv */ = {
-			isa = PBXGroup;
-			children = (
-				7F3667621722B85600E7BCF4 /* Submodules */,
-				7FD5DD791517EE5200E919FA /* AppDelegate.h */,
-				7FD5DD7A1517EE5200E919FA /* AppDelegate.m */,
-				7FD5DD911517EEC400E919FA /* Models */,
-				7F3667851722B87A00E7BCF4 /* Views */,
-				7F1E60EE151E3BE600354A2F /* Controlles */,
-				7FBC6523151B8057002A87CE /* Resources */,
-				7FD5DD711517EE5200E919FA /* Supporting Files */,
-			);
-			path = AfishaLviv;
-			sourceTree = "<group>";
-		};
-		7FD5DD711517EE5200E919FA /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				7FF85BD5153E3BE5001EA4D5 /* Localizable.strings */,
-				7FD5DD721517EE5200E919FA /* AfishaLviv-Info.plist */,
-				7FD5DD761517EE5200E919FA /* main.m */,
-				7FD5DD781517EE5200E919FA /* AfishaLviv-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		7FD5DD8C1517EE9000E919FA /* CoreDate */ = {
-			isa = PBXGroup;
-			children = (
-				7F8D9BBF1722BD9C00EE5D7C /* DataManager.h */,
-				7F8D9BC01722BD9C00EE5D7C /* DataManager.m */,
-				7F36678D1722B8CD00E7BCF4 /* AfishaLviv.xcdatamodeld */,
-				7F36674A1722B84500E7BCF4 /* Event.h */,
-				7F36674B1722B84500E7BCF4 /* Event.m */,
-				7F36674E1722B84500E7BCF4 /* EventInfo.h */,
-				7F36674F1722B84500E7BCF4 /* EventInfo.m */,
-				7F3667521722B84500E7BCF4 /* Place.h */,
-				7F3667531722B84500E7BCF4 /* Place.m */,
-				7F3667561722B84500E7BCF4 /* PlaceInfo.h */,
-				7F3667571722B84500E7BCF4 /* PlaceInfo.m */,
-			);
-			name = CoreDate;
-			sourceTree = "<group>";
-		};
-		7FD5DD911517EEC400E919FA /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				7F3667401722B82F00E7BCF4 /* AfishaLvivFetcher.h */,
-				7F3667411722B82F00E7BCF4 /* AfishaLvivFetcher.m */,
-				7FD5DD8C1517EE9000E919FA /* CoreDate */,
-				7F3667441722B82F00E7BCF4 /* PlaceAnnotation */,
-			);
-			name = Models;
-			sourceTree = "<group>";
-		};
-/* End PBXGroup section */
-
-/* Begin PBXNativeTarget section */
-		7FD5DD631517EE5100E919FA /* AfishaLviv */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7FD5DD811517EE5200E919FA /* Build configuration list for PBXNativeTarget "AfishaLviv" */;
-			buildPhases = (
-				7FD5DD601517EE5100E919FA /* Sources */,
-				7FD5DD611517EE5100E919FA /* Frameworks */,
-				7FD5DD621517EE5100E919FA /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = AfishaLviv;
-			productName = AfishaLviv;
-			productReference = 7FD5DD641517EE5100E919FA /* AfishaLviv.app */;
-			productType = "com.apple.product-type.application";
-		};
-/* End PBXNativeTarget section */
-
-/* Begin PBXProject section */
-		7FD5DD5B1517EE5100E919FA /* Project object */ = {
-			isa = PBXProject;
-			attributes = {
-				LastUpgradeCheck = 0460;
-			};
-			buildConfigurationList = 7FD5DD5E1517EE5100E919FA /* Build configuration list for PBXProject "AfishaLviv" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
-			hasScannedForEncodings = 0;
-			knownRegions = (
-				en,
-				ru,
-				uk,
-			);
-			mainGroup = 7FD5DD591517EE5100E919FA;
-			productRefGroup = 7FD5DD651517EE5100E919FA /* Products */;
-			projectDirPath = "";
-			projectRoot = "";
-			targets = (
-				7FD5DD631517EE5100E919FA /* AfishaLviv */,
-			);
-		};
-/* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		7FD5DD621517EE5100E919FA /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7FF85BD7153E3BE5001EA4D5 /* Localizable.strings in Resources */,
-				7F3666FD1722B6AB00E7BCF4 /* calendar-icon.png in Resources */,
-				7F3666FE1722B6AB00E7BCF4 /* Default.png in Resources */,
-				7F3666FF1722B6AB00E7BCF4 /* Default@2x.png in Resources */,
-				7F3667001722B6AB00E7BCF4 /* Icon.png in Resources */,
-				7F3667011722B6AB00E7BCF4 /* Icon@2x.png in Resources */,
-				7F3667021722B6AB00E7BCF4 /* 103-map.png in Resources */,
-				7F3667031722B6AB00E7BCF4 /* 114-balloon.png in Resources */,
-				7F3667041722B6AB00E7BCF4 /* 121-landscape.png in Resources */,
-				7F3667051722B6AB00E7BCF4 /* 124-bullhorn.png in Resources */,
-				7F3667061722B6AB00E7BCF4 /* 137-presentation.png in Resources */,
-				7F3667071722B6AB00E7BCF4 /* 144-martini.png in Resources */,
-				7F3667081722B6AB00E7BCF4 /* 153-guitar.png in Resources */,
-				7F3667091722B6AB00E7BCF4 /* 190-bank.png in Resources */,
-				7F36670A1722B6AB00E7BCF4 /* 191-collection.png in Resources */,
-				7F36670B1722B6AB00E7BCF4 /* 20-gear2.png in Resources */,
-				7F36670C1722B6AB00E7BCF4 /* 24-gift.png in Resources */,
-				7F36670D1722B6AB00E7BCF4 /* 28-star.png in Resources */,
-				7F36670E1722B6AB00E7BCF4 /* 34-coffee.png in Resources */,
-				7F36670F1722B6AB00E7BCF4 /* 41-picture-frame.png in Resources */,
-				7F3667101722B6AB00E7BCF4 /* 43-film-roll.png in Resources */,
-				7F3667111722B6AB00E7BCF4 /* 45-movie-1.png in Resources */,
-				7F3667121722B6AB00E7BCF4 /* 66-microphone.png in Resources */,
-				7F3667131722B6AB00E7BCF4 /* 70-tv.png in Resources */,
-				7F3667141722B6AB00E7BCF4 /* 83-calendar.png in Resources */,
-				7F3667151722B6AB00E7BCF4 /* 85-trophy.png in Resources */,
-				7F3667161722B6AB00E7BCF4 /* 86-camera.png in Resources */,
-				7F3667171722B6AB00E7BCF4 /* 88-beer-mug.png in Resources */,
-				7F3667181722B6AB00E7BCF4 /* 98-palette.png in Resources */,
-				7F3667191722B6AB00E7BCF4 /* question-mark-big.png in Resources */,
-				7F36671A1722B6AB00E7BCF4 /* question-mark-small.png in Resources */,
-				7F36671D1722B6C200E7BCF4 /* EventCell.xib in Resources */,
-				7F3667201722B6F100E7BCF4 /* EventsMenuViewController.xib in Resources */,
-				7F3667211722B6F100E7BCF4 /* EventsViewController.xib in Resources */,
-				7F3667911722B9BD00E7BCF4 /* Default-568h@2x.png in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		7FD5DD601517EE5100E919FA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7FD5DD771517EE5200E919FA /* main.m in Sources */,
-				7FD5DD7B1517EE5200E919FA /* AppDelegate.m in Sources */,
-				7F3667361722B80700E7BCF4 /* DatePickerRollerVC.m in Sources */,
-				7F3667371722B80700E7BCF4 /* DatePickerVC.m in Sources */,
-				7F3667381722B80700E7BCF4 /* EventInfoTVC.m in Sources */,
-				7F3667391722B80700E7BCF4 /* EventsMenuViewController.m in Sources */,
-				7F36673A1722B80700E7BCF4 /* EventsTVC.m in Sources */,
-				7F36673B1722B80700E7BCF4 /* EventsViewController.m in Sources */,
-				7F36673C1722B80700E7BCF4 /* PlaceInfoVC.m in Sources */,
-				7F36673D1722B80700E7BCF4 /* PlacesMenuTVC.m in Sources */,
-				7F36673E1722B80700E7BCF4 /* PlacesTVC.m in Sources */,
-				7F36673F1722B80700E7BCF4 /* SettingsVC.m in Sources */,
-				7F3667471722B82F00E7BCF4 /* AfishaLvivFetcher.m in Sources */,
-				7F3667491722B82F00E7BCF4 /* PlaceAnnotation.m in Sources */,
-				7F36675A1722B84500E7BCF4 /* Event.m in Sources */,
-				7F36675C1722B84500E7BCF4 /* EventInfo.m in Sources */,
-				7F36675E1722B84500E7BCF4 /* Place.m in Sources */,
-				7F3667601722B84500E7BCF4 /* PlaceInfo.m in Sources */,
-				7F36677C1722B85700E7BCF4 /* DKImageView.m in Sources */,
-				7F36677D1722B85700E7BCF4 /* MBProgressHUD.m in Sources */,
-				7F36677E1722B85700E7BCF4 /* SDImageCache.m in Sources */,
-				7F36677F1722B85700E7BCF4 /* SDWebImageDecoder.m in Sources */,
-				7F3667801722B85700E7BCF4 /* SDWebImageDownloader.m in Sources */,
-				7F3667811722B85700E7BCF4 /* SDWebImageManager.m in Sources */,
-				7F3667821722B85700E7BCF4 /* SDWebImagePrefetcher.m in Sources */,
-				7F3667831722B85700E7BCF4 /* UIButton+WebCache.m in Sources */,
-				7F3667841722B85700E7BCF4 /* UIImageView+WebCache.m in Sources */,
-				7F36678C1722B89400E7BCF4 /* PlaceCell.m in Sources */,
-				7F36678F1722B8CD00E7BCF4 /* AfishaLviv.xcdatamodeld in Sources */,
-				7F8D9BC11722BD9C00EE5D7C /* DataManager.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		7FF85BD5153E3BE5001EA4D5 /* Localizable.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7FF85BD6153E3BE5001EA4D5 /* en */,
-				7FF85BD8153E3BE9001EA4D5 /* ru */,
-				7FF85BD9153E3BE9001EA4D5 /* uk */,
-			);
-			name = Localizable.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
-/* Begin XCBuildConfiguration section */
-		7FD5DD7F1517EE5200E919FA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_ENTITLEMENTS = "";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Danylo Kostyshyn (2H792BT2J7)";
-				COPY_PHASE_STRIP = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_THUMB_SUPPORT = NO;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = "/Users/danylokostyshyn/Developer/github/json-framework/**";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				ONLY_ACTIVE_ARCH = NO;
-				PROVISIONING_PROFILE = "";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "C8D4824E-E1E0-4879-A944-6161042775A8";
-				SDKROOT = iphoneos;
-				VALID_ARCHS = "armv7 armv7s";
-			};
-			name = Debug;
-		};
-		7FD5DD801517EE5200E919FA /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_ENTITLEMENTS = "";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Danylo Kostyshyn (2H792BT2J7)";
-				COPY_PHASE_STRIP = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_THUMB_SUPPORT = NO;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = "/Users/danylokostyshyn/Developer/github/json-framework/**";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				PROVISIONING_PROFILE = "";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "C8D4824E-E1E0-4879-A944-6161042775A8";
-				SDKROOT = iphoneos;
-				VALIDATE_PRODUCT = YES;
-				VALID_ARCHS = "armv7 armv7s";
-			};
-			name = Release;
-		};
-		7FD5DD821517EE5200E919FA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "AfishaLviv/AfishaLviv-Prefix.pch";
-				GCC_THUMB_SUPPORT = NO;
-				INFOPLIST_FILE = "AfishaLviv/AfishaLviv-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				VALID_ARCHS = "armv7 armv7s";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Debug;
-		};
-		7FD5DD831517EE5200E919FA /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "AfishaLviv/AfishaLviv-Prefix.pch";
-				GCC_THUMB_SUPPORT = NO;
-				INFOPLIST_FILE = "AfishaLviv/AfishaLviv-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				VALID_ARCHS = "armv7 armv7s";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-/* End XCBuildConfiguration section */
-
-/* Begin XCConfigurationList section */
-		7FD5DD5E1517EE5100E919FA /* Build configuration list for PBXProject "AfishaLviv" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7FD5DD7F1517EE5200E919FA /* Debug */,
-				7FD5DD801517EE5200E919FA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7FD5DD811517EE5200E919FA /* Build configuration list for PBXNativeTarget "AfishaLviv" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7FD5DD821517EE5200E919FA /* Debug */,
-				7FD5DD831517EE5200E919FA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-/* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		7F36678D1722B8CD00E7BCF4 /* AfishaLviv.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				7F36678E1722B8CD00E7BCF4 /* AfishaLviv.xcdatamodel */,
-			);
-			currentVersion = 7F36678E1722B8CD00E7BCF4 /* AfishaLviv.xcdatamodel */;
-			name = AfishaLviv.xcdatamodeld;
-			path = CoreDate/AfishaLviv.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
-	};
-	rootObject = 7FD5DD5B1517EE5100E919FA /* Project object */;
-}
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>archiveVersion</key>
+	<string>1</string>
+	<key>classes</key>
+	<dict/>
+	<key>objectVersion</key>
+	<string>46</string>
+	<key>objects</key>
+	<dict>
+		<key>12AC591DD4BB4C6DBA9C508E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Pods.xcconfig</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>23644B7328FE4C17B91CD2EF</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>libPods.a</string>
+			<key>path</key>
+			<string>libPods.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>392EED3FF3234458B5D84DFF</key>
+		<dict>
+			<key>fileRef</key>
+			<string>23644B7328FE4C17B91CD2EF</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict/>
+		</dict>
+		<key>512457CF8FA34B5EAE02CC3E</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Check Pods Manifest.lock</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
+if [[ $? != 0 ]] ; then
+    cat &lt;&lt; EOM
+error: The sanbox is not in sync with the Podfile.lock. Run 'pod install'.
+EOM
+    exit 1
+fi
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>1</string>
+		</dict>
+		<key>7F1E60EE151E3BE600354A2F</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>7F3667221722B80600E7BCF4</string>
+				<string>7F3667231722B80600E7BCF4</string>
+				<string>7F3667241722B80600E7BCF4</string>
+				<string>7F3667251722B80600E7BCF4</string>
+				<string>7F3667261722B80600E7BCF4</string>
+				<string>7F3667271722B80600E7BCF4</string>
+				<string>7F3667281722B80600E7BCF4</string>
+				<string>7F3667291722B80600E7BCF4</string>
+				<string>7F36672A1722B80600E7BCF4</string>
+				<string>7F36672B1722B80600E7BCF4</string>
+				<string>7F36672C1722B80600E7BCF4</string>
+				<string>7F36672D1722B80600E7BCF4</string>
+				<string>7F36672E1722B80600E7BCF4</string>
+				<string>7F36672F1722B80600E7BCF4</string>
+				<string>7F3667301722B80600E7BCF4</string>
+				<string>7F3667311722B80600E7BCF4</string>
+				<string>7F3667321722B80600E7BCF4</string>
+				<string>7F3667331722B80600E7BCF4</string>
+				<string>7F3667341722B80600E7BCF4</string>
+				<string>7F3667351722B80600E7BCF4</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Controlles</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7F3666DC1722B6AB00E7BCF4</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>7F3666DD1722B6AB00E7BCF4</string>
+				<string>7F3666DE1722B6AB00E7BCF4</string>
+				<string>7F3666E31722B6AB00E7BCF4</string>
+				<string>7F3666FB1722B6AB00E7BCF4</string>
+				<string>7F3666FC1722B6AB00E7BCF4</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Images</string>
+			<key>path</key>
+			<string>AfishaLviv/Resources/Images</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7F3666DD1722B6AB00E7BCF4</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>image.png</string>
+			<key>path</key>
+			<string>calendar-icon.png</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7F3666DE1722B6AB00E7BCF4</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>7F3666DF1722B6AB00E7BCF4</string>
+				<string>7F3666E01722B6AB00E7BCF4</string>
+				<string>7F3667901722B9BD00E7BCF4</string>
+				<string>7F3666E11722B6AB00E7BCF4</string>
+				<string>7F3666E21722B6AB00E7BCF4</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>Defaults</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7F3666DF1722B6AB00E7BCF4</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>image.png</string>
+			<key>path</key>
+			<string>Default.png</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7F3666E01722B6AB00E7BCF4</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>image.png</string>
+			<key>path</key>
+			<string>Default@2x.png</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7F3666E11722B6AB00E7BCF4</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>image.png</string>
+			<key>path</key>
+			<string>Icon.png</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7F3666E21722B6AB00E7BCF4</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>image.png</string>
+			<key>path</key>
+			<string>Icon@2x.png</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7F3666E31722B6AB00E7BCF4</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>7F3666E41722B6AB00E7BCF4</string>
+				<string>7F3666E51722B6AB00E7BCF4</string>
+				<string>7F3666E61722B6AB00E7BCF4</string>
+				<string>7F3666E71722B6AB00E7BCF4</string>
+				<string>7F3666E81722B6AB00E7BCF4</string>
+				<string>7F3666E91722B6AB00E7BCF4</string>
+				<string>7F3666EA1722B6AB00E7BCF4</string>
+				<string>7F3666EB1722B6AB00E7BCF4</string>
+				<string>7F3666EC1722B6AB00E7BCF4</string>
+				<string>7F3666ED1722B6AB00E7BCF4</string>
+				<string>7F3666EE1722B6AB00E7BCF4</string>
+				<string>7F3666EF1722B6AB00E7BCF4</string>
+				<string>7F3666F01722B6AB00E7BCF4</string>
+				<string>7F3666F11722B6AB00E7BCF4</string>
+				<string>7F3666F21722B6AB00E7BCF4</string>
+				<string>7F3666F31722B6AB00E7BCF4</string>
+				<string>7F3666F41722B6AB00E7BCF4</string>
+				<string>7F3666F51722B6AB00E7BCF4</string>
+				<string>7F3666F61722B6AB00E7BCF4</string>
+				<string>7F3666F71722B6AB00E7BCF4</string>
+				<string>7F3666F81722B6AB00E7BCF4</string>
+				<string>7F3666F91722B6AB00E7BCF4</string>
+				<string>7F3666FA1722B6AB00E7BCF4</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>Icons</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7F3666E41722B6AB00E7BCF4</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>image.png</string>
+			<key>path</key>
+			<string>103-map.png</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7F3666E51722B6AB00E7BCF4</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>image.png</string>
+			<key>path</key>
+			<string>114-balloon.png</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7F3666E61722B6AB00E7BCF4</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>image.png</string>
+			<key>path</key>
+			<string>121-landscape.png</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7F3666E71722B6AB00E7BCF4</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>image.png</string>
+			<key>path</key>
+			<string>124-bullhorn.png</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7F3666E81722B6AB00E7BCF4</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>image.png</string>
+			<key>path</key>
+			<string>137-presentation.png</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7F3666E91722B6AB00E7BCF4</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>image.png</string>
+			<key>path</key>
+			<string>144-martini.png</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7F3666EA1722B6AB00E7BCF4</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>image.png</string>
+			<key>path</key>
+			<string>153-guitar.png</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7F3666EB1722B6AB00E7BCF4</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>image.png</string>
+			<key>path</key>
+			<string>190-bank.png</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7F3666EC1722B6AB00E7BCF4</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>image.png</string>
+			<key>path</key>
+			<string>191-collection.png</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7F3666ED1722B6AB00E7BCF4</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>image.png</string>
+			<key>path</key>
+			<string>20-gear2.png</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7F3666EE1722B6AB00E7BCF4</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>image.png</string>
+			<key>path</key>
+			<string>24-gift.png</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7F3666EF1722B6AB00E7BCF4</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>image.png</string>
+			<key>path</key>
+			<string>28-star.png</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7F3666F01722B6AB00E7BCF4</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>image.png</string>
+			<key>path</key>
+			<string>34-coffee.png</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7F3666F11722B6AB00E7BCF4</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>image.png</string>
+			<key>path</key>
+			<string>41-picture-frame.png</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7F3666F21722B6AB00E7BCF4</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>image.png</string>
+			<key>path</key>
+			<string>43-film-roll.png</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7F3666F31722B6AB00E7BCF4</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>image.png</string>
+			<key>path</key>
+			<string>45-movie-1.png</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7F3666F41722B6AB00E7BCF4</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>image.png</string>
+			<key>path</key>
+			<string>66-microphone.png</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7F3666F51722B6AB00E7BCF4</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>image.png</string>
+			<key>path</key>
+			<string>70-tv.png</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7F3666F61722B6AB00E7BCF4</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>image.png</string>
+			<key>path</key>
+			<string>83-calendar.png</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7F3666F71722B6AB00E7BCF4</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>image.png</string>
+			<key>path</key>
+			<string>85-trophy.png</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7F3666F81722B6AB00E7BCF4</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>image.png</string>
+			<key>path</key>
+			<string>86-camera.png</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7F3666F91722B6AB00E7BCF4</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>image.png</string>
+			<key>path</key>
+			<string>88-beer-mug.png</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7F3666FA1722B6AB00E7BCF4</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>image.png</string>
+			<key>path</key>
+			<string>98-palette.png</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7F3666FB1722B6AB00E7BCF4</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>image.png</string>
+			<key>path</key>
+			<string>question-mark-big.png</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7F3666FC1722B6AB00E7BCF4</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>image.png</string>
+			<key>path</key>
+			<string>question-mark-small.png</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7F3666FD1722B6AB00E7BCF4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7F3666DD1722B6AB00E7BCF4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7F3666FE1722B6AB00E7BCF4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7F3666DF1722B6AB00E7BCF4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7F3666FF1722B6AB00E7BCF4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7F3666E01722B6AB00E7BCF4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7F3667001722B6AB00E7BCF4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7F3666E11722B6AB00E7BCF4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7F3667011722B6AB00E7BCF4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7F3666E21722B6AB00E7BCF4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7F3667021722B6AB00E7BCF4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7F3666E41722B6AB00E7BCF4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7F3667031722B6AB00E7BCF4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7F3666E51722B6AB00E7BCF4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7F3667041722B6AB00E7BCF4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7F3666E61722B6AB00E7BCF4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7F3667051722B6AB00E7BCF4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7F3666E71722B6AB00E7BCF4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7F3667061722B6AB00E7BCF4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7F3666E81722B6AB00E7BCF4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7F3667071722B6AB00E7BCF4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7F3666E91722B6AB00E7BCF4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7F3667081722B6AB00E7BCF4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7F3666EA1722B6AB00E7BCF4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7F3667091722B6AB00E7BCF4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7F3666EB1722B6AB00E7BCF4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7F36670A1722B6AB00E7BCF4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7F3666EC1722B6AB00E7BCF4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7F36670B1722B6AB00E7BCF4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7F3666ED1722B6AB00E7BCF4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7F36670C1722B6AB00E7BCF4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7F3666EE1722B6AB00E7BCF4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7F36670D1722B6AB00E7BCF4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7F3666EF1722B6AB00E7BCF4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7F36670E1722B6AB00E7BCF4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7F3666F01722B6AB00E7BCF4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7F36670F1722B6AB00E7BCF4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7F3666F11722B6AB00E7BCF4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7F3667101722B6AB00E7BCF4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7F3666F21722B6AB00E7BCF4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7F3667111722B6AB00E7BCF4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7F3666F31722B6AB00E7BCF4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7F3667121722B6AB00E7BCF4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7F3666F41722B6AB00E7BCF4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7F3667131722B6AB00E7BCF4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7F3666F51722B6AB00E7BCF4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7F3667141722B6AB00E7BCF4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7F3666F61722B6AB00E7BCF4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7F3667151722B6AB00E7BCF4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7F3666F71722B6AB00E7BCF4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7F3667161722B6AB00E7BCF4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7F3666F81722B6AB00E7BCF4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7F3667171722B6AB00E7BCF4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7F3666F91722B6AB00E7BCF4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7F3667181722B6AB00E7BCF4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7F3666FA1722B6AB00E7BCF4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7F3667191722B6AB00E7BCF4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7F3666FB1722B6AB00E7BCF4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7F36671A1722B6AB00E7BCF4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7F3666FC1722B6AB00E7BCF4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7F36671B1722B6C200E7BCF4</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>7F36671C1722B6C200E7BCF4</string>
+				<string>7F36671E1722B6F100E7BCF4</string>
+				<string>7F36671F1722B6F100E7BCF4</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>NIBs</string>
+			<key>path</key>
+			<string>AfishaLviv/Resources/NIBs</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7F36671C1722B6C200E7BCF4</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>file.xib</string>
+			<key>path</key>
+			<string>EventCell.xib</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7F36671D1722B6C200E7BCF4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7F36671C1722B6C200E7BCF4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7F36671E1722B6F100E7BCF4</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>file.xib</string>
+			<key>path</key>
+			<string>EventsMenuViewController.xib</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7F36671F1722B6F100E7BCF4</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>file.xib</string>
+			<key>path</key>
+			<string>EventsViewController.xib</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7F3667201722B6F100E7BCF4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7F36671E1722B6F100E7BCF4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7F3667211722B6F100E7BCF4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7F36671F1722B6F100E7BCF4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7F3667221722B80600E7BCF4</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>DatePickerRollerVC.h</string>
+			<key>path</key>
+			<string>Controllers/DatePickerRollerVC.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7F3667231722B80600E7BCF4</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>DatePickerRollerVC.m</string>
+			<key>path</key>
+			<string>Controllers/DatePickerRollerVC.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7F3667241722B80600E7BCF4</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>DatePickerVC.h</string>
+			<key>path</key>
+			<string>Controllers/DatePickerVC.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7F3667251722B80600E7BCF4</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>DatePickerVC.m</string>
+			<key>path</key>
+			<string>Controllers/DatePickerVC.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7F3667261722B80600E7BCF4</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>EventInfoTVC.h</string>
+			<key>path</key>
+			<string>Controllers/EventInfoTVC.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7F3667271722B80600E7BCF4</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>EventInfoTVC.m</string>
+			<key>path</key>
+			<string>Controllers/EventInfoTVC.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7F3667281722B80600E7BCF4</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>EventsMenuViewController.h</string>
+			<key>path</key>
+			<string>Controllers/EventsMenuViewController.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7F3667291722B80600E7BCF4</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>EventsMenuViewController.m</string>
+			<key>path</key>
+			<string>Controllers/EventsMenuViewController.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7F36672A1722B80600E7BCF4</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>EventsTVC.h</string>
+			<key>path</key>
+			<string>Controllers/EventsTVC.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7F36672B1722B80600E7BCF4</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>EventsTVC.m</string>
+			<key>path</key>
+			<string>Controllers/EventsTVC.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7F36672C1722B80600E7BCF4</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>EventsViewController.h</string>
+			<key>path</key>
+			<string>Controllers/EventsViewController.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7F36672D1722B80600E7BCF4</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>EventsViewController.m</string>
+			<key>path</key>
+			<string>Controllers/EventsViewController.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7F36672E1722B80600E7BCF4</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>PlaceInfoVC.h</string>
+			<key>path</key>
+			<string>Controllers/PlaceInfoVC.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7F36672F1722B80600E7BCF4</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>PlaceInfoVC.m</string>
+			<key>path</key>
+			<string>Controllers/PlaceInfoVC.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7F3667301722B80600E7BCF4</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>PlacesMenuTVC.h</string>
+			<key>path</key>
+			<string>Controllers/PlacesMenuTVC.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7F3667311722B80600E7BCF4</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>PlacesMenuTVC.m</string>
+			<key>path</key>
+			<string>Controllers/PlacesMenuTVC.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7F3667321722B80600E7BCF4</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>PlacesTVC.h</string>
+			<key>path</key>
+			<string>Controllers/PlacesTVC.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7F3667331722B80600E7BCF4</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>PlacesTVC.m</string>
+			<key>path</key>
+			<string>Controllers/PlacesTVC.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7F3667341722B80600E7BCF4</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>SettingsVC.h</string>
+			<key>path</key>
+			<string>Controllers/SettingsVC.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7F3667351722B80600E7BCF4</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>SettingsVC.m</string>
+			<key>path</key>
+			<string>Controllers/SettingsVC.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7F3667361722B80700E7BCF4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7F3667231722B80600E7BCF4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7F3667371722B80700E7BCF4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7F3667251722B80600E7BCF4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7F3667381722B80700E7BCF4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7F3667271722B80600E7BCF4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7F3667391722B80700E7BCF4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7F3667291722B80600E7BCF4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7F36673A1722B80700E7BCF4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7F36672B1722B80600E7BCF4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7F36673B1722B80700E7BCF4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7F36672D1722B80600E7BCF4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7F36673C1722B80700E7BCF4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7F36672F1722B80600E7BCF4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7F36673D1722B80700E7BCF4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7F3667311722B80600E7BCF4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7F36673E1722B80700E7BCF4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7F3667331722B80600E7BCF4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7F36673F1722B80700E7BCF4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7F3667351722B80600E7BCF4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7F3667401722B82F00E7BCF4</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>AfishaLvivFetcher.h</string>
+			<key>path</key>
+			<string>Models/AfishaLvivFetcher.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7F3667411722B82F00E7BCF4</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>AfishaLvivFetcher.m</string>
+			<key>path</key>
+			<string>Models/AfishaLvivFetcher.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7F3667441722B82F00E7BCF4</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>7F3667451722B82F00E7BCF4</string>
+				<string>7F3667461722B82F00E7BCF4</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>PlaceAnnotation</string>
+			<key>path</key>
+			<string>Models/PlaceAnnotation</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7F3667451722B82F00E7BCF4</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>PlaceAnnotation.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7F3667461722B82F00E7BCF4</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>PlaceAnnotation.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7F3667471722B82F00E7BCF4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7F3667411722B82F00E7BCF4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7F3667491722B82F00E7BCF4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7F3667461722B82F00E7BCF4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7F36674A1722B84500E7BCF4</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>Event.h</string>
+			<key>path</key>
+			<string>CoreDate/Event.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7F36674B1722B84500E7BCF4</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>Event.m</string>
+			<key>path</key>
+			<string>CoreDate/Event.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7F36674E1722B84500E7BCF4</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>EventInfo.h</string>
+			<key>path</key>
+			<string>CoreDate/EventInfo.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7F36674F1722B84500E7BCF4</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>EventInfo.m</string>
+			<key>path</key>
+			<string>CoreDate/EventInfo.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7F3667521722B84500E7BCF4</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>Place.h</string>
+			<key>path</key>
+			<string>CoreDate/Place.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7F3667531722B84500E7BCF4</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>Place.m</string>
+			<key>path</key>
+			<string>CoreDate/Place.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7F3667561722B84500E7BCF4</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>PlaceInfo.h</string>
+			<key>path</key>
+			<string>CoreDate/PlaceInfo.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7F3667571722B84500E7BCF4</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>PlaceInfo.m</string>
+			<key>path</key>
+			<string>CoreDate/PlaceInfo.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7F36675A1722B84500E7BCF4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7F36674B1722B84500E7BCF4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7F36675C1722B84500E7BCF4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7F36674F1722B84500E7BCF4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7F36675E1722B84500E7BCF4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7F3667531722B84500E7BCF4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7F3667601722B84500E7BCF4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7F3667571722B84500E7BCF4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7F3667851722B87A00E7BCF4</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>7F36678A1722B89400E7BCF4</string>
+				<string>7F36678B1722B89400E7BCF4</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>Views</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7F36678A1722B89400E7BCF4</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>PlaceCell.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7F36678B1722B89400E7BCF4</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>PlaceCell.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7F36678C1722B89400E7BCF4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7F36678B1722B89400E7BCF4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7F36678D1722B8CD00E7BCF4</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>7F36678E1722B8CD00E7BCF4</string>
+			</array>
+			<key>currentVersion</key>
+			<string>7F36678E1722B8CD00E7BCF4</string>
+			<key>isa</key>
+			<string>XCVersionGroup</string>
+			<key>name</key>
+			<string>AfishaLviv.xcdatamodeld</string>
+			<key>path</key>
+			<string>CoreDate/AfishaLviv.xcdatamodeld</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+			<key>versionGroupType</key>
+			<string>wrapper.xcdatamodel</string>
+		</dict>
+		<key>7F36678E1722B8CD00E7BCF4</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.xcdatamodel</string>
+			<key>path</key>
+			<string>AfishaLviv.xcdatamodel</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7F36678F1722B8CD00E7BCF4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7F36678D1722B8CD00E7BCF4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7F3667901722B9BD00E7BCF4</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>image.png</string>
+			<key>path</key>
+			<string>Default-568h@2x.png</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7F3667911722B9BD00E7BCF4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7F3667901722B9BD00E7BCF4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7F8D9BBF1722BD9C00EE5D7C</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>DataManager.h</string>
+			<key>path</key>
+			<string>Models/DataManager.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7F8D9BC01722BD9C00EE5D7C</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>DataManager.m</string>
+			<key>path</key>
+			<string>Models/DataManager.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7F8D9BC11722BD9C00EE5D7C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7F8D9BC01722BD9C00EE5D7C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7FAABC0315251C1C00C9987A</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>MapKit.framework</string>
+			<key>path</key>
+			<string>System/Library/Frameworks/MapKit.framework</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
+		</dict>
+		<key>7FAABC0415251C1C00C9987A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7FAABC0315251C1C00C9987A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7FBC6523151B8057002A87CE</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>7F36671B1722B6C200E7BCF4</string>
+				<string>7F3666DC1722B6AB00E7BCF4</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Resources</string>
+			<key>path</key>
+			<string>..</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7FC0E5D2152F66270077253F</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>Twitter.framework</string>
+			<key>path</key>
+			<string>System/Library/Frameworks/Twitter.framework</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
+		</dict>
+		<key>7FC0E5D3152F66270077253F</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7FC0E5D2152F66270077253F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7FC0E5D5152F6AB00077253F</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>EventKit.framework</string>
+			<key>path</key>
+			<string>System/Library/Frameworks/EventKit.framework</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
+		</dict>
+		<key>7FC0E5D6152F6AB00077253F</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7FC0E5D5152F6AB00077253F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7FC0E5DF152F6D1F0077253F</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>EventKitUI.framework</string>
+			<key>path</key>
+			<string>System/Library/Frameworks/EventKitUI.framework</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
+		</dict>
+		<key>7FC0E5E0152F6D1F0077253F</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7FC0E5DF152F6D1F0077253F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7FD4FE94158E17F9009C85BB</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>ImageIO.framework</string>
+			<key>path</key>
+			<string>System/Library/Frameworks/ImageIO.framework</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
+		</dict>
+		<key>7FD4FE95158E17F9009C85BB</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7FD4FE94158E17F9009C85BB</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7FD5DD591517EE5100E919FA</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>7FD5DD701517EE5200E919FA</string>
+				<string>7FD5DD671517EE5200E919FA</string>
+				<string>7FD5DD651517EE5100E919FA</string>
+				<string>12AC591DD4BB4C6DBA9C508E</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7FD5DD5B1517EE5100E919FA</key>
+		<dict>
+			<key>attributes</key>
+			<dict>
+				<key>LastUpgradeCheck</key>
+				<string>0460</string>
+			</dict>
+			<key>buildConfigurationList</key>
+			<string>7FD5DD5E1517EE5100E919FA</string>
+			<key>compatibilityVersion</key>
+			<string>Xcode 3.2</string>
+			<key>developmentRegion</key>
+			<string>English</string>
+			<key>hasScannedForEncodings</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXProject</string>
+			<key>knownRegions</key>
+			<array>
+				<string>en</string>
+				<string>ru</string>
+				<string>uk</string>
+			</array>
+			<key>mainGroup</key>
+			<string>7FD5DD591517EE5100E919FA</string>
+			<key>productRefGroup</key>
+			<string>7FD5DD651517EE5100E919FA</string>
+			<key>projectDirPath</key>
+			<string></string>
+			<key>projectReferences</key>
+			<array/>
+			<key>projectRoot</key>
+			<string></string>
+			<key>targets</key>
+			<array>
+				<string>7FD5DD631517EE5100E919FA</string>
+			</array>
+		</dict>
+		<key>7FD5DD5E1517EE5100E919FA</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>7FD5DD7F1517EE5200E919FA</string>
+				<string>7FD5DD801517EE5200E919FA</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>7FD5DD601517EE5100E919FA</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>7FD5DD771517EE5200E919FA</string>
+				<string>7FD5DD7B1517EE5200E919FA</string>
+				<string>7F3667361722B80700E7BCF4</string>
+				<string>7F3667371722B80700E7BCF4</string>
+				<string>7F3667381722B80700E7BCF4</string>
+				<string>7F3667391722B80700E7BCF4</string>
+				<string>7F36673A1722B80700E7BCF4</string>
+				<string>7F36673B1722B80700E7BCF4</string>
+				<string>7F36673C1722B80700E7BCF4</string>
+				<string>7F36673D1722B80700E7BCF4</string>
+				<string>7F36673E1722B80700E7BCF4</string>
+				<string>7F36673F1722B80700E7BCF4</string>
+				<string>7F3667471722B82F00E7BCF4</string>
+				<string>7F3667491722B82F00E7BCF4</string>
+				<string>7F36675A1722B84500E7BCF4</string>
+				<string>7F36675C1722B84500E7BCF4</string>
+				<string>7F36675E1722B84500E7BCF4</string>
+				<string>7F3667601722B84500E7BCF4</string>
+				<string>7F36678C1722B89400E7BCF4</string>
+				<string>7F36678F1722B8CD00E7BCF4</string>
+				<string>7F8D9BC11722BD9C00EE5D7C</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>7FD5DD611517EE5100E919FA</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>7FD4FE95158E17F9009C85BB</string>
+				<string>7FC0E5E0152F6D1F0077253F</string>
+				<string>7FC0E5D6152F6AB00077253F</string>
+				<string>7FC0E5D3152F66270077253F</string>
+				<string>7FAABC0415251C1C00C9987A</string>
+				<string>7FD5DD691517EE5200E919FA</string>
+				<string>7FD5DD6B1517EE5200E919FA</string>
+				<string>7FD5DD6D1517EE5200E919FA</string>
+				<string>7FD5DD6F1517EE5200E919FA</string>
+				<string>392EED3FF3234458B5D84DFF</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>7FD5DD621517EE5100E919FA</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>7FF85BD7153E3BE5001EA4D5</string>
+				<string>7F3666FD1722B6AB00E7BCF4</string>
+				<string>7F3666FE1722B6AB00E7BCF4</string>
+				<string>7F3666FF1722B6AB00E7BCF4</string>
+				<string>7F3667001722B6AB00E7BCF4</string>
+				<string>7F3667011722B6AB00E7BCF4</string>
+				<string>7F3667021722B6AB00E7BCF4</string>
+				<string>7F3667031722B6AB00E7BCF4</string>
+				<string>7F3667041722B6AB00E7BCF4</string>
+				<string>7F3667051722B6AB00E7BCF4</string>
+				<string>7F3667061722B6AB00E7BCF4</string>
+				<string>7F3667071722B6AB00E7BCF4</string>
+				<string>7F3667081722B6AB00E7BCF4</string>
+				<string>7F3667091722B6AB00E7BCF4</string>
+				<string>7F36670A1722B6AB00E7BCF4</string>
+				<string>7F36670B1722B6AB00E7BCF4</string>
+				<string>7F36670C1722B6AB00E7BCF4</string>
+				<string>7F36670D1722B6AB00E7BCF4</string>
+				<string>7F36670E1722B6AB00E7BCF4</string>
+				<string>7F36670F1722B6AB00E7BCF4</string>
+				<string>7F3667101722B6AB00E7BCF4</string>
+				<string>7F3667111722B6AB00E7BCF4</string>
+				<string>7F3667121722B6AB00E7BCF4</string>
+				<string>7F3667131722B6AB00E7BCF4</string>
+				<string>7F3667141722B6AB00E7BCF4</string>
+				<string>7F3667151722B6AB00E7BCF4</string>
+				<string>7F3667161722B6AB00E7BCF4</string>
+				<string>7F3667171722B6AB00E7BCF4</string>
+				<string>7F3667181722B6AB00E7BCF4</string>
+				<string>7F3667191722B6AB00E7BCF4</string>
+				<string>7F36671A1722B6AB00E7BCF4</string>
+				<string>7F36671D1722B6C200E7BCF4</string>
+				<string>7F3667201722B6F100E7BCF4</string>
+				<string>7F3667211722B6F100E7BCF4</string>
+				<string>7F3667911722B9BD00E7BCF4</string>
+			</array>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>7FD5DD631517EE5100E919FA</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>7FD5DD811517EE5200E919FA</string>
+			<key>buildPhases</key>
+			<array>
+				<string>512457CF8FA34B5EAE02CC3E</string>
+				<string>7FD5DD601517EE5100E919FA</string>
+				<string>7FD5DD611517EE5100E919FA</string>
+				<string>7FD5DD621517EE5100E919FA</string>
+				<string>8EC04B44E53E4E9EB86E2327</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>AfishaLviv</string>
+			<key>productName</key>
+			<string>AfishaLviv</string>
+			<key>productReference</key>
+			<string>7FD5DD641517EE5100E919FA</string>
+			<key>productType</key>
+			<string>com.apple.product-type.application</string>
+		</dict>
+		<key>7FD5DD641517EE5100E919FA</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.application</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>AfishaLviv.app</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>7FD5DD651517EE5100E919FA</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>7FD5DD641517EE5100E919FA</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7FD5DD671517EE5200E919FA</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>7FD4FE94158E17F9009C85BB</string>
+				<string>7FC0E5DF152F6D1F0077253F</string>
+				<string>7FC0E5D5152F6AB00077253F</string>
+				<string>7FC0E5D2152F66270077253F</string>
+				<string>7FAABC0315251C1C00C9987A</string>
+				<string>7FD5DD681517EE5200E919FA</string>
+				<string>7FD5DD6A1517EE5200E919FA</string>
+				<string>7FD5DD6C1517EE5200E919FA</string>
+				<string>7FD5DD6E1517EE5200E919FA</string>
+				<string>23644B7328FE4C17B91CD2EF</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7FD5DD681517EE5200E919FA</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>UIKit.framework</string>
+			<key>path</key>
+			<string>System/Library/Frameworks/UIKit.framework</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
+		</dict>
+		<key>7FD5DD691517EE5200E919FA</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7FD5DD681517EE5200E919FA</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7FD5DD6A1517EE5200E919FA</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>Foundation.framework</string>
+			<key>path</key>
+			<string>System/Library/Frameworks/Foundation.framework</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
+		</dict>
+		<key>7FD5DD6B1517EE5200E919FA</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7FD5DD6A1517EE5200E919FA</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7FD5DD6C1517EE5200E919FA</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>CoreGraphics.framework</string>
+			<key>path</key>
+			<string>System/Library/Frameworks/CoreGraphics.framework</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
+		</dict>
+		<key>7FD5DD6D1517EE5200E919FA</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7FD5DD6C1517EE5200E919FA</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7FD5DD6E1517EE5200E919FA</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>CoreData.framework</string>
+			<key>path</key>
+			<string>System/Library/Frameworks/CoreData.framework</string>
+			<key>sourceTree</key>
+			<string>SDKROOT</string>
+		</dict>
+		<key>7FD5DD6F1517EE5200E919FA</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7FD5DD6E1517EE5200E919FA</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7FD5DD701517EE5200E919FA</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>7FD5DD791517EE5200E919FA</string>
+				<string>7FD5DD7A1517EE5200E919FA</string>
+				<string>7FD5DD911517EEC400E919FA</string>
+				<string>7F3667851722B87A00E7BCF4</string>
+				<string>7F1E60EE151E3BE600354A2F</string>
+				<string>7FBC6523151B8057002A87CE</string>
+				<string>7FD5DD711517EE5200E919FA</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>AfishaLviv</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7FD5DD711517EE5200E919FA</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>7FF85BD5153E3BE5001EA4D5</string>
+				<string>7FD5DD721517EE5200E919FA</string>
+				<string>7FD5DD761517EE5200E919FA</string>
+				<string>7FD5DD781517EE5200E919FA</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Supporting Files</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7FD5DD721517EE5200E919FA</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>AfishaLviv-Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7FD5DD761517EE5200E919FA</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>main.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7FD5DD771517EE5200E919FA</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7FD5DD761517EE5200E919FA</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7FD5DD781517EE5200E919FA</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>AfishaLviv-Prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7FD5DD791517EE5200E919FA</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>AppDelegate.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7FD5DD7A1517EE5200E919FA</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>AppDelegate.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7FD5DD7B1517EE5200E919FA</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7FD5DD7A1517EE5200E919FA</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7FD5DD7F1517EE5200E919FA</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>ARCHS</key>
+				<string>$(ARCHS_STANDARD_32_BIT)</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>CODE_SIGN_ENTITLEMENTS</key>
+				<string></string>
+				<key>CODE_SIGN_IDENTITY</key>
+				<string>iPhone Developer</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer: Danylo Kostyshyn (2H792BT2J7)</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
+				<string>NO</string>
+				<key>GCC_THUMB_SUPPORT</key>
+				<string>NO</string>
+				<key>GCC_VERSION</key>
+				<string>com.apple.compilers.llvm.clang.1_0</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>HEADER_SEARCH_PATHS</key>
+				<string>/Users/danylokostyshyn/Developer/github/json-framework/**</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>6.0</string>
+				<key>ONLY_ACTIVE_ARCH</key>
+				<string>NO</string>
+				<key>PROVISIONING_PROFILE</key>
+				<string></string>
+				<key>PROVISIONING_PROFILE[sdk=iphoneos*]</key>
+				<string>C8D4824E-E1E0-4879-A944-6161042775A8</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>VALID_ARCHS</key>
+				<string>armv7 armv7s</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>7FD5DD801517EE5200E919FA</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>ARCHS</key>
+				<string>$(ARCHS_STANDARD_32_BIT)</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>CODE_SIGN_ENTITLEMENTS</key>
+				<string></string>
+				<key>CODE_SIGN_IDENTITY</key>
+				<string>iPhone Developer</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer: Danylo Kostyshyn (2H792BT2J7)</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>YES</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_THUMB_SUPPORT</key>
+				<string>NO</string>
+				<key>GCC_VERSION</key>
+				<string>com.apple.compilers.llvm.clang.1_0</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>HEADER_SEARCH_PATHS</key>
+				<string>/Users/danylokostyshyn/Developer/github/json-framework/**</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>6.0</string>
+				<key>ONLY_ACTIVE_ARCH</key>
+				<string>NO</string>
+				<key>OTHER_CFLAGS</key>
+				<string>-DNS_BLOCK_ASSERTIONS=1</string>
+				<key>PROVISIONING_PROFILE</key>
+				<string></string>
+				<key>PROVISIONING_PROFILE[sdk=iphoneos*]</key>
+				<string>C8D4824E-E1E0-4879-A944-6161042775A8</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+				<key>VALID_ARCHS</key>
+				<string>armv7 armv7s</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>7FD5DD811517EE5200E919FA</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>7FD5DD821517EE5200E919FA</string>
+				<string>7FD5DD831517EE5200E919FA</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>7FD5DD821517EE5200E919FA</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>12AC591DD4BB4C6DBA9C508E</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ARCHS</key>
+				<string>$(ARCHS_STANDARD_32_BIT)</string>
+				<key>CODE_SIGN_IDENTITY</key>
+				<string>iPhone Developer</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>AfishaLviv/AfishaLviv-Prefix.pch</string>
+				<key>GCC_THUMB_SUPPORT</key>
+				<string>NO</string>
+				<key>INFOPLIST_FILE</key>
+				<string>AfishaLviv/AfishaLviv-Info.plist</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>6.0</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PROVISIONING_PROFILE</key>
+				<string></string>
+				<key>VALID_ARCHS</key>
+				<string>armv7 armv7s</string>
+				<key>WRAPPER_EXTENSION</key>
+				<string>app</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>7FD5DD831517EE5200E919FA</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>12AC591DD4BB4C6DBA9C508E</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ARCHS</key>
+				<string>$(ARCHS_STANDARD_32_BIT)</string>
+				<key>CODE_SIGN_IDENTITY</key>
+				<string>iPhone Developer</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>AfishaLviv/AfishaLviv-Prefix.pch</string>
+				<key>GCC_THUMB_SUPPORT</key>
+				<string>NO</string>
+				<key>INFOPLIST_FILE</key>
+				<string>AfishaLviv/AfishaLviv-Info.plist</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>6.0</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PROVISIONING_PROFILE</key>
+				<string></string>
+				<key>VALID_ARCHS</key>
+				<string>armv7 armv7s</string>
+				<key>WRAPPER_EXTENSION</key>
+				<string>app</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>7FD5DD8C1517EE9000E919FA</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>7F8D9BBF1722BD9C00EE5D7C</string>
+				<string>7F8D9BC01722BD9C00EE5D7C</string>
+				<string>7F36678D1722B8CD00E7BCF4</string>
+				<string>7F36674A1722B84500E7BCF4</string>
+				<string>7F36674B1722B84500E7BCF4</string>
+				<string>7F36674E1722B84500E7BCF4</string>
+				<string>7F36674F1722B84500E7BCF4</string>
+				<string>7F3667521722B84500E7BCF4</string>
+				<string>7F3667531722B84500E7BCF4</string>
+				<string>7F3667561722B84500E7BCF4</string>
+				<string>7F3667571722B84500E7BCF4</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>CoreDate</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7FD5DD911517EEC400E919FA</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>7F3667401722B82F00E7BCF4</string>
+				<string>7F3667411722B82F00E7BCF4</string>
+				<string>7FD5DD8C1517EE9000E919FA</string>
+				<string>7F3667441722B82F00E7BCF4</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Models</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7FF85BD5153E3BE5001EA4D5</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>7FF85BD6153E3BE5001EA4D5</string>
+				<string>7FF85BD8153E3BE9001EA4D5</string>
+				<string>7FF85BD9153E3BE9001EA4D5</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>Localizable.strings</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7FF85BD6153E3BE5001EA4D5</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.strings</string>
+			<key>name</key>
+			<string>en</string>
+			<key>path</key>
+			<string>en.lproj/Localizable.strings</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7FF85BD7153E3BE5001EA4D5</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7FF85BD5153E3BE5001EA4D5</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7FF85BD8153E3BE9001EA4D5</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.strings</string>
+			<key>name</key>
+			<string>ru</string>
+			<key>path</key>
+			<string>ru.lproj/Localizable.strings</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7FF85BD9153E3BE9001EA4D5</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.strings</string>
+			<key>name</key>
+			<string>uk</string>
+			<key>path</key>
+			<string>uk.lproj/Localizable.strings</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8EC04B44E53E4E9EB86E2327</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Copy Pods Resources</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Pods-resources.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>1</string>
+		</dict>
+	</dict>
+	<key>rootObject</key>
+	<string>7FD5DD5B1517EE5100E919FA</string>
+</dict>
+</plist>
