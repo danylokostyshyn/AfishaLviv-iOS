@@ -16,7 +16,14 @@
 #import "ALPlace.h"
 #import "ALPlaceInfo.h"
 
+//views
+#import <MBProgressHUD.h>
+
 #import "AfishaLvivFetcher.h"
+
+@interface ALHTTPClient ()
+@property (nonatomic) NSUInteger activeOperationsCount;
+@end
 
 @implementation ALHTTPClient
 
@@ -30,6 +37,32 @@ static NSString *kAPIBaseUrlString = @"http://afishalvivparser.appspot.com";
         sharedHTTPClient = [[ALHTTPClient alloc] initWithBaseURL:[NSURL URLWithString:kAPIBaseUrlString]];
     });
     return sharedHTTPClient;
+}
+
+- (void)enqueueHTTPRequestOperation:(AFHTTPRequestOperation *)operation
+{
+    [super enqueueHTTPRequestOperation:operation];
+    [self incrementActiveOperationsCount];
+}
+
+- (void)incrementActiveOperationsCount
+{
+    self.activeOperationsCount++;
+    
+    if (self.activeOperationsCount == 1) {
+        MBProgressHUD *progressHUD = [MBProgressHUD showHUDAddedTo:[[[UIApplication sharedApplication] windows] lastObject] animated:YES];
+        progressHUD.mode = MBProgressHUDModeIndeterminate;
+        progressHUD.labelText = NSLocalizedString(@"Loading...", @"");
+    }
+}
+
+- (void)decrementActiveOperationsCount
+{
+    self.activeOperationsCount--;
+    
+    if (self.activeOperationsCount == 0) {
+        [MBProgressHUD hideAllHUDsForView:[[[UIApplication sharedApplication] windows] lastObject] animated:YES];
+    }
 }
 
 + (NSString *)afishaLvivDateStringFromDate:(NSDate *)date
@@ -64,9 +97,13 @@ static NSString *kAPIBaseUrlString = @"http://afishalvivparser.appspot.com";
             [events addObject:event];
         }
         
+        [self decrementActiveOperationsCount];
         success(operation, events);
     }
-                                     failure:failure];
+     failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+        [self decrementActiveOperationsCount];
+        failure(operation, failure);
+     }];
     
     [self enqueueHTTPRequestOperation:operation];
     return operation;
@@ -91,9 +128,13 @@ static NSString *kAPIBaseUrlString = @"http://afishalvivparser.appspot.com";
         
         ALEventInfo *eventInfo = [ALEventInfo eventInfoWithAfishaLvivInfo:eventInfoDict];
         
+        [self decrementActiveOperationsCount];        
         success(operation, eventInfo);
     }
-                                     failure:failure];
+     failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+         [self decrementActiveOperationsCount];
+         failure(operation, failure);
+     }];
     
     [self enqueueHTTPRequestOperation:operation];
     return operation;
@@ -133,10 +174,14 @@ static NSString *kAPIBaseUrlString = @"http://afishalvivparser.appspot.com";
             ALPlace *place = [ALPlace placeWithAfishaLvivInfo:placeDict];
             [places addObject:place];
         }
-        
+
+        [self decrementActiveOperationsCount];        
         success(operation, places);
     }
-                                     failure:failure];
+     failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+         [self decrementActiveOperationsCount];
+         failure(operation, failure);
+     }];
     
     [self enqueueHTTPRequestOperation:operation];
     return operation;
@@ -161,9 +206,14 @@ static NSString *kAPIBaseUrlString = @"http://afishalvivparser.appspot.com";
         
         ALPlaceInfo *placeInfo = [ALPlaceInfo placeInfoWithAfishaLvivInfo:placeInfoDict];
         
+        [self decrementActiveOperationsCount];
         success(operation, placeInfo);
     }
-                                     failure:failure];
+     failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+         [self decrementActiveOperationsCount];
+         failure(operation, failure);
+     }];
+
     
     [self enqueueHTTPRequestOperation:operation];
     return operation;

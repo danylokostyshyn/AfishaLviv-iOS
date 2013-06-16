@@ -11,14 +11,10 @@
 #import "ALPlacesMenuViewController.h"
 
 @interface ALAppDelegate()
-
 @property (strong, nonatomic) UITabBarController *tabBarController;
-
 @end
 
 @implementation ALAppDelegate
-
-@synthesize tabBarController = _tabBarController;
 @synthesize window = _window;
 @synthesize managedObjectContext = __managedObjectContext;
 @synthesize managedObjectModel = __managedObjectModel;
