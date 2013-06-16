@@ -5,11 +5,8 @@
 //  Created by Danylo Kostyshyn on 27.03.12.
 
 #import <QuartzCore/QuartzCore.h>
-#import <Twitter/Twitter.h>
-#import <EventKit/EventKit.h>
 
 //models
-#import "AfishaLvivFetcher.h"
 #import "ALEvent.h"
 #import "ALEventInfo.h"
 
@@ -97,17 +94,15 @@ typedef enum {
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-    if (self.eventInfo == nil) 
+    if (!self.eventInfo)
         return 0;
-    
     return 3;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    if (self.eventInfo == nil) 
-        return 0;
-    
+    if (!self.eventInfo)
+        return 0;    
     return 1;
 }
 

@@ -6,7 +6,17 @@
 
 #import "ALPlaceInfo.h"
 
-#import "AfishaLvivFetcher.h"
+#define AFISHALVIV_PLACEINFO_ADDRESS            @"address"
+#define AFISHALVIV_PLACEINFO_BIMAGEURL          @"bimage_url"
+#define AFISHALVIV_PLACEINFO_EMAIL              @"email"
+#define AFISHALVIV_PLACEINFO_GOOGLE_MAP         @"googlemap"
+#define AFISHALVIV_PLACEINFO_LOCATION           @"location"
+#define AFISHALVIV_PLACEINFO_PHONE              @"phone"
+#define AFISHALVIV_PLACEINFO_SCHEDULE           @"schedule"
+#define AFISHALVIV_PLACEINFO_TEXT               @"text"
+#define AFISHALVIV_PLACEINFO_TITLE              @"title"
+#define AFISHALVIV_PLACEINFO_URL                @"url"
+#define AFISHALVIV_PLACEINFO_WEBSITE            @"website"
 
 @implementation ALPlaceInfo
 

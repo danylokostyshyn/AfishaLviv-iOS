@@ -7,7 +7,6 @@
 #import "ALPlacesViewController.h"
 
 //models
-#import "AfishaLvivFetcher.h"
 #import "ALDataManager.h"
 #import "ALPlace.h"
 

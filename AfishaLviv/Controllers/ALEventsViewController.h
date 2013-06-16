@@ -6,7 +6,7 @@
 
 #import "ALViewController.h"
 
-#import "ALDataManager.h"
+#import "ALEvent.h"
 
 @interface ALEventsViewController : UITableViewController
 @property (nonatomic) ALEventType eventsType;

@@ -19,8 +19,6 @@
 //views
 #import <MBProgressHUD.h>
 
-#import "AfishaLvivFetcher.h"
-
 @interface ALHTTPClient ()
 @property (nonatomic) NSUInteger activeOperationsCount;
 @end

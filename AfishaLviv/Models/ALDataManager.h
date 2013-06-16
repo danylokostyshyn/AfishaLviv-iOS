@@ -8,29 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-typedef enum {
-    ALEventTypeConcert,
-    ALEventTypeExibition,
-    ALEventTypeCinema,
-    ALEventTypeParty,
-    ALEventTypePerformance,
-    ALEventTypePresentation
-} ALEventType;
-
-static NSUInteger kALEventTypesCount = 6;
-
-typedef enum {
-    ALPlaceTypeRestaurant,
-    ALPlaceTypeMuseum,
-    ALPlaceTypeGallery,
-    ALPlaceTypeTheater,
-    ALPlaceTypeCinema,
-    ALPlaceTypeClub,
-    ALPlaceTypeHall
-} ALPlaceType;
-
-static NSUInteger kALPlaceTypesCount = 7;
-
 @class ALEventInfo, ALPlaceInfo;
 @interface ALDataManager : NSObject
 

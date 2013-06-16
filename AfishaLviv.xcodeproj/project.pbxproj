@@ -132,7 +132,6 @@
 		7F3667311722B80600E7BCF4 /* ALPlacesMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ALPlacesMenuViewController.m; path = Controllers/ALPlacesMenuViewController.m; sourceTree = "<group>"; };
 		7F3667321722B80600E7BCF4 /* ALPlacesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALPlacesViewController.h; path = Controllers/ALPlacesViewController.h; sourceTree = "<group>"; };
 		7F3667331722B80600E7BCF4 /* ALPlacesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ALPlacesViewController.m; path = Controllers/ALPlacesViewController.m; sourceTree = "<group>"; };
-		7F3667401722B82F00E7BCF4 /* AfishaLvivFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AfishaLvivFetcher.h; path = Models/AfishaLvivFetcher.h; sourceTree = "<group>"; };
 		7F3667451722B82F00E7BCF4 /* ALPlaceAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALPlaceAnnotation.h; sourceTree = "<group>"; };
 		7F3667461722B82F00E7BCF4 /* ALPlaceAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALPlaceAnnotation.m; sourceTree = "<group>"; };
 		7F36674A1722B84500E7BCF4 /* ALEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALEvent.h; path = CoreDate/ALEvent.h; sourceTree = "<group>"; };
@@ -404,7 +403,6 @@
 			isa = PBXGroup;
 			children = (
 				7F3667441722B82F00E7BCF4 /* PlaceAnnotation */,
-				7F3667401722B82F00E7BCF4 /* AfishaLvivFetcher.h */,
 				7FBC8657176D037C0037DD52 /* ALHTTPClient.h */,
 				7FBC8658176D037C0037DD52 /* ALHTTPClient.m */,
 				7F8D9BBF1722BD9C00EE5D7C /* ALDataManager.h */,

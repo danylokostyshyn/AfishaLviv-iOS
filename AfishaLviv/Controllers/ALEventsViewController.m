@@ -9,7 +9,6 @@
 #import <QuartzCore/QuartzCore.h>
 
 //models
-#import "AfishaLvivFetcher.h"
 #import "ALEvent.h"
 
 //views
@@ -24,7 +23,8 @@
 @property (strong, nonatomic) IBOutlet UITableViewCell *cell;
 @property (strong, nonatomic) UILabel *noItemsLabel;
 @property (strong, nonatomic) UIBarButtonItem *calendarBarButton;
-@property (strong, nonatomic) NSDate *currentDate; 
+@property (strong, nonatomic) NSDate *currentDate;
+@property (strong, nonatomic) NSArray *filteredItems;
 @end
 
 @implementation ALEventsViewController
@@ -63,13 +63,6 @@
     return _currentDate;
 }
 
-#define kEventTypeConcert       0
-#define kEventTypeExibition     1
-#define kEventTypeCinema        2
-#define kEventTypeParty         3
-#define kEventTypePerformance   4
-#define kEventTypePresentation  5
-
 - (UIBarButtonItem *)calendarBarButton
 {
     if (_calendarBarButton == nil) {
@@ -81,30 +74,16 @@
     return _calendarBarButton;
 }
 
-#pragma mark - Actions
-
-- (void)calendarButtonPressed
+- (NSArray *)filteredItems
 {
-
+    if (!_filteredItems) {
+        NSPredicate *predicate = [NSPredicate predicateWithFormat:@"event_type == %d", self.eventsType];        
+        _filteredItems = [self.items filteredArrayUsingPredicate:predicate];
+    }
+    return _filteredItems;
 }
 
-#pragma mark - Logic
-
-- (void)refreshEvents
-{
-    [[ALHTTPClient sharedHTTPClient] eventsOperationForDate:self.currentDate
-                                                    success:^(AFHTTPRequestOperation *operation, NSArray *events) {
-                                                        self.items = [events mutableCopy];
-                                                        [self.tableView reloadData];                                                        
-                                                        [self.refreshControl endRefreshing];
-                                                    } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
-                                                        [self.refreshControl endRefreshing];                                                        
-                                                        NSLog(@"%@", error);
-                                                    }];
-    
-}
-
-#pragma mark - View Delegate
+#pragma mark - View LifeCycle
 
 - (void)viewDidLoad
 {
@@ -127,15 +106,31 @@
 - (void)viewDidAppear:(BOOL)animated
 {
     [super viewDidAppear:animated];
-    
-    if (self.items.count == 0) {
-        [self refreshEvents];
-    }
+
+    [self.tableView reloadData];
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
+}
+
+#pragma mark - Private Methods
+
+- (void)refreshEvents
+{
+    [[ALHTTPClient sharedHTTPClient] eventsOperationForDate:self.currentDate
+                                                    success:^(AFHTTPRequestOperation *operation, NSArray *events) {
+                                                        [self.items removeAllObjects];
+                                                        [self.items addObjectsFromArray:events];                                                        
+                                                        self.filteredItems = nil;
+                                                        [self.tableView reloadData];                                                        
+                                                        [self.refreshControl endRefreshing];
+                                                    } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+                                                        [self.refreshControl endRefreshing];                                                        
+                                                        NSLog(@"%@", error);
+                                                    }];
+    
 }
 
 #pragma mark - UITableViewDataSource
@@ -147,7 +142,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    NSUInteger itemsCount = [self.items count];
+    NSUInteger itemsCount = [self.filteredItems count];
     if (itemsCount == 0) {
         [self.view addSubview:self.noItemsLabel];
     } else {
@@ -165,7 +160,7 @@
         self.cell = nil;
     }
     
-    ALEvent *event = [self.items objectAtIndex:indexPath.row];
+    ALEvent *event = [self.filteredItems objectAtIndex:indexPath.row];
     
     ((UILabel *)[cell viewWithTag:2]).text = event.title;
     
@@ -187,7 +182,7 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    ALEvent *event = [self.items objectAtIndex:indexPath.row];
+    ALEvent *event = [self.filteredItems objectAtIndex:indexPath.row];
     
     ALEventInfoViewController *eventInfoViewController = [ALEventInfoViewController controller];
     eventInfoViewController.event = event;
@@ -199,6 +194,13 @@
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     return self.cell.bounds.size.height;
+}
+
+#pragma mark - Actions
+
+- (void)calendarButtonPressed
+{
+    
 }
 
 @end

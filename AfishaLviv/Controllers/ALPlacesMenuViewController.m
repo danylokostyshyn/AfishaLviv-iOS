@@ -7,8 +7,6 @@
 #import "ALPlacesMenuViewController.h"
 
 //models
-#import "AfishaLvivFetcher.h"
-#import "ALDataManager.h"
 
 //controllers
 #import "ALPlacesViewController.h"
@@ -99,9 +97,7 @@
         default:
             break;
     }
-    
     cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
-    
     return cell;
 }
 

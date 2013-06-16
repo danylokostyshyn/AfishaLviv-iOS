@@ -9,7 +9,6 @@
 #import "ALDataManager.h"
 
 //models
-#import "AfishaLvivFetcher.h"
 #import "ALEvent.h"
 #import "ALEventInfo.h"
 #import "ALPlace.h"

@@ -42,22 +42,10 @@
 
 #pragma mark - UITableViewDataSource
 
-- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
-{
-    return 1;
-}
-
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 6;
+    return kALEventTypesCount;
 }
-
-#define kEventTypeConcert       0
-#define kEventTypeExibition     1
-#define kEventTypeCinema        2
-#define kEventTypeParty         3
-#define kEventTypePerformance   4
-#define kEventTypePresentation  5
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
@@ -69,32 +57,32 @@
     }
     
     switch (indexPath.row) {
-        case kEventTypeConcert: {
+        case ALEventTypeConcert: {
             cell.textLabel.text = NSLocalizedString(@"Concerts", @"Conert category name to display.");
             cell.imageView.image = [UIImage imageNamed:@"153-guitar.png"];
             break;
         }
-        case kEventTypeExibition: {
+        case ALEventTypeExibition: {
             cell.textLabel.text = NSLocalizedString(@"Exhibitions", @"Exhibition category name to display.");
             cell.imageView.image = [UIImage imageNamed:@"41-picture-frame.png"];
             break;
         }
-        case kEventTypeCinema: {
+        case ALEventTypeCinema: {
             cell.textLabel.text = NSLocalizedString(@"Films", @"Cinema category name to display.");
             cell.imageView.image = [UIImage imageNamed:@"45-movie-1"];
             break;
         }
-        case kEventTypeParty: {
+        case ALEventTypeParty: {
             cell.textLabel.text = NSLocalizedString(@"Parties", @"Party category name to display.");
             cell.imageView.image = [UIImage imageNamed:@"88-beer-mug.png"];
             break;
         }
-        case kEventTypePerformance: {
+        case ALEventTypePerformance: {
             cell.textLabel.text = NSLocalizedString(@"Performances", @"Performance category name to display.");
             cell.imageView.image = [UIImage imageNamed:@"124-bullhorn.png"];
             break;
         }
-        case kEventTypePresentation: {
+        case ALEventTypePresentation: {
             cell.textLabel.text = NSLocalizedString(@"Presentations", @"Presentation category name to display.");
             cell.imageView.image = [UIImage imageNamed:@"137-presentation.png"];
             break;

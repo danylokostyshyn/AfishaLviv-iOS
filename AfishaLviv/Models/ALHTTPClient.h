@@ -8,7 +8,7 @@
 
 #import "AFHTTPClient.h"
 
-#import "ALDataManager.h"
+#import "ALPlace.h"
 
 @class ALEventInfo, ALPlaceInfo;
 @interface ALHTTPClient : AFHTTPClient
