@@ -4,7 +4,7 @@
 //
 //  Created by Danylo Kostyshyn on 22.03.12.
 
-#import <UIKit/UIKit.h>
+#import "ALViewController.h"
 
 @class DatePickerRollerVC;
 @protocol DatePickerRollerDelegate <NSObject>
@@ -14,7 +14,7 @@
 
 @end
 
-@interface DatePickerRollerVC : UIViewController <UITableViewDelegate, UITableViewDataSource>
+@interface DatePickerRollerVC : ALViewController <UITableViewDelegate, UITableViewDataSource>
 
 @property (assign, nonatomic) id <DatePickerRollerDelegate> delegate;
 

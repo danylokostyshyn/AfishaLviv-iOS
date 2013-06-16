@@ -8,7 +8,6 @@
 
 //models
 #import "DataManager.h"
-#import "AppDelegate.h"
 
 @interface SettingsVC ()
 
@@ -121,8 +120,7 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     
-    AppDelegate *delegate = ((AppDelegate *)[[UIApplication sharedApplication] delegate]);
-    NSManagedObjectContext *managedObjectContext = [delegate managedObjectContext];
+    NSManagedObjectContext *managedObjectContext = [ApplicationDelegate managedObjectContext];
     
     if (indexPath.row == 0)
     {

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1171" systemVersion="11D50d" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
-    <entity name="Event" representedClassName="Event" syncable="YES">
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="2061" systemVersion="12E55" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="ALEvent" representedClassName="ALEvent" syncable="YES">
         <attribute name="date" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="desc" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="event_type" optional="YES" attributeType="String" syncable="YES"/>
@@ -10,26 +10,47 @@
         <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="url" optional="YES" attributeType="String" syncable="YES"/>
     </entity>
-    <entity name="EventInfo" representedClassName="EventInfo">
-        <attribute name="bimage_url" optional="YES" attributeType="String"/>
-        <attribute name="date_interval" optional="YES" attributeType="String"/>
-        <attribute name="place_address" optional="YES" attributeType="String"/>
-        <attribute name="place_title" optional="YES" attributeType="String"/>
-        <attribute name="place_url" optional="YES" attributeType="String"/>
-        <attribute name="price" optional="YES" attributeType="String"/>
-        <attribute name="text" optional="YES" attributeType="String"/>
-        <attribute name="title" optional="YES" attributeType="String"/>
-        <attribute name="url" optional="YES" attributeType="String"/>
-        <attribute name="worktime" optional="YES" attributeType="String"/>
+    <entity name="ALEventInfo" representedClassName="ALEventInfo">
+        <attribute name="bimage_url" optional="YES" attributeType="String">
+            <userInfo/>
+        </attribute>
+        <attribute name="date_interval" optional="YES" attributeType="String">
+            <userInfo/>
+        </attribute>
+        <attribute name="place_address" optional="YES" attributeType="String">
+            <userInfo/>
+        </attribute>
+        <attribute name="place_title" optional="YES" attributeType="String">
+            <userInfo/>
+        </attribute>
+        <attribute name="place_url" optional="YES" attributeType="String">
+            <userInfo/>
+        </attribute>
+        <attribute name="price" optional="YES" attributeType="String">
+            <userInfo/>
+        </attribute>
+        <attribute name="text" optional="YES" attributeType="String">
+            <userInfo/>
+        </attribute>
+        <attribute name="title" optional="YES" attributeType="String">
+            <userInfo/>
+        </attribute>
+        <attribute name="url" optional="YES" attributeType="String">
+            <userInfo/>
+        </attribute>
+        <attribute name="worktime" optional="YES" attributeType="String">
+            <userInfo/>
+        </attribute>
+        <userInfo/>
     </entity>
-    <entity name="Place" representedClassName="Place" syncable="YES">
+    <entity name="ALPlace" representedClassName="ALPlace" syncable="YES">
         <attribute name="desc" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="place_type" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="simage_url" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="url" optional="YES" attributeType="String" syncable="YES"/>
     </entity>
-    <entity name="PlaceInfo" representedClassName="PlaceInfo" syncable="YES">
+    <entity name="ALPlaceInfo" representedClassName="ALPlaceInfo" syncable="YES">
         <attribute name="address" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="bimage_url" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
@@ -43,9 +64,9 @@
         <attribute name="website" optional="YES" attributeType="String" syncable="YES"/>
     </entity>
     <elements>
-        <element name="Event" positionX="-10296" positionY="-3960" width="128" height="165"/>
-        <element name="EventInfo" positionX="-10134" positionY="-3942" width="128" height="195"/>
-        <element name="Place" positionX="-9972" positionY="-3960" width="128" height="120"/>
-        <element name="PlaceInfo" positionX="-9810" positionY="-3945" width="128" height="210"/>
+        <element name="ALEvent" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="ALEventInfo" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="ALPlace" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="ALPlaceInfo" positionX="0" positionY="0" width="0" height="0"/>
     </elements>
 </model>

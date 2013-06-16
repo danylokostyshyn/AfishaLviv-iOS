@@ -27,8 +27,7 @@ typedef enum {
     PlaceTypeHall
 } PlaceType;
 
-@class EventInfo, PlaceInfo;
-
+@class ALEventInfo, ALPlaceInfo;
 @interface DataManager : NSObject
 
 //events
@@ -40,7 +39,7 @@ typedef enum {
 
 //events infos
 + (void)fetchEventsInfosForUrl:(NSURL *)url inToManagedObjectContext:(NSManagedObjectContext *)context;
-+ (EventInfo *)eventInfoForUniqueUrl:(NSURL *)url inManagedObjectContext:(NSManagedObjectContext *)context;
++ (ALEventInfo *)eventInfoForUniqueUrl:(NSURL *)url inManagedObjectContext:(NSManagedObjectContext *)context;
 + (void)deleteAllEventsInfosInManagedObjectContext:(NSManagedObjectContext *)context;
 
 //places
@@ -50,7 +49,7 @@ typedef enum {
 
 //places infos
 + (void)fetchPlacesInfosForUrl:(NSURL *)url inToManagedObjectContext:(NSManagedObjectContext *)context;
-+ (PlaceInfo *)placeInfoForUniqueUrl:(NSURL *)url inManagedObjectContext:(NSManagedObjectContext *)context;
++ (ALPlaceInfo *)placeInfoForUniqueUrl:(NSURL *)url inManagedObjectContext:(NSManagedObjectContext *)context;
 + (void)deleteAllPlacesInfosInManagedObjectContext:(NSManagedObjectContext *)context;
 
 @end
