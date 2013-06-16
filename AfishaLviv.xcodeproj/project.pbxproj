@@ -60,7 +60,7 @@
 		7F3667601722B84500E7BCF4 /* ALPlaceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F3667571722B84500E7BCF4 /* ALPlaceInfo.m */; };
 		7F36678F1722B8CD00E7BCF4 /* AfishaLviv.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7F36678D1722B8CD00E7BCF4 /* AfishaLviv.xcdatamodeld */; };
 		7F3667911722B9BD00E7BCF4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F3667901722B9BD00E7BCF4 /* Default-568h@2x.png */; };
-		7F8D9BC11722BD9C00EE5D7C /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8D9BC01722BD9C00EE5D7C /* DataManager.m */; };
+		7F8D9BC11722BD9C00EE5D7C /* ALDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8D9BC01722BD9C00EE5D7C /* ALDataManager.m */; };
 		7FAABC0415251C1C00C9987A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FAABC0315251C1C00C9987A /* MapKit.framework */; };
 		7FBC8652176CFCF00037DD52 /* ALViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FBC8651176CFCF00037DD52 /* ALViewController.m */; };
 		7FBC8654176CFD7B0037DD52 /* ALEventsMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7FBC8653176CFD7B0037DD52 /* ALEventsMenuViewController.xib */; };
@@ -145,8 +145,8 @@
 		7F3667571722B84500E7BCF4 /* ALPlaceInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ALPlaceInfo.m; path = CoreDate/ALPlaceInfo.m; sourceTree = "<group>"; };
 		7F36678E1722B8CD00E7BCF4 /* AfishaLviv.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AfishaLviv.xcdatamodel; sourceTree = "<group>"; };
 		7F3667901722B9BD00E7BCF4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		7F8D9BBF1722BD9C00EE5D7C /* DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DataManager.h; path = Models/DataManager.h; sourceTree = "<group>"; };
-		7F8D9BC01722BD9C00EE5D7C /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DataManager.m; path = Models/DataManager.m; sourceTree = "<group>"; };
+		7F8D9BBF1722BD9C00EE5D7C /* ALDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALDataManager.h; path = Models/ALDataManager.h; sourceTree = "<group>"; };
+		7F8D9BC01722BD9C00EE5D7C /* ALDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ALDataManager.m; path = Models/ALDataManager.m; sourceTree = "<group>"; };
 		7FAABC0315251C1C00C9987A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		7FBC8650176CFCF00037DD52 /* ALViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALViewController.h; path = Controllers/ALViewController.h; sourceTree = "<group>"; };
 		7FBC8651176CFCF00037DD52 /* ALViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ALViewController.m; path = Controllers/ALViewController.m; sourceTree = "<group>"; };
@@ -407,8 +407,8 @@
 				7F3667401722B82F00E7BCF4 /* AfishaLvivFetcher.h */,
 				7FBC8657176D037C0037DD52 /* ALHTTPClient.h */,
 				7FBC8658176D037C0037DD52 /* ALHTTPClient.m */,
-				7F8D9BBF1722BD9C00EE5D7C /* DataManager.h */,
-				7F8D9BC01722BD9C00EE5D7C /* DataManager.m */,
+				7F8D9BBF1722BD9C00EE5D7C /* ALDataManager.h */,
+				7F8D9BC01722BD9C00EE5D7C /* ALDataManager.m */,
 				7FD5DD8C1517EE9000E919FA /* CoreDate */,
 			);
 			name = Models;
@@ -564,7 +564,7 @@
 				7F36675E1722B84500E7BCF4 /* ALPlace.m in Sources */,
 				7F3667601722B84500E7BCF4 /* ALPlaceInfo.m in Sources */,
 				7F36678F1722B8CD00E7BCF4 /* AfishaLviv.xcdatamodeld in Sources */,
-				7F8D9BC11722BD9C00EE5D7C /* DataManager.m in Sources */,
+				7F8D9BC11722BD9C00EE5D7C /* ALDataManager.m in Sources */,
 				7FBC8652176CFCF00037DD52 /* ALViewController.m in Sources */,
 				7FBC8659176D037C0037DD52 /* ALHTTPClient.m in Sources */,
 			);

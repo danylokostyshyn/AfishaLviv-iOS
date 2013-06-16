@@ -6,7 +6,7 @@
 //
 //
 
-#import "DataManager.h"
+#import "ALDataManager.h"
 
 //models
 #import "AfishaLvivFetcher.h"
@@ -15,14 +15,14 @@
 #import "ALPlace.h"
 #import "ALPlaceInfo.h"
 
-@interface DataManager ()
+@interface ALDataManager ()
 + (NSString *)afishaLvivStringFromDate:(NSDate *)date;
 + (NSArray *)entitiesWithName:(NSString *)entityName
                     predicate:(NSPredicate *)predicate
        inManagedObjectContext:(NSManagedObjectContext *)context;
 @end
 
-@implementation DataManager
+@implementation ALDataManager
 
 //+ (NSString *)afishaLvivStringFromDate:(NSDate *)date
 //{

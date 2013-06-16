@@ -140,19 +140,19 @@ static NSString *kAPIBaseUrlString = @"http://afishalvivparser.appspot.com";
     return operation;
 }
 
-- (AFHTTPRequestOperation *)placesOperationForType:(PlaceType)placeType
+- (AFHTTPRequestOperation *)placesOperationForType:(ALPlaceType)placeType
                                            success:(void (^)(AFHTTPRequestOperation *operation, NSArray *places))success
                                            failure:(void (^)(AFHTTPRequestOperation *operation, NSError *error))failure
 {
     NSString *placeTypeString;
     switch (placeType) {
-        case PlaceTypeRestaurant: placeTypeString = PLACE_TYPE_RESTAURANT; break;
-        case PlaceTypeMuseum: placeTypeString = PLACE_TYPE_MUSEUM; break;
-        case PlaceTypeGallery: placeTypeString = PLACE_TYPE_GALLERY; break;
-        case PlaceTypeTheater: placeTypeString = PLACE_TYPE_THEATER; break;
-        case PlaceTypeCinema: placeTypeString = PLACE_TYPE_CINEMA; break;
-        case PlaceTypeClub: placeTypeString = PLACE_TYPE_CLUB; break;
-        case PlaceTypeHall: placeTypeString = PLACE_TYPE_HALL; break;
+        case ALPlaceTypeRestaurant: placeTypeString = PLACE_TYPE_RESTAURANT; break;
+        case ALPlaceTypeMuseum: placeTypeString = PLACE_TYPE_MUSEUM; break;
+        case ALPlaceTypeGallery: placeTypeString = PLACE_TYPE_GALLERY; break;
+        case ALPlaceTypeTheater: placeTypeString = PLACE_TYPE_THEATER; break;
+        case ALPlaceTypeCinema: placeTypeString = PLACE_TYPE_CINEMA; break;
+        case ALPlaceTypeClub: placeTypeString = PLACE_TYPE_CLUB; break;
+        case ALPlaceTypeHall: placeTypeString = PLACE_TYPE_HALL; break;
         default: break;
     }
 

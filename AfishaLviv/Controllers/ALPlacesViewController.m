@@ -8,7 +8,7 @@
 
 //models
 #import "AfishaLvivFetcher.h"
-#import "DataManager.h"
+#import "ALDataManager.h"
 #import "ALPlace.h"
 
 //views
@@ -60,13 +60,13 @@
     [super viewDidLoad];
 
     switch (self.placeType) {
-        case PlaceTypeCinema: self.title = NSLocalizedString(@"Cinema", @"PlacesTVC title cinema."); break;
-        case PlaceTypeClub: self.title = NSLocalizedString(@"Clubs", @"PlacesTVC title clubs."); break;
-        case PlaceTypeGallery: self.title = NSLocalizedString(@"Galleries", @"PlacesTVC title galleries."); break;
-        case PlaceTypeHall: self.title = NSLocalizedString(@"Halls", @"PlacesTVC title halls."); break;
-        case PlaceTypeMuseum: self.title = NSLocalizedString(@"Museums", @"PlacesTVC title museums."); break;
-        case PlaceTypeRestaurant: self.title = NSLocalizedString(@"Restaurants", @"PlacesTVC title restaurants."); break;
-        case PlaceTypeTheater: self.title = NSLocalizedString(@"Theaters", @"PlacesTVC title theaters."); break;
+        case ALPlaceTypeCinema: self.title = NSLocalizedString(@"Cinema", @"PlacesTVC title cinema."); break;
+        case ALPlaceTypeClub: self.title = NSLocalizedString(@"Clubs", @"PlacesTVC title clubs."); break;
+        case ALPlaceTypeGallery: self.title = NSLocalizedString(@"Galleries", @"PlacesTVC title galleries."); break;
+        case ALPlaceTypeHall: self.title = NSLocalizedString(@"Halls", @"PlacesTVC title halls."); break;
+        case ALPlaceTypeMuseum: self.title = NSLocalizedString(@"Museums", @"PlacesTVC title museums."); break;
+        case ALPlaceTypeRestaurant: self.title = NSLocalizedString(@"Restaurants", @"PlacesTVC title restaurants."); break;
+        case ALPlaceTypeTheater: self.title = NSLocalizedString(@"Theaters", @"PlacesTVC title theaters."); break;
         default: self.title = @"O_o"; break;
     }      
     

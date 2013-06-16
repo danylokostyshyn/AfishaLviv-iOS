@@ -8,7 +8,7 @@
 
 #import "AFHTTPClient.h"
 
-#import "DataManager.h"
+#import "ALDataManager.h"
 
 @class ALEventInfo, ALPlaceInfo;
 @interface ALHTTPClient : AFHTTPClient
@@ -22,7 +22,7 @@
                                      success:(void (^)(AFHTTPRequestOperation *operation, ALEventInfo *eventInfo))success
                                      failure:(void (^)(AFHTTPRequestOperation *operation, NSError *error))failure;
 
-- (AFHTTPRequestOperation *)placesOperationForType:(PlaceType)placeType
+- (AFHTTPRequestOperation *)placesOperationForType:(ALPlaceType)placeType
                                            success:(void (^)(AFHTTPRequestOperation *operation, NSArray *places))success
                                            failure:(void (^)(AFHTTPRequestOperation *operation, NSError *error))failure;
 

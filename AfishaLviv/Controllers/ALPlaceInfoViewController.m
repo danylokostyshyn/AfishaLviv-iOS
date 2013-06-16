@@ -9,7 +9,7 @@
 #import <QuartzCore/QuartzCore.h>
 
 //models
-#import "DataManager.h"
+#import "ALDataManager.h"
 #import "ALPlace.h"
 #import "ALPlaceInfo.h"
 #import "ALPlaceAnnotation.h"

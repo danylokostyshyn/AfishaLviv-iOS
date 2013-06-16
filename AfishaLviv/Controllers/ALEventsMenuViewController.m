@@ -61,7 +61,7 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *CellIdentifier = @"EventsMenuCell";
+    static NSString *CellIdentifier = @"ALEventsMenuCell";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     
     if (cell == nil) {
@@ -99,12 +99,10 @@
             cell.imageView.image = [UIImage imageNamed:@"137-presentation.png"];
             break;
         }
-        default:
-            break;
+
+        default: break;
     }
-    
     cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
-    
     return cell;
 }
 
@@ -114,7 +112,7 @@
 {
     ALEventsViewController *eventsViewController =
     [[ALEventsViewController alloc] initWithNibName:@"ALEventsViewController" bundle:nil];
-    eventsViewController.eventsType = indexPath.row;
+    eventsViewController.eventsType = (ALEventType)indexPath.row;
     eventsViewController.items = self.items;
 
     [self.navigationController pushViewController:eventsViewController animated:YES];

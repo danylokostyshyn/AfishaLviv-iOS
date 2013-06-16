@@ -7,8 +7,8 @@
 #import "ALViewController.h"
 
 //models
-#import "DataManager.h"
+#import "ALDataManager.h"
 
 @interface ALPlacesViewController : UITableViewController
-@property (nonatomic) PlaceType placeType;
+@property (nonatomic) ALPlaceType placeType;
 @end

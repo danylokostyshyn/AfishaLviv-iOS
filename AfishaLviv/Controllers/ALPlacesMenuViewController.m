@@ -8,15 +8,14 @@
 
 //models
 #import "AfishaLvivFetcher.h"
-#import "DataManager.h"
+#import "ALDataManager.h"
 
 //controllers
 #import "ALPlacesViewController.h"
 
 @interface ALPlacesMenuViewController ()
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
-@property (strong, nonatomic) NSArray *categoriesArray;
-@property (nonatomic) PlaceType selectedType;
+@property (nonatomic) ALPlaceType selectedType;
 @end
 
 @implementation ALPlacesMenuViewController
@@ -33,21 +32,7 @@
     return self;
 }
 
-#pragma mark -
-#pragma mark Lazzy Init
-
-- (NSArray *)categoriesArray
-{
-    if (!_categoriesArray) {
-        _categoriesArray = @[@(PlaceTypeCinema), @(PlaceTypeClub),
-                             @(PlaceTypeGallery), @(PlaceTypeHall),
-                             @(PlaceTypeMuseum), @(PlaceTypeRestaurant), @(PlaceTypeTheater)];
-    }
-    return _categoriesArray;
-}
-
-#pragma mark -
-#pragma mark View LifeCycle
+#pragma mark - View LifeCycle
 
 - (void)viewDidLoad
 {
@@ -59,11 +44,11 @@
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
-#pragma mark - Table view data source
+#pragma mark - UITableViewDataSource
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return [self.categoriesArray count];
+    return kALPlaceTypesCount;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -76,37 +61,37 @@
     }
     
     switch (indexPath.row) {
-        case PlaceTypeCinema:
+        case ALPlaceTypeCinema:
             cell.textLabel.text = NSLocalizedString(@"Cinema", @"Cinema place category name to display.");
             cell.imageView.image = [UIImage imageNamed:@"43-film-roll.png"];
             break;
             
-        case PlaceTypeClub:
+        case ALPlaceTypeClub:
             cell.textLabel.text = NSLocalizedString(@"Clubs", @"Club place category name to display.");
             cell.imageView.image = [UIImage imageNamed:@"144-martini.png"];
             break;
             
-        case PlaceTypeGallery:
+        case ALPlaceTypeGallery:
             cell.textLabel.text = NSLocalizedString(@"Galleries", @"Gallery place category name to display.");
             cell.imageView.image = [UIImage imageNamed:@"121-landscape.png"];
             break;
             
-        case PlaceTypeHall:
+        case ALPlaceTypeHall:
             cell.textLabel.text = NSLocalizedString(@"Halls", @"Hall place category name to display.");
             cell.imageView.image = [UIImage imageNamed:@"190-bank.png"];
             break;
             
-        case PlaceTypeMuseum:
+        case ALPlaceTypeMuseum:
             cell.textLabel.text = NSLocalizedString(@"Museums", @"Museum place category name to display.");
             cell.imageView.image = [UIImage imageNamed:@"190-bank.png"];
             break;
             
-        case PlaceTypeRestaurant:
+        case ALPlaceTypeRestaurant:
             cell.textLabel.text = NSLocalizedString(@"Restaurants", @"Restaurant place category name to display.");
             cell.imageView.image = [UIImage imageNamed:@"34-coffee.png"];
             break;
 
-        case PlaceTypeTheater:
+        case ALPlaceTypeTheater:
             cell.textLabel.text = NSLocalizedString(@"Theaters", @"Theater place category name to display.");
             cell.imageView.image = [UIImage imageNamed:@"124-bullhorn.png"];
             break;
@@ -126,7 +111,7 @@
 {
     ALPlacesViewController *placesViewController =
     [[ALPlacesViewController alloc] initWithNibName:@"ALPlacesViewController" bundle:nil];
-    placesViewController.placeType = (PlaceType)indexPath.row;
+    placesViewController.placeType = (ALPlaceType)indexPath.row;
     
     [self.navigationController pushViewController:placesViewController animated:YES];
     [self.tableView deselectRowAtIndexPath:indexPath animated:YES];    

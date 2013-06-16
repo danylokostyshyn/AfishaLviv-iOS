@@ -6,7 +6,9 @@
 
 #import "ALViewController.h"
 
+#import "ALDataManager.h"
+
 @interface ALEventsViewController : UITableViewController
-@property (nonatomic) NSUInteger eventsType;
+@property (nonatomic) ALEventType eventsType;
 @property (strong, nonatomic) NSMutableArray *items;
 @end
