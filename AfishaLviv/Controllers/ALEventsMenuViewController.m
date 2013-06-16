@@ -12,6 +12,7 @@
 @interface ALEventsMenuViewController ()
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property (strong, nonatomic) NSMutableArray *items;
+@property (strong, nonatomic) NSDate *currentDate;
 @end
 
 @implementation ALEventsMenuViewController
@@ -102,6 +103,7 @@
     [[ALEventsViewController alloc] initWithNibName:@"ALEventsViewController" bundle:nil];
     eventsViewController.eventsType = (ALEventType)indexPath.row;
     eventsViewController.items = self.items;
+    eventsViewController.currentDate = self.currentDate;
 
     [self.navigationController pushViewController:eventsViewController animated:YES];
     [self.tableView deselectRowAtIndexPath:indexPath animated:YES]; 

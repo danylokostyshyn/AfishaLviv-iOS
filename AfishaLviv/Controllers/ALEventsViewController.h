@@ -6,9 +6,14 @@
 
 #import "ALViewController.h"
 
+//models
 #import "ALEvent.h"
 
-@interface ALEventsViewController : UITableViewController
+//views
+#import "ALDatePickerView.h"
+
+@interface ALEventsViewController : UITableViewController <ALDatePickerViewDelegate>
 @property (nonatomic) ALEventType eventsType;
 @property (strong, nonatomic) NSMutableArray *items;
+@property (strong, nonatomic) NSDate *currentDate;
 @end

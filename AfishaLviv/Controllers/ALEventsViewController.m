@@ -19,11 +19,12 @@
 @property (strong, nonatomic) IBOutlet UITableViewCell *cell;
 @property (strong, nonatomic) UILabel *noItemsLabel;
 @property (strong, nonatomic) UIBarButtonItem *calendarBarButton;
-@property (strong, nonatomic) NSDate *currentDate;
 @property (strong, nonatomic) NSArray *filteredItems;
 @end
 
 @implementation ALEventsViewController
+
+@synthesize currentDate = _currentDate;
 
 - (UITableViewCell *)cell
 {
@@ -59,13 +60,20 @@
     return _currentDate;
 }
 
+- (void)setCurrentDate:(NSDate *)currentDate
+{
+    if (_currentDate != currentDate) {
+        _currentDate = currentDate;
+    }
+}
+
 - (UIBarButtonItem *)calendarBarButton
 {
     if (_calendarBarButton == nil) {
         _calendarBarButton = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"calendar-icon.png"]
                                                               style:UIBarButtonItemStylePlain
                                                              target:self
-                                                             action:@selector(calendarButtonPressed)];
+                                                             action:@selector(calendarButtonPressed:)];
     }
     return _calendarBarButton;
 }
@@ -85,13 +93,10 @@
 {
     [super viewDidLoad];
     
-//    self.navigationItem.rightBarButtonItem = self.calendarBarButton;
+    self.navigationItem.rightBarButtonItem = self.calendarBarButton;
     
-    NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
-    [dateFormatter setDateFormat:@"d MMMM, yyyy"];
-    [dateFormatter setLocale:[NSLocale currentLocale]];
-    self.title = [dateFormatter stringFromDate:self.currentDate];
-    
+    [self updateTitle];
+        
     UIRefreshControl *refreshControl = [[UIRefreshControl alloc] init];
     [refreshControl addTarget:self
                        action:@selector(refreshEvents)
@@ -127,6 +132,14 @@
                                                         NSLog(@"%@", error);
                                                     }];
     
+}
+
+- (void)updateTitle
+{
+    NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
+    [dateFormatter setDateFormat:@"d MMMM, yyyy"];
+    [dateFormatter setLocale:[NSLocale currentLocale]];
+    self.title = [dateFormatter stringFromDate:self.currentDate];
 }
 
 #pragma mark - UITableViewDataSource
@@ -194,9 +207,22 @@
 
 #pragma mark - Actions
 
-- (void)calendarButtonPressed
+- (void)calendarButtonPressed:(id)sender
 {
-    
+    ALDatePickerView *datePickerView = [[ALDatePickerView alloc] initWithView:self.view];
+    datePickerView.delegate = self;
+    [datePickerView show];
+}
+
+#pragma mark - ALDatePickerView
+
+- (void)datePickerView:(ALDatePickerView *)datePickerView didFinishWithDateOrNil:(NSDate *)dateOrNil
+{
+    if (dateOrNil) {
+        self.currentDate = dateOrNil;
+        [self updateTitle];
+        [self refreshEvents];
+    }
 }
 
 @end
