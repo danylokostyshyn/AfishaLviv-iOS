@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 
 #import "ALAppDelegate.h"
+#import "ALResourceLoader.h"
 
 @interface ALViewController : UIViewController
 + (id)controller;

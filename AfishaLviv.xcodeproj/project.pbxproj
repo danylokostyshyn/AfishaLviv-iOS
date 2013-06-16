@@ -15,6 +15,9 @@
 		7F0E361D176E31E800D09E1A /* ALPlaceCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F0E361C176E31E800D09E1A /* ALPlaceCell.xib */; };
 		7F0E361F176E37AF00D09E1A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F0E361E176E37AF00D09E1A /* SystemConfiguration.framework */; };
 		7F0E3621176E37B500D09E1A /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F0E3620176E37B500D09E1A /* MobileCoreServices.framework */; };
+		7F0E3628176E51E600D09E1A /* camera-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F0E3626176E51E600D09E1A /* camera-icon.png */; };
+		7F0E3629176E51E600D09E1A /* camera-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F0E3627176E51E600D09E1A /* camera-icon@2x.png */; };
+		7F0E362C176E525C00D09E1A /* ALResourceLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F0E362B176E525B00D09E1A /* ALResourceLoader.m */; };
 		7F3666FD1722B6AB00E7BCF4 /* calendar-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F3666DD1722B6AB00E7BCF4 /* calendar-icon.png */; };
 		7F3666FE1722B6AB00E7BCF4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F3666DF1722B6AB00E7BCF4 /* Default.png */; };
 		7F3666FF1722B6AB00E7BCF4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F3666E01722B6AB00E7BCF4 /* Default@2x.png */; };
@@ -43,8 +46,6 @@
 		7F3667161722B6AB00E7BCF4 /* 86-camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F3666F81722B6AB00E7BCF4 /* 86-camera.png */; };
 		7F3667171722B6AB00E7BCF4 /* 88-beer-mug.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F3666F91722B6AB00E7BCF4 /* 88-beer-mug.png */; };
 		7F3667181722B6AB00E7BCF4 /* 98-palette.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F3666FA1722B6AB00E7BCF4 /* 98-palette.png */; };
-		7F3667191722B6AB00E7BCF4 /* question-mark-big.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F3666FB1722B6AB00E7BCF4 /* question-mark-big.png */; };
-		7F36671A1722B6AB00E7BCF4 /* question-mark-small.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F3666FC1722B6AB00E7BCF4 /* question-mark-small.png */; };
 		7F36671D1722B6C200E7BCF4 /* ALEventCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F36671C1722B6C200E7BCF4 /* ALEventCell.xib */; };
 		7F3667211722B6F100E7BCF4 /* ALEventsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F36671F1722B6F100E7BCF4 /* ALEventsViewController.xib */; };
 		7F3667381722B80700E7BCF4 /* ALEventInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F3667271722B80600E7BCF4 /* ALEventInfoViewController.m */; };
@@ -88,6 +89,10 @@
 		7F0E361C176E31E800D09E1A /* ALPlaceCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ALPlaceCell.xib; sourceTree = "<group>"; };
 		7F0E361E176E37AF00D09E1A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		7F0E3620176E37B500D09E1A /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		7F0E3626176E51E600D09E1A /* camera-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera-icon.png"; sourceTree = "<group>"; };
+		7F0E3627176E51E600D09E1A /* camera-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera-icon@2x.png"; sourceTree = "<group>"; };
+		7F0E362A176E525B00D09E1A /* ALResourceLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALResourceLoader.h; path = Models/ALResourceLoader.h; sourceTree = "<group>"; };
+		7F0E362B176E525B00D09E1A /* ALResourceLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ALResourceLoader.m; path = Models/ALResourceLoader.m; sourceTree = "<group>"; };
 		7F3666DD1722B6AB00E7BCF4 /* calendar-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "calendar-icon.png"; sourceTree = "<group>"; };
 		7F3666DF1722B6AB00E7BCF4 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		7F3666E01722B6AB00E7BCF4 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
@@ -116,8 +121,6 @@
 		7F3666F81722B6AB00E7BCF4 /* 86-camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "86-camera.png"; sourceTree = "<group>"; };
 		7F3666F91722B6AB00E7BCF4 /* 88-beer-mug.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "88-beer-mug.png"; sourceTree = "<group>"; };
 		7F3666FA1722B6AB00E7BCF4 /* 98-palette.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "98-palette.png"; sourceTree = "<group>"; };
-		7F3666FB1722B6AB00E7BCF4 /* question-mark-big.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "question-mark-big.png"; sourceTree = "<group>"; };
-		7F3666FC1722B6AB00E7BCF4 /* question-mark-small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "question-mark-small.png"; sourceTree = "<group>"; };
 		7F36671C1722B6C200E7BCF4 /* ALEventCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ALEventCell.xib; sourceTree = "<group>"; };
 		7F36671F1722B6F100E7BCF4 /* ALEventsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ALEventsViewController.xib; sourceTree = "<group>"; };
 		7F3667261722B80600E7BCF4 /* ALEventInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALEventInfoViewController.h; path = Controllers/ALEventInfoViewController.h; sourceTree = "<group>"; };
@@ -208,11 +211,11 @@
 		7F3666DC1722B6AB00E7BCF4 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				7F0E3626176E51E600D09E1A /* camera-icon.png */,
+				7F0E3627176E51E600D09E1A /* camera-icon@2x.png */,
 				7F3666DD1722B6AB00E7BCF4 /* calendar-icon.png */,
 				7F3666DE1722B6AB00E7BCF4 /* Defaults */,
 				7F3666E31722B6AB00E7BCF4 /* Icons */,
-				7F3666FB1722B6AB00E7BCF4 /* question-mark-big.png */,
-				7F3666FC1722B6AB00E7BCF4 /* question-mark-small.png */,
 			);
 			name = Images;
 			path = AfishaLviv/Resources/Images;
@@ -408,6 +411,8 @@
 				7F8D9BBF1722BD9C00EE5D7C /* ALDataManager.h */,
 				7F8D9BC01722BD9C00EE5D7C /* ALDataManager.m */,
 				7FD5DD8C1517EE9000E919FA /* CoreDate */,
+				7F0E362A176E525B00D09E1A /* ALResourceLoader.h */,
+				7F0E362B176E525B00D09E1A /* ALResourceLoader.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -496,8 +501,6 @@
 				7F3667161722B6AB00E7BCF4 /* 86-camera.png in Resources */,
 				7F3667171722B6AB00E7BCF4 /* 88-beer-mug.png in Resources */,
 				7F3667181722B6AB00E7BCF4 /* 98-palette.png in Resources */,
-				7F3667191722B6AB00E7BCF4 /* question-mark-big.png in Resources */,
-				7F36671A1722B6AB00E7BCF4 /* question-mark-small.png in Resources */,
 				7F36671D1722B6C200E7BCF4 /* ALEventCell.xib in Resources */,
 				7F3667211722B6F100E7BCF4 /* ALEventsViewController.xib in Resources */,
 				7F3667911722B9BD00E7BCF4 /* Default-568h@2x.png in Resources */,
@@ -507,6 +510,8 @@
 				7F0E361A176E2E0100D09E1A /* ALPlacesMenuViewController.xib in Resources */,
 				7F0E361B176E2E0100D09E1A /* ALPlacesViewController.xib in Resources */,
 				7F0E361D176E31E800D09E1A /* ALPlaceCell.xib in Resources */,
+				7F0E3628176E51E600D09E1A /* camera-icon.png in Resources */,
+				7F0E3629176E51E600D09E1A /* camera-icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -565,6 +570,7 @@
 				7F8D9BC11722BD9C00EE5D7C /* ALDataManager.m in Sources */,
 				7FBC8652176CFCF00037DD52 /* ALViewController.m in Sources */,
 				7FBC8659176D037C0037DD52 /* ALHTTPClient.m in Sources */,
+				7F0E362C176E525C00D09E1A /* ALResourceLoader.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

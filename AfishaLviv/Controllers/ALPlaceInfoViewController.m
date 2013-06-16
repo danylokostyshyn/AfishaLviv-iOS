@@ -9,14 +9,9 @@
 #import <QuartzCore/QuartzCore.h>
 
 //models
-#import "ALDataManager.h"
 #import "ALPlace.h"
 #import "ALPlaceInfo.h"
 #import "ALPlaceAnnotation.h"
-
-//views
-#import "MBProgressHUD.h"
-
 #import "ALHTTPClient.h"
 
 @interface ALPlaceInfoViewController ()
@@ -186,7 +181,7 @@ typedef enum {
             imageView.layer.borderWidth = 1.0;
             
             [imageView setImageWithURL:[NSURL URLWithString:self.placeInfo.bimage_url]
-                      placeholderImage:[UIImage imageNamed:@"question-mark-small.png"]];
+                      placeholderImage:[ALResourceLoader placeHolderImage]];
             [cell addSubview:imageView];        
             
             /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////

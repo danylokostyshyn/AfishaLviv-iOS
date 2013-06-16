@@ -7,5 +7,4 @@
 #import "ALViewController.h"
 
 @interface ALEventsMenuViewController : ALViewController
-
 @end

@@ -7,16 +7,11 @@
 #import "ALPlacesViewController.h"
 
 //models
-#import "ALDataManager.h"
 #import "ALPlace.h"
-
-//views
-#import "MBProgressHUD.h"
+#import "ALHTTPClient.h"
 
 //controllers
 #import "ALPlaceInfoViewController.h"
-
-#import "ALHTTPClient.h"
 
 @interface ALPlacesViewController ()
 @property (strong, nonatomic) UITableViewCell *cell;
@@ -127,7 +122,7 @@
     }
     
     [(UIImageView *)[cell viewWithTag:1] setImageWithURL:[NSURL URLWithString:place.simage_url]
-                                        placeholderImage:[UIImage imageNamed:@"question-mark-small.png"]];
+                                        placeholderImage:[ALResourceLoader placeHolderImage]];
 
     return cell;
 }

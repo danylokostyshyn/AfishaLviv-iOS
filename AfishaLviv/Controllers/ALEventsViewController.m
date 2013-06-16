@@ -10,14 +10,10 @@
 
 //models
 #import "ALEvent.h"
-
-//views
-#import "MBProgressHUD.h"
+#import "ALHTTPClient.h"
 
 //controllers
 #import "ALEventInfoViewController.h"
-
-#import "ALHTTPClient.h"
 
 @interface ALEventsViewController ()
 @property (strong, nonatomic) IBOutlet UITableViewCell *cell;
@@ -173,7 +169,7 @@
     }
     
     [(UIImageView *)[cell viewWithTag:1] setImageWithURL:[NSURL URLWithString:event.simage_url]
-                                        placeholderImage:[UIImage imageNamed:@"question-mark-small.png"]];
+                                        placeholderImage:[ALResourceLoader placeHolderImage]];
     
     return cell;
 }

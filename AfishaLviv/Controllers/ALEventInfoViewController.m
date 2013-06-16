@@ -9,15 +9,11 @@
 //models
 #import "ALEvent.h"
 #import "ALEventInfo.h"
-
-//views
-#import "MBProgressHUD.h"
+#import "ALHTTPClient.h"
 
 //controllers
 #import "ALEventInfoViewController.h"
 #import "ALPlaceInfoViewController.h"
-
-#import "ALHTTPClient.h"
 
 @interface ALEventInfoViewController ()
 @property (weak, nonatomic) IBOutlet UITableView *tableView;;
@@ -143,7 +139,7 @@ typedef enum {
             imageView.layer.borderWidth = 1.0;
             
             [imageView setImageWithURL:[NSURL URLWithString:self.eventInfo.bimage_url]
-                      placeholderImage:[UIImage imageNamed:@"question-mark-small.png"]];
+                      placeholderImage:[ALResourceLoader placeHolderImage]];
             [cell addSubview:imageView];
             
             /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -222,6 +218,29 @@ typedef enum {
 
 #pragma mark - UITableViewDelegate
 
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    switch (indexPath.section)
+    {
+        case EventInfoCellStyleImageAndTitle: break;
+            
+        case EventInfoCellStylePlaceAddressAndTitle: {
+            if ([self.eventInfo.place_title isEqualToString:@"null"] == NO) {
+                
+                ALPlaceInfoViewController *placeInfoViewController = [ALPlaceInfoViewController controller];
+                placeInfoViewController.placeInfoURL = [NSURL URLWithString:self.eventInfo.place_url];
+                [self.navigationController pushViewController:placeInfoViewController animated:YES];
+            }
+        } break;
+            
+        case EventInfoCellStyleText: break;
+            
+        default: break;
+    }
+    
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+}
+
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     CGSize sizeToFit;
@@ -251,29 +270,6 @@ typedef enum {
         default:
             return 0.0;            
     }
-}
-
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    switch (indexPath.section)
-    {
-        case EventInfoCellStyleImageAndTitle: break;
-        
-        case EventInfoCellStylePlaceAddressAndTitle: {
-            if ([self.eventInfo.place_title isEqualToString:@"null"] == NO) {
-
-                ALPlaceInfoViewController *placeInfoViewController = [ALPlaceInfoViewController controller];
-                placeInfoViewController.placeInfoURL = [NSURL URLWithString:self.eventInfo.place_url];
-                [self.navigationController pushViewController:placeInfoViewController animated:YES];
-            }
-        } break;
-
-        case EventInfoCellStyleText: break;
-        
-        default: break;
-    }
-    
-    [tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
 
 #pragma mark - UIWebViewDelegate
