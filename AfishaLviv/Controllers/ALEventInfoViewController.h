@@ -6,10 +6,8 @@
 
 #import "ALViewController.h"
 
-#import <EventKitUI/EventKitUI.h>
-
 @class ALEvent;
 @interface ALEventInfoViewController : ALViewController <UITableViewDelegate, UITableViewDataSource,
-    UIWebViewDelegate, UIActionSheetDelegate, EKEventEditViewDelegate>
+    UIWebViewDelegate>
 @property (strong, nonatomic) ALEvent *event;
 @end
