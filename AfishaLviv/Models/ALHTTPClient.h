@@ -8,26 +8,28 @@
 
 #import "AFHTTPClient.h"
 
+#import "ALHTTPRequestOperation.h"
 #import "ALPlace.h"
 
-@class ALEventInfo, ALPlaceInfo;
+@class ALHTTPRequestOperation, ALEventInfo, ALPlaceInfo;
 @interface ALHTTPClient : AFHTTPClient
+
 + (ALHTTPClient *)sharedHTTPClient;
 
-- (AFHTTPRequestOperation *)eventsOperationForDate:(NSDate *)date
-                                           success:(void (^)(AFHTTPRequestOperation *operation, NSArray *events))success
-                                           failure:(void (^)(AFHTTPRequestOperation *operation, NSError *error))failure;
+- (ALHTTPRequestOperation *)eventsOperationForDate:(NSDate *)date
+                                           success:(void (^)(ALHTTPRequestOperation *operation, NSArray *events))success
+                                           failure:(void (^)(ALHTTPRequestOperation *operation, NSError *error))failure;
 
-- (AFHTTPRequestOperation *)eventInfoFromURL:(NSURL *)eventInfoURL
-                                     success:(void (^)(AFHTTPRequestOperation *operation, ALEventInfo *eventInfo))success
-                                     failure:(void (^)(AFHTTPRequestOperation *operation, NSError *error))failure;
+- (ALHTTPRequestOperation *)eventInfoFromURL:(NSURL *)eventInfoURL
+                                     success:(void (^)(ALHTTPRequestOperation *operation, ALEventInfo *eventInfo))success
+                                     failure:(void (^)(ALHTTPRequestOperation *operation, NSError *error))failure;
 
-- (AFHTTPRequestOperation *)placesOperationForType:(ALPlaceType)placeType
-                                           success:(void (^)(AFHTTPRequestOperation *operation, NSArray *places))success
-                                           failure:(void (^)(AFHTTPRequestOperation *operation, NSError *error))failure;
+- (ALHTTPRequestOperation *)placesOperationForType:(ALPlaceType)placeType
+                                           success:(void (^)(ALHTTPRequestOperation *operation, NSArray *places))success
+                                           failure:(void (^)(ALHTTPRequestOperation *operation, NSError *error))failure;
 
-- (AFHTTPRequestOperation *)placeInfoFromURL:(NSURL *)placeInfoURL
-                                     success:(void (^)(AFHTTPRequestOperation *operation, ALPlaceInfo *placeInfo))success
-                                     failure:(void (^)(AFHTTPRequestOperation *operation, NSError *error))failure;
+- (ALHTTPRequestOperation *)placeInfoFromURL:(NSURL *)placeInfoURL
+                                     success:(void (^)(ALHTTPRequestOperation *operation, ALPlaceInfo *placeInfo))success
+                                     failure:(void (^)(ALHTTPRequestOperation *operation, NSError *error))failure;
 
 @end

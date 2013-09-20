@@ -11,13 +11,11 @@
 #import "ALAppDelegate.h"
 
 //models
+#import "ALHTTPRequestOperation.h"
 #import "ALEvent.h"
 #import "ALEventInfo.h"
 #import "ALPlace.h"
 #import "ALPlaceInfo.h"
-
-//views
-#import <MBProgressHUD.h>
 
 @interface ALHTTPClient ()
 @property (nonatomic) NSUInteger activeOperationsCount;
@@ -37,32 +35,6 @@ static NSString *kAPIBaseUrlString = @"http://afishalvivparser.appspot.com";
     return sharedHTTPClient;
 }
 
-- (void)enqueueHTTPRequestOperation:(AFHTTPRequestOperation *)operation
-{
-    [super enqueueHTTPRequestOperation:operation];
-    [self incrementActiveOperationsCount];
-}
-
-- (void)incrementActiveOperationsCount
-{
-    self.activeOperationsCount++;
-    
-    if (self.activeOperationsCount == 1) {
-        MBProgressHUD *progressHUD = [MBProgressHUD showHUDAddedTo:[[[UIApplication sharedApplication] windows] lastObject] animated:YES];
-        progressHUD.mode = MBProgressHUDModeIndeterminate;
-        progressHUD.labelText = NSLocalizedString(@"Loading...", @"");
-    }
-}
-
-- (void)decrementActiveOperationsCount
-{
-    self.activeOperationsCount--;
-    
-    if (self.activeOperationsCount == 0) {
-        [MBProgressHUD hideAllHUDsForView:[[[UIApplication sharedApplication] windows] lastObject] animated:YES];
-    }
-}
-
 + (NSString *)afishaLvivDateStringFromDate:(NSDate *)date
 {
     NSDateFormatter *dateFormat = [[NSDateFormatter alloc] init];
@@ -72,75 +44,51 @@ static NSString *kAPIBaseUrlString = @"http://afishalvivparser.appspot.com";
 
 #pragma mark - Operations
 
-- (AFHTTPRequestOperation *)eventsOperationForDate:(NSDate *)date
-                                           success:(void (^)(AFHTTPRequestOperation *operation, NSArray *events))success
-                                           failure:(void (^)(AFHTTPRequestOperation *operation, NSError *error))failure
+- (ALHTTPRequestOperation *)eventsOperationForDate:(NSDate *)date
+                                           success:(void (^)(ALHTTPRequestOperation *operation, NSArray *events))success
+                                           failure:(void (^)(ALHTTPRequestOperation *operation, NSError *error))failure
 {
     NSString *requestPath = [kAPIBaseUrlString stringByAppendingFormat:@"/events?%@", [ALHTTPClient afishaLvivDateStringFromDate:date]];
     NSURLRequest *request = [[ALHTTPClient sharedHTTPClient] requestWithMethod:@"GET"
                                                                       path:requestPath
                                                                     parameters:nil];
 
-    AFHTTPRequestOperation *operation = [[AFHTTPRequestOperation alloc] initWithRequest:request];
-    [operation setCompletionBlockWithSuccess:^(AFHTTPRequestOperation *operation, id responseObject) {
-
-        // Processing response payload
-        NSError *serializationError;
-        NSArray *eventsDicts = [NSJSONSerialization JSONObjectWithData:responseObject options:0 error:&serializationError];
-        if (serializationError) { failure(operation, serializationError); }
-        
+    ALHTTPRequestOperation *operation = [[ALHTTPRequestOperation alloc] initWithRequest:request];
+    [operation setCompletionBlockWithSuccess:^(ALHTTPRequestOperation *operation, id JSONObject) {
         NSMutableArray *events = [NSMutableArray array];
-        for (NSDictionary *eventDict in eventsDicts) {
+        for (NSDictionary *eventDict in (NSArray *)JSONObject) {
             ALEvent *event = [ALEvent eventWithAfishaLvivInfo:eventDict];
             [events addObject:event];
         }
-        
-        [self decrementActiveOperationsCount];
         success(operation, events);
-    }
-     failure:^(AFHTTPRequestOperation *operation, NSError *error) {
-        [self decrementActiveOperationsCount];
-        failure(operation, failure);
-     }];
+    } failure:failure];
     
     [self enqueueHTTPRequestOperation:operation];
     return operation;
 }
 
-- (AFHTTPRequestOperation *)eventInfoFromURL:(NSURL *)eventInfoURL
-                                     success:(void (^)(AFHTTPRequestOperation *operation, ALEventInfo *eventInfo))success
-                                     failure:(void (^)(AFHTTPRequestOperation *operation, NSError *error))failure
+- (ALHTTPRequestOperation *)eventInfoFromURL:(NSURL *)eventInfoURL
+                                     success:(void (^)(ALHTTPRequestOperation *operation, ALEventInfo *eventInfo))success
+                                     failure:(void (^)(ALHTTPRequestOperation *operation, NSError *error))failure
 {
     NSString *requestPath = [kAPIBaseUrlString stringByAppendingFormat:@"/event_info?%@", eventInfoURL];
     NSURLRequest *request = [[ALHTTPClient sharedHTTPClient] requestWithMethod:@"GET"
                                                                           path:requestPath
                                                                     parameters:nil];
-    
-    AFHTTPRequestOperation *operation = [[AFHTTPRequestOperation alloc] initWithRequest:request];
-    [operation setCompletionBlockWithSuccess:^(AFHTTPRequestOperation *operation, id responseObject) {
-        
-        // Processing response payload
-        NSError *serializationError;
-        NSDictionary *eventInfoDict = [NSJSONSerialization JSONObjectWithData:responseObject options:0 error:&serializationError];
-        if (serializationError) { failure(operation, serializationError); }
-        
-        ALEventInfo *eventInfo = [ALEventInfo eventInfoWithAfishaLvivInfo:eventInfoDict];
-        
-        [self decrementActiveOperationsCount];        
+
+    ALHTTPRequestOperation *operation = [[ALHTTPRequestOperation alloc] initWithRequest:request];
+    [operation setCompletionBlockWithSuccess:^(ALHTTPRequestOperation *operation, id JSONObject) {
+        ALEventInfo *eventInfo = [ALEventInfo eventInfoWithAfishaLvivInfo:(NSDictionary *)JSONObject];
         success(operation, eventInfo);
-    }
-     failure:^(AFHTTPRequestOperation *operation, NSError *error) {
-         [self decrementActiveOperationsCount];
-         failure(operation, failure);
-     }];
+    } failure:failure];
     
     [self enqueueHTTPRequestOperation:operation];
     return operation;
 }
 
-- (AFHTTPRequestOperation *)placesOperationForType:(ALPlaceType)placeType
-                                           success:(void (^)(AFHTTPRequestOperation *operation, NSArray *places))success
-                                           failure:(void (^)(AFHTTPRequestOperation *operation, NSError *error))failure
+- (ALHTTPRequestOperation *)placesOperationForType:(ALPlaceType)placeType
+                                           success:(void (^)(ALHTTPRequestOperation *operation, NSArray *places))success
+                                           failure:(void (^)(ALHTTPRequestOperation *operation, NSError *error))failure
 {
     NSString *placeTypeString;
     switch (placeType) {
@@ -159,60 +107,35 @@ static NSString *kAPIBaseUrlString = @"http://afishalvivparser.appspot.com";
                                                                           path:requestPath
                                                                     parameters:nil];
     
-    AFHTTPRequestOperation *operation = [[AFHTTPRequestOperation alloc] initWithRequest:request];
-    [operation setCompletionBlockWithSuccess:^(AFHTTPRequestOperation *operation, id responseObject) {
-        
-        // Processing response payload
-        NSError *serializationError;
-        NSArray *placessDicts = [NSJSONSerialization JSONObjectWithData:responseObject options:0 error:&serializationError];
-        if (serializationError) { failure(operation, serializationError); }
-        
+    ALHTTPRequestOperation *operation = [[ALHTTPRequestOperation alloc] initWithRequest:request];
+    [operation setCompletionBlockWithSuccess:^(ALHTTPRequestOperation *operation, id JSONObject) {
         NSMutableArray *places = [NSMutableArray array];
-        for (NSDictionary *placeDict in placessDicts) {
+        for (NSDictionary *placeDict in (NSArray *)JSONObject) {
             ALPlace *place = [ALPlace placeWithAfishaLvivInfo:placeDict];
             [places addObject:place];
         }
-
-        [self decrementActiveOperationsCount];        
         success(operation, places);
-    }
-     failure:^(AFHTTPRequestOperation *operation, NSError *error) {
-         [self decrementActiveOperationsCount];
-         failure(operation, failure);
-     }];
-    
+    } failure:failure];
+
     [self enqueueHTTPRequestOperation:operation];
     return operation;
 }
 
-- (AFHTTPRequestOperation *)placeInfoFromURL:(NSURL *)placeInfoURL
-                                     success:(void (^)(AFHTTPRequestOperation *operation, ALPlaceInfo *placeInfo))success
-                                     failure:(void (^)(AFHTTPRequestOperation *operation, NSError *error))failure
+- (ALHTTPRequestOperation *)placeInfoFromURL:(NSURL *)placeInfoURL
+                                     success:(void (^)(ALHTTPRequestOperation *operation, ALPlaceInfo *placeInfo))success
+                                     failure:(void (^)(ALHTTPRequestOperation *operation, NSError *error))failure
 {
     NSString *requestPath = [kAPIBaseUrlString stringByAppendingFormat:@"/place_info?%@", placeInfoURL];
     NSURLRequest *request = [[ALHTTPClient sharedHTTPClient] requestWithMethod:@"GET"
                                                                           path:requestPath
                                                                     parameters:nil];
     
-    AFHTTPRequestOperation *operation = [[AFHTTPRequestOperation alloc] initWithRequest:request];
-    [operation setCompletionBlockWithSuccess:^(AFHTTPRequestOperation *operation, id responseObject) {
-        
-        // Processing response payload
-        NSError *serializationError;
-        NSDictionary *placeInfoDict = [NSJSONSerialization JSONObjectWithData:responseObject options:0 error:&serializationError];
-        if (serializationError) { failure(operation, serializationError); }
-        
-        ALPlaceInfo *placeInfo = [ALPlaceInfo placeInfoWithAfishaLvivInfo:placeInfoDict];
-        
-        [self decrementActiveOperationsCount];
+    ALHTTPRequestOperation *operation = [[ALHTTPRequestOperation alloc] initWithRequest:request];
+    [operation setCompletionBlockWithSuccess:^(ALHTTPRequestOperation *operation, id JSONObject) {
+        ALPlaceInfo *placeInfo = [ALPlaceInfo placeInfoWithAfishaLvivInfo:(NSDictionary *)JSONObject];
         success(operation, placeInfo);
-    }
-     failure:^(AFHTTPRequestOperation *operation, NSError *error) {
-         [self decrementActiveOperationsCount];
-         failure(operation, failure);
-     }];
+    } failure:failure];
 
-    
     [self enqueueHTTPRequestOperation:operation];
     return operation;
 }

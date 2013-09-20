@@ -18,6 +18,7 @@
 		7F0E3628176E51E600D09E1A /* camera-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F0E3626176E51E600D09E1A /* camera-icon.png */; };
 		7F0E3629176E51E600D09E1A /* camera-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F0E3627176E51E600D09E1A /* camera-icon@2x.png */; };
 		7F0E362C176E525C00D09E1A /* ALResourceLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F0E362B176E525B00D09E1A /* ALResourceLoader.m */; };
+		7F18B1C817ECCF6A00DCB8C7 /* ALHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F18B1C717ECCF6A00DCB8C7 /* ALHTTPRequestOperation.m */; };
 		7F3666FD1722B6AB00E7BCF4 /* calendar-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F3666DD1722B6AB00E7BCF4 /* calendar-icon.png */; };
 		7F3666FE1722B6AB00E7BCF4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F3666DF1722B6AB00E7BCF4 /* Default.png */; };
 		7F3666FF1722B6AB00E7BCF4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F3666E01722B6AB00E7BCF4 /* Default@2x.png */; };
@@ -98,6 +99,8 @@
 		7F0E3627176E51E600D09E1A /* camera-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera-icon@2x.png"; sourceTree = "<group>"; };
 		7F0E362A176E525B00D09E1A /* ALResourceLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALResourceLoader.h; path = Models/ALResourceLoader.h; sourceTree = "<group>"; };
 		7F0E362B176E525B00D09E1A /* ALResourceLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ALResourceLoader.m; path = Models/ALResourceLoader.m; sourceTree = "<group>"; };
+		7F18B1C617ECCF6A00DCB8C7 /* ALHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALHTTPRequestOperation.h; path = Models/ALHTTPRequestOperation.h; sourceTree = "<group>"; };
+		7F18B1C717ECCF6A00DCB8C7 /* ALHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ALHTTPRequestOperation.m; path = Models/ALHTTPRequestOperation.m; sourceTree = "<group>"; };
 		7F3666DD1722B6AB00E7BCF4 /* calendar-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "calendar-icon.png"; sourceTree = "<group>"; };
 		7F3666DF1722B6AB00E7BCF4 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		7F3666E01722B6AB00E7BCF4 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
@@ -425,6 +428,8 @@
 				7F3667441722B82F00E7BCF4 /* PlaceAnnotation */,
 				7FBC8657176D037C0037DD52 /* ALHTTPClient.h */,
 				7FBC8658176D037C0037DD52 /* ALHTTPClient.m */,
+				7F18B1C617ECCF6A00DCB8C7 /* ALHTTPRequestOperation.h */,
+				7F18B1C717ECCF6A00DCB8C7 /* ALHTTPRequestOperation.m */,
 				7F8D9BBF1722BD9C00EE5D7C /* ALDataManager.h */,
 				7F8D9BC01722BD9C00EE5D7C /* ALDataManager.m */,
 				7FD5DD8C1517EE9000E919FA /* CoreDate */,
@@ -600,6 +605,7 @@
 				7F3667391722B80700E7BCF4 /* ALEventsMenuViewController.m in Sources */,
 				7F36673B1722B80700E7BCF4 /* ALEventsViewController.m in Sources */,
 				7F36673C1722B80700E7BCF4 /* ALPlaceInfoViewController.m in Sources */,
+				7F18B1C817ECCF6A00DCB8C7 /* ALHTTPRequestOperation.m in Sources */,
 				7F36673D1722B80700E7BCF4 /* ALPlacesMenuViewController.m in Sources */,
 				7F36673E1722B80700E7BCF4 /* ALPlacesViewController.m in Sources */,
 				7F3667491722B82F00E7BCF4 /* ALPlaceAnnotation.m in Sources */,
