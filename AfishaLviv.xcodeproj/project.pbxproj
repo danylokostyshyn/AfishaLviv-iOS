@@ -19,6 +19,7 @@
 		7F0E3629176E51E600D09E1A /* camera-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F0E3627176E51E600D09E1A /* camera-icon@2x.png */; };
 		7F0E362C176E525C00D09E1A /* ALResourceLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F0E362B176E525B00D09E1A /* ALResourceLoader.m */; };
 		7F18B1C817ECCF6A00DCB8C7 /* ALHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F18B1C717ECCF6A00DCB8C7 /* ALHTTPRequestOperation.m */; };
+		7F18B1D117ECE71700DCB8C7 /* libTestFlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F18B1CB17ECE71700DCB8C7 /* libTestFlight.a */; };
 		7F3666FD1722B6AB00E7BCF4 /* calendar-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F3666DD1722B6AB00E7BCF4 /* calendar-icon.png */; };
 		7F3666FE1722B6AB00E7BCF4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F3666DF1722B6AB00E7BCF4 /* Default.png */; };
 		7F3666FF1722B6AB00E7BCF4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F3666E01722B6AB00E7BCF4 /* Default@2x.png */; };
@@ -77,9 +78,6 @@
 		7FD5DD771517EE5200E919FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD5DD761517EE5200E919FA /* main.m */; };
 		7FD5DD7B1517EE5200E919FA /* ALAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD5DD7A1517EE5200E919FA /* ALAppDelegate.m */; };
 		7FE8E32D176E7D3F0034E9C9 /* ALDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FE8E32C176E7D3F0034E9C9 /* ALDatePickerView.m */; };
-		7FE8E336176E86CA0034E9C9 /* libTestFlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FE8E332176E86CA0034E9C9 /* libTestFlight.a */; };
-		7FE8E337176E86CB0034E9C9 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 7FE8E333176E86CA0034E9C9 /* README.md */; };
-		7FE8E338176E86CB0034E9C9 /* release_notes.md in Resources */ = {isa = PBXBuildFile; fileRef = 7FE8E334176E86CA0034E9C9 /* release_notes.md */; };
 		7FE8E33C176E87640034E9C9 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FE8E33B176E87640034E9C9 /* libz.dylib */; };
 		7FF85BD7153E3BE5001EA4D5 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7FF85BD5153E3BE5001EA4D5 /* Localizable.strings */; };
 /* End PBXBuildFile section */
@@ -101,6 +99,10 @@
 		7F18B1C617ECCF6A00DCB8C7 /* ALHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALHTTPRequestOperation.h; path = Models/ALHTTPRequestOperation.h; sourceTree = "<group>"; };
 		7F18B1C717ECCF6A00DCB8C7 /* ALHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ALHTTPRequestOperation.m; path = Models/ALHTTPRequestOperation.m; sourceTree = "<group>"; };
 		7F18B1C917ECDE1B00DCB8C7 /* config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		7F18B1CB17ECE71700DCB8C7 /* libTestFlight.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTestFlight.a; sourceTree = "<group>"; };
+		7F18B1CE17ECE71700DCB8C7 /* TestFlight+AsyncLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TestFlight+AsyncLogging.h"; sourceTree = "<group>"; };
+		7F18B1CF17ECE71700DCB8C7 /* TestFlight+ManualSessions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TestFlight+ManualSessions.h"; sourceTree = "<group>"; };
+		7F18B1D017ECE71700DCB8C7 /* TestFlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFlight.h; sourceTree = "<group>"; };
 		7F3666DD1722B6AB00E7BCF4 /* calendar-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "calendar-icon.png"; sourceTree = "<group>"; };
 		7F3666DF1722B6AB00E7BCF4 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		7F3666E01722B6AB00E7BCF4 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
@@ -179,10 +181,6 @@
 		7FD5DD7A1517EE5200E919FA /* ALAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALAppDelegate.m; sourceTree = "<group>"; };
 		7FE8E32B176E7D3F0034E9C9 /* ALDatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALDatePickerView.h; path = AfishaLviv/Views/ALDatePickerView.h; sourceTree = SOURCE_ROOT; };
 		7FE8E32C176E7D3F0034E9C9 /* ALDatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ALDatePickerView.m; path = AfishaLviv/Views/ALDatePickerView.m; sourceTree = SOURCE_ROOT; };
-		7FE8E332176E86CA0034E9C9 /* libTestFlight.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTestFlight.a; sourceTree = "<group>"; };
-		7FE8E333176E86CA0034E9C9 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
-		7FE8E334176E86CA0034E9C9 /* release_notes.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = release_notes.md; sourceTree = "<group>"; };
-		7FE8E335176E86CA0034E9C9 /* TestFlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFlight.h; sourceTree = "<group>"; };
 		7FE8E33B176E87640034E9C9 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		7FF85BD6153E3BE5001EA4D5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		7FF85BD8153E3BE9001EA4D5 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -195,6 +193,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7FE8E33C176E87640034E9C9 /* libz.dylib in Frameworks */,
+				7F18B1D117ECE71700DCB8C7 /* libTestFlight.a in Frameworks */,
 				7F0E3621176E37B500D09E1A /* MobileCoreServices.framework in Frameworks */,
 				7F0E361F176E37AF00D09E1A /* SystemConfiguration.framework in Frameworks */,
 				7FD4FE95158E17F9009C85BB /* ImageIO.framework in Frameworks */,
@@ -207,13 +206,24 @@
 				7FD5DD6D1517EE5200E919FA /* CoreGraphics.framework in Frameworks */,
 				7FD5DD6F1517EE5200E919FA /* CoreData.framework in Frameworks */,
 				392EED3FF3234458B5D84DFF /* libPods.a in Frameworks */,
-				7FE8E336176E86CA0034E9C9 /* libTestFlight.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7F18B1CA17ECE71700DCB8C7 /* TestFlightSDK2.0.0 */ = {
+			isa = PBXGroup;
+			children = (
+				7F18B1CB17ECE71700DCB8C7 /* libTestFlight.a */,
+				7F18B1CE17ECE71700DCB8C7 /* TestFlight+AsyncLogging.h */,
+				7F18B1CF17ECE71700DCB8C7 /* TestFlight+ManualSessions.h */,
+				7F18B1D017ECE71700DCB8C7 /* TestFlight.h */,
+			);
+			name = TestFlightSDK2.0.0;
+			path = Thirdparty/TestFlightSDK2.0.0;
+			sourceTree = "<group>";
+		};
 		7F1E60EE151E3BE600354A2F /* Controlles */ = {
 			isa = PBXGroup;
 			children = (
@@ -363,8 +373,8 @@
 		7FD5DD671517EE5200E919FA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7F18B1CA17ECE71700DCB8C7 /* TestFlightSDK2.0.0 */,
 				7FE8E33B176E87640034E9C9 /* libz.dylib */,
-				7FE8E331176E86CA0034E9C9 /* TestFlightSDK1.2.6 */,
 				7F0E3620176E37B500D09E1A /* MobileCoreServices.framework */,
 				7F0E361E176E37AF00D09E1A /* SystemConfiguration.framework */,
 				7FD4FE94158E17F9009C85BB /* ImageIO.framework */,
@@ -448,18 +458,6 @@
 			);
 			name = Views;
 			path = Resources/NIBs;
-			sourceTree = "<group>";
-		};
-		7FE8E331176E86CA0034E9C9 /* TestFlightSDK1.2.6 */ = {
-			isa = PBXGroup;
-			children = (
-				7FE8E332176E86CA0034E9C9 /* libTestFlight.a */,
-				7FE8E333176E86CA0034E9C9 /* README.md */,
-				7FE8E334176E86CA0034E9C9 /* release_notes.md */,
-				7FE8E335176E86CA0034E9C9 /* TestFlight.h */,
-			);
-			name = TestFlightSDK1.2.6;
-			path = Thirdparty/TestFlightSDK1.2.6;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -557,8 +555,6 @@
 				7F0E361D176E31E800D09E1A /* ALPlaceCell.xib in Resources */,
 				7F0E3628176E51E600D09E1A /* camera-icon.png in Resources */,
 				7F0E3629176E51E600D09E1A /* camera-icon@2x.png in Resources */,
-				7FE8E337176E86CB0034E9C9 /* README.md in Resources */,
-				7FE8E338176E86CB0034E9C9 /* release_notes.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -670,7 +666,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = "/Users/danylokostyshyn/Developer/github/json-framework/**";
+				HEADER_SEARCH_PATHS = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
 				PROVISIONING_PROFILE = "";
@@ -705,7 +701,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = "/Users/danylokostyshyn/Developer/github/json-framework/**";
+				HEADER_SEARCH_PATHS = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
@@ -729,7 +725,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/Thirdparty/TestFlightSDK1.2.6\"",
+					"\"$(SRCROOT)/Thirdparty/TestFlightSDK2.0.0\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -750,7 +746,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/Thirdparty/TestFlightSDK1.2.6\"",
+					"\"$(SRCROOT)/Thirdparty/TestFlightSDK2.0.0\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "0C892EE4-6CB3-4C04-A197-08F1881A1E64";
@@ -785,7 +781,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = "/Users/danylokostyshyn/Developer/github/json-framework/**";
+				HEADER_SEARCH_PATHS = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
@@ -809,7 +805,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/Thirdparty/TestFlightSDK1.2.6\"",
+					"\"$(SRCROOT)/Thirdparty/TestFlightSDK2.0.0\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "0C892EE4-6CB3-4C04-A197-08F1881A1E64";
