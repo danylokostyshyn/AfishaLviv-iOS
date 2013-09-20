@@ -60,6 +60,7 @@
 {
     if (!_datePicker) {
         _datePicker = [[UIDatePicker alloc] initWithFrame:CGRectMake(0.f, 44.f, 320.f, 216.f)];
+        _datePicker.backgroundColor = [UIColor whiteColor];
         _datePicker.datePickerMode = UIDatePickerModeDate;
     }
     return _datePicker;
@@ -108,6 +109,11 @@
 - (void)show
 {
     [self.parentView showPickerContainerView:self];
+}
+
+- (void)hide
+{
+    [self.parentView hidePickerContainerView:self];
 }
 
 - (void)cancelButtonPressed:(id)sender

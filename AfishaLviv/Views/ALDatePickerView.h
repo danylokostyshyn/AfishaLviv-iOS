@@ -18,4 +18,5 @@
 @property (weak, nonatomic) id <ALDatePickerViewDelegate> delegate;
 - (id)initWithView:(UIView *)view;
 - (void)show;
+- (void)hide;
 @end

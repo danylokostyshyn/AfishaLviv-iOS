@@ -18,8 +18,8 @@
 		7F0E3628176E51E600D09E1A /* camera-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F0E3626176E51E600D09E1A /* camera-icon.png */; };
 		7F0E3629176E51E600D09E1A /* camera-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F0E3627176E51E600D09E1A /* camera-icon@2x.png */; };
 		7F0E362C176E525C00D09E1A /* ALResourceLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F0E362B176E525B00D09E1A /* ALResourceLoader.m */; };
+		7F15A65017ED00CD0009BF3F /* libTestFlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F18B1CB17ECE71700DCB8C7 /* libTestFlight.a */; };
 		7F18B1C817ECCF6A00DCB8C7 /* ALHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F18B1C717ECCF6A00DCB8C7 /* ALHTTPRequestOperation.m */; };
-		7F18B1D117ECE71700DCB8C7 /* libTestFlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F18B1CB17ECE71700DCB8C7 /* libTestFlight.a */; };
 		7F3666FD1722B6AB00E7BCF4 /* calendar-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F3666DD1722B6AB00E7BCF4 /* calendar-icon.png */; };
 		7F3666FE1722B6AB00E7BCF4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F3666DF1722B6AB00E7BCF4 /* Default.png */; };
 		7F3666FF1722B6AB00E7BCF4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F3666E01722B6AB00E7BCF4 /* Default@2x.png */; };
@@ -192,8 +192,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F15A65017ED00CD0009BF3F /* libTestFlight.a in Frameworks */,
 				7FE8E33C176E87640034E9C9 /* libz.dylib in Frameworks */,
-				7F18B1D117ECE71700DCB8C7 /* libTestFlight.a in Frameworks */,
 				7F0E3621176E37B500D09E1A /* MobileCoreServices.framework in Frameworks */,
 				7F0E361F176E37AF00D09E1A /* SystemConfiguration.framework in Frameworks */,
 				7FD4FE95158E17F9009C85BB /* ImageIO.framework in Frameworks */,
@@ -649,7 +649,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Danylo Kostyshyn (2H792BT2J7)";
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 5;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -691,7 +691,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Danylo Kostyshyn (2H792BT2J7)";
 				COPY_PHASE_STRIP = YES;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 5;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
@@ -725,7 +725,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/Thirdparty/TestFlightSDK2.0.0\"",
+					"\\\"$(SRCROOT)/Thirdparty/TestFlightSDK2.0.0\\\"",
+					"/Users/danylokostyshyn/Developer/AfishaLviv-iOS/Thirdparty/TestFlightSDK2.0.0",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -746,7 +747,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/Thirdparty/TestFlightSDK2.0.0\"",
+					"\\\"$(SRCROOT)/Thirdparty/TestFlightSDK2.0.0\\\"",
+					"/Users/danylokostyshyn/Developer/AfishaLviv-iOS/Thirdparty/TestFlightSDK2.0.0",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "0C892EE4-6CB3-4C04-A197-08F1881A1E64";
@@ -770,7 +772,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Danylo Kostyshyn (2H792BT2J7)";
 				COPY_PHASE_STRIP = YES;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 5;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_PREPROCESSOR_DEFINITIONS = "TESTFLIGHT=1";
 				GCC_THUMB_SUPPORT = NO;
@@ -805,7 +807,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/Thirdparty/TestFlightSDK2.0.0\"",
+					"\\\"$(SRCROOT)/Thirdparty/TestFlightSDK2.0.0\\\"",
+					"/Users/danylokostyshyn/Developer/AfishaLviv-iOS/Thirdparty/TestFlightSDK2.0.0",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "0C892EE4-6CB3-4C04-A197-08F1881A1E64";

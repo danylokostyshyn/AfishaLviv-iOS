@@ -19,7 +19,8 @@
 @property (strong, nonatomic) IBOutlet UITableViewCell *cell;
 @property (strong, nonatomic) UILabel *noItemsLabel;
 @property (strong, nonatomic) UIBarButtonItem *calendarBarButton;
-@property (strong, nonatomic, readwrite) NSArray *filteredItems;
+@property (strong, nonatomic) NSArray *filteredItems;
+@property (strong, nonatomic) ALDatePickerView *datePickerView;
 @end
 
 @implementation ALEventsViewController
@@ -85,6 +86,15 @@
         _filteredItems = [self.items filteredArrayUsingPredicate:predicate];
     }
     return _filteredItems;
+}
+
+- (ALDatePickerView *)datePickerView
+{
+    if (!_datePickerView) {
+        _datePickerView = [[ALDatePickerView alloc] initWithView:self.navigationController.view];
+        _datePickerView.delegate = self;
+    }
+    return _datePickerView;
 }
 
 #pragma mark - View LifeCycle
@@ -211,9 +221,11 @@
 
 - (void)calendarButtonPressed:(id)sender
 {
-    ALDatePickerView *datePickerView = [[ALDatePickerView alloc] initWithView:self.view];
-    datePickerView.delegate = self;
-    [datePickerView show];
+    if ([self.datePickerView superview]) {
+        [self.datePickerView hide];
+    } else {
+        [self.datePickerView show];
+    }
 }
 
 #pragma mark - ALDatePickerView
