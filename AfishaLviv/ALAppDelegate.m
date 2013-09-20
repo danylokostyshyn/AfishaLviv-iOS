@@ -46,7 +46,6 @@
 {
 
 #ifdef TESTFLIGHT
-    [TestFlight setDeviceIdentifier:[[UIDevice currentDevice] uniqueIdentifier]];
     [TestFlight takeOff:TESTFLIGHT_API_KEY];
 #endif
     
