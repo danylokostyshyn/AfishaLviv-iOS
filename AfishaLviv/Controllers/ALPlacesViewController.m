@@ -77,12 +77,12 @@
 - (void)refreshPlaces
 {
     [[ALHTTPClient sharedHTTPClient] placesOperationForType:self.placeType
-                                                    success:^(AFHTTPRequestOperation *operation, NSArray *places) {
-                                                        self.items = places;
-                                                        [self.tableView reloadData];
-                                                    } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
-                                                        NSLog(@"%@", error);
-                                                    }];
+        success:^(AFHTTPRequestOperation *operation, NSArray *places) {
+            self.items = places;
+            [self.tableView reloadData];
+        } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+            NSLog(@"%@", error);
+        }];
 }
 
 #pragma mark - UITableViewDataSource

@@ -62,7 +62,6 @@
 		7F3667601722B84500E7BCF4 /* ALPlaceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F3667571722B84500E7BCF4 /* ALPlaceInfo.m */; };
 		7F36678F1722B8CD00E7BCF4 /* AfishaLviv.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7F36678D1722B8CD00E7BCF4 /* AfishaLviv.xcdatamodeld */; };
 		7F3667911722B9BD00E7BCF4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F3667901722B9BD00E7BCF4 /* Default-568h@2x.png */; };
-		7F8D9BC11722BD9C00EE5D7C /* ALDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8D9BC01722BD9C00EE5D7C /* ALDataManager.m */; };
 		7FAABC0415251C1C00C9987A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FAABC0315251C1C00C9987A /* MapKit.framework */; };
 		7FBC8652176CFCF00037DD52 /* ALViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FBC8651176CFCF00037DD52 /* ALViewController.m */; };
 		7FBC8654176CFD7B0037DD52 /* ALEventsMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7FBC8653176CFD7B0037DD52 /* ALEventsMenuViewController.xib */; };
@@ -101,6 +100,7 @@
 		7F0E362B176E525B00D09E1A /* ALResourceLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ALResourceLoader.m; path = Models/ALResourceLoader.m; sourceTree = "<group>"; };
 		7F18B1C617ECCF6A00DCB8C7 /* ALHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALHTTPRequestOperation.h; path = Models/ALHTTPRequestOperation.h; sourceTree = "<group>"; };
 		7F18B1C717ECCF6A00DCB8C7 /* ALHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ALHTTPRequestOperation.m; path = Models/ALHTTPRequestOperation.m; sourceTree = "<group>"; };
+		7F18B1C917ECDE1B00DCB8C7 /* config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
 		7F3666DD1722B6AB00E7BCF4 /* calendar-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "calendar-icon.png"; sourceTree = "<group>"; };
 		7F3666DF1722B6AB00E7BCF4 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		7F3666E01722B6AB00E7BCF4 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
@@ -402,6 +402,7 @@
 				7FD5DD721517EE5200E919FA /* AfishaLviv-Info.plist */,
 				7FD5DD761517EE5200E919FA /* main.m */,
 				7FD5DD781517EE5200E919FA /* AfishaLviv-Prefix.pch */,
+				7F18B1C917ECDE1B00DCB8C7 /* config.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -614,7 +615,6 @@
 				7F36675E1722B84500E7BCF4 /* ALPlace.m in Sources */,
 				7F3667601722B84500E7BCF4 /* ALPlaceInfo.m in Sources */,
 				7F36678F1722B8CD00E7BCF4 /* AfishaLviv.xcdatamodeld in Sources */,
-				7F8D9BC11722BD9C00EE5D7C /* ALDataManager.m in Sources */,
 				7FBC8652176CFCF00037DD52 /* ALViewController.m in Sources */,
 				7FBC8659176D037C0037DD52 /* ALHTTPClient.m in Sources */,
 				7F0E362C176E525C00D09E1A /* ALResourceLoader.m in Sources */,

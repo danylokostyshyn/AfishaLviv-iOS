@@ -6,6 +6,8 @@
 
 #import "ALAppDelegate.h"
 
+#import "config.h"
+
 //controllers
 #import "ALEventsMenuViewController.h"
 #import "ALPlacesMenuViewController.h"
@@ -45,7 +47,7 @@
 
 #ifdef TESTFLIGHT
     [TestFlight setDeviceIdentifier:[[UIDevice currentDevice] uniqueIdentifier]];
-    [TestFlight takeOff:@"59ce7275-9602-470d-8b16-571aab138949"];
+    [TestFlight takeOff:TESTFLIGHT_API_KEY];
 #endif
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];

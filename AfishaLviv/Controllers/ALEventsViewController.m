@@ -19,7 +19,7 @@
 @property (strong, nonatomic) IBOutlet UITableViewCell *cell;
 @property (strong, nonatomic) UILabel *noItemsLabel;
 @property (strong, nonatomic) UIBarButtonItem *calendarBarButton;
-@property (strong, nonatomic) NSArray *filteredItems;
+@property (strong, nonatomic, readwrite) NSArray *filteredItems;
 @end
 
 @implementation ALEventsViewController
@@ -97,18 +97,19 @@
     
     [self updateTitle];
         
-    UIRefreshControl *refreshControl = [[UIRefreshControl alloc] init];
-    [refreshControl addTarget:self
-                       action:@selector(refreshEvents)
-             forControlEvents:UIControlEventValueChanged];
-    self.refreshControl = refreshControl;
+    self.refreshControl = [[UIRefreshControl alloc] init];
+    [self.refreshControl addTarget:self
+                            action:@selector(refreshEvents)
+                  forControlEvents:UIControlEventValueChanged];
+    
+    if ([self.items count] == 0) {
+        [self refreshEvents];
+    }
 }
 
 - (void)viewDidAppear:(BOOL)animated
 {
     [super viewDidAppear:animated];
-
-    [self.tableView reloadData];
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
@@ -121,16 +122,17 @@
 - (void)refreshEvents
 {
     [[ALHTTPClient sharedHTTPClient] eventsOperationForDate:self.currentDate
-                                                    success:^(AFHTTPRequestOperation *operation, NSArray *events) {
-                                                        [self.items removeAllObjects];
-                                                        [self.items addObjectsFromArray:events];                                                        
-                                                        self.filteredItems = nil;
-                                                        [self.tableView reloadData];                                                        
-                                                        [self.refreshControl endRefreshing];
-                                                    } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
-                                                        [self.refreshControl endRefreshing];                                                        
-                                                        NSLog(@"%@", error);
-                                                    }];
+        success:^(AFHTTPRequestOperation *operation, NSArray *events) {
+            [self.items removeAllObjects];
+            [self.items addObjectsFromArray:events];
+            self.filteredItems = nil;
+            
+            [self.tableView reloadData];                                                        
+            [self.refreshControl endRefreshing];
+        } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+            [self.refreshControl endRefreshing];                                                        
+            NSLog(@"%@", error);
+        }];
     
 }
 

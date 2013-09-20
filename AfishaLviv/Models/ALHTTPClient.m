@@ -8,17 +8,14 @@
 
 #import "ALHTTPClient.h"
 
-#import "ALAppDelegate.h"
-
 //models
-#import "ALHTTPRequestOperation.h"
 #import "ALEvent.h"
 #import "ALEventInfo.h"
 #import "ALPlace.h"
 #import "ALPlaceInfo.h"
 
 @interface ALHTTPClient ()
-@property (nonatomic) NSUInteger activeOperationsCount;
+
 @end
 
 @implementation ALHTTPClient
@@ -28,7 +25,7 @@ static NSString *kAPIBaseUrlString = @"http://afishalvivparser.appspot.com";
 + (ALHTTPClient *)sharedHTTPClient
 {
     static dispatch_once_t onceToken;
-    static ALHTTPClient *sharedHTTPClient;
+    static ALHTTPClient *sharedHTTPClient = nil;
     dispatch_once(&onceToken, ^{
         sharedHTTPClient = [[ALHTTPClient alloc] initWithBaseURL:[NSURL URLWithString:kAPIBaseUrlString]];
     });
