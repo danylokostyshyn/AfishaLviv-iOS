@@ -725,8 +725,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\\\"$(SRCROOT)/Thirdparty/TestFlightSDK2.0.0\\\"",
-					"/Users/danylokostyshyn/Developer/AfishaLviv-iOS/Thirdparty/TestFlightSDK2.0.0",
+					"$(SRCROOT)/Thirdparty/TestFlightSDK2.0.0",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -747,8 +746,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\\\"$(SRCROOT)/Thirdparty/TestFlightSDK2.0.0\\\"",
-					"/Users/danylokostyshyn/Developer/AfishaLviv-iOS/Thirdparty/TestFlightSDK2.0.0",
+					"$(SRCROOT)/Thirdparty/TestFlightSDK2.0.0",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "0C892EE4-6CB3-4C04-A197-08F1881A1E64";
@@ -807,8 +805,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\\\"$(SRCROOT)/Thirdparty/TestFlightSDK2.0.0\\\"",
-					"/Users/danylokostyshyn/Developer/AfishaLviv-iOS/Thirdparty/TestFlightSDK2.0.0",
+					"$(SRCROOT)/Thirdparty/TestFlightSDK2.0.0",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "0C892EE4-6CB3-4C04-A197-08F1881A1E64";
